@@ -41,8 +41,6 @@ angular.module("nispApp").controller("Jcord::bank/bank", ['$scope', '$interval',
             $scope.initmode = undefined;
             $scope.paramKey = app.getQuery(l_this.Detail);
 
-            // dummy for add
-            $scope.paramKey = undefined;
             app.fn_initData(l_this.CompareDetail);
             $scope.CompareDetail = l_this.CompareDetail;
             var l_primaryKey = app.getQuery(l_this.Detail);
@@ -138,6 +136,9 @@ angular.module("nispApp").controller("Jcord::bank/bank", ['$scope', '$interval',
             // [修正結果]へ
             if (app.gw.isSuccess(a_result)) {
                 app.fn_call('lg_goto', "complete_upd");
+            } else {
+                app.fn_call('lg_goto', "input_upd");
+                //return false; //デフォルトの遷移をキャンセル
             }
         },
 

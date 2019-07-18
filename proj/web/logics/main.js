@@ -411,18 +411,32 @@ angular.module("nispApp").controller("Application", ["ModelService", "DataServic
                     var l_msg = l_errors[l_name].trim(9);
                     var l_name2 = (l_name + "");
                     l_name2 = l_name2.replace(/\$/, '');
-                    var l_place = jQuery('#err_' + l_name2);
+                    var l_place = jQuery('.err_' + l_name2);
                     if (l_name == 'ERROR') {
                         var l_prev = l_place.html();
                         l_place.html(l_prev + l_msg);
                     } else {
                         // Javascriptのエラーは背景色を変える
-                        var placeErrorText = jQuery('span#err_' + l_name2);
-                        placeErrorText.html(l_name2 + ": " + l_msg);
-                        var l_parent = l_place.parent();
-                        l_parent.children('select').css('background-color', 'red');
-                        l_parent.children('input').css('background-color', 'red');
+                        var l_prev = l_place.html();
+                        l_place.html(l_msg);
 
+                        var l_parent = l_place.parent();
+                        jQuery('input.err_' + l_name2).css({
+                            "border-color": "red",
+                            "border-width": "2px",
+                            "border-style": "solid"
+                        });
+                        jQuery('select.err_' + l_name2).css({
+                            "border-color": "red",
+                            "border-width": "2px",
+                            "border-style": "solid"
+                        });
+                        jQuery('textarea.err_' + l_name2).css({
+                            "border-color": "red",
+                            "border-width": "2px",
+                            "border-style": "solid"
+                        });
+                        jQuery('span.err_' + l_name2).css("color", "red");
                     }
                 }
                 jQuery('.messageArea').show();
@@ -431,8 +445,6 @@ angular.module("nispApp").controller("Application", ["ModelService", "DataServic
         }
 
         var l_messages = {
-            //"error.validation.data.mandatory": "必須です",
-            //"error.validation.data.max.digits": "最大桁数",
             "mandatory": "必須です",
             "required": "必須です",
             "han_alnumsym": "半角英数字記号のみ",
@@ -788,6 +800,9 @@ angular.module("nispApp").controller("Application", ["ModelService", "DataServic
         };
 
         // New API
+        //a_uri: api from back-end
+        //a_logicName: name of logic
+        //a_logicArgs: link html of base.html file
         this.fn_api = function(a_uri, a_logicName, a_logicArgs) {
             this.registerControllerURI(a_uri);
             var l_args = Array.apply(null, arguments);

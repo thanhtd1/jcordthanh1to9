@@ -1,6 +1,6 @@
 {
 	"head":{
-//{include file='Bank_head.tpl'}
+{include file='Bank_head.tpl'}
 	},
 	"data":{
 		"count":{count($data)},

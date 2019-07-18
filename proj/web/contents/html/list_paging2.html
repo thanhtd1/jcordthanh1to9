@@ -1,0 +1,30 @@
+<ul class="pagination" ng-if="count>0">
+    <li  class="page-item" ng-if="count < num*page" ><span style="width: 100px">{{num*page-num+1}} ～ {{count}}</span></li>
+    <li  class="page-item" ng-if="num*page <= count"><span style="width: 100px">{{num*page-num+1}} ～ {{num*page}}</span></li>
+    <li  class="page-item"><span style="width: 80px">({{count}} 件)</span></li>
+    <li  ng-if="1 < page" class="page-item page-item-center"><span style="width: 20px"><a href="#" ng-click="app.fn_click('lg_query', dataModel, query, 1)">《</a></span></li>
+    <li  ng-if="1 < page" class="page-item page-item-center"><span style="width: 20px"><a href="#" ng-click="app.fn_click('lg_query', dataModel, query, page-1)">＜</a></span></li>
+    <li  ng-if="4 < page" class="page-item page-item-center"><span style="width: 20px"><a href="#" ng-click="app.fn_click('lg_query', dataModel, query, page-4)">{{page-4}}</a></span></li>
+    <li  ng-if="3 < page" class="page-item page-item-center"><span style="width: 20px"><a href="#" ng-click="app.fn_click('lg_query', dataModel, query, page-3)">{{page-3}}</a></span></li>
+    <li  ng-if="2 < page" class="page-item page-item-center"><span style="width: 20px"><a href="#" ng-click="app.fn_click('lg_query', dataModel, query, page-2)">{{page-2}}</a></span></li>
+    <li  ng-if="1 < page" class="page-item page-item-center"><span style="width: 20px"><a href="#" ng-click="app.fn_click('lg_query', dataModel, query, page-1)">{{page-1}}</a></span></li>
+    
+    <li  class="page-item page-item-center active"><span style="width: 20px">{{page}}</span></li>
+    <li  ng-if="page*num < count" class="page-item page-item-center"><span style="width: 20px"><a href="#"     ng-click="app.fn_click('lg_query', dataModel, query, page+1)">{{page+1}}</a></span></li>
+    <li  ng-if="(page+1)*num < count" class="page-item page-item-center"><span style="width: 20px"><a href="#" ng-click="app.fn_click('lg_query', dataModel, query, page+2)">{{page+2}}</a></span></li>
+    <li  ng-if="(page+2)*num < count" class="page-item page-item-center"><span style="width: 20px"><a href="#" ng-click="app.fn_click('lg_query', dataModel, query, page+3)">{{page+3}}</a></span></li>
+    <li  ng-if="(page+3)*num < count" class="page-item page-item-center"><span style="width: 20px"><a href="#" ng-click="app.fn_click('lg_query', dataModel, query, page+4)">{{page+4}}</a></span></li>
+    <li  ng-if="page < (count/num)" class="page-item page-item-center"><span style="width: 20px"><a href="#" ng-click="app.fn_click('lg_query', dataModel, query, page+1)">＞</a></span></li>
+    <li  ng-if="page < (count/num)" class="page-item page-item-center"><span style="width: 20px"><a href="#" ng-click="app.fn_click('lg_query', dataModel, query, count/num)">》</a></span></li>
+
+    <li class="page-item"><span ng-show="Pager.flag!=1" style="width: 80px" >表示件数</span></li>
+    <li class="page-item" ng-if="Pager.lines!=25"><span ng-show="Pager.flag!=1" style="width: 40px" ><a href="#" ng-click="app.fn_click('lg_do', 'do_page_count_no', 25)">25件</a></span></li>
+    <li class="page-item active" ng-if="Pager.lines==25"><div ng-show="Pager.flag!=1" style="width: 40px" ><a href="">25件</a></div></li>
+    <li class="page-item" ng-if="Pager.lines!=50"><span ng-show="Pager.flag!=1" style="width: 40px" ><a href="#" ng-click="app.fn_click('lg_do', 'do_page_count_no', 50)">50件</a></span></li>
+    <li class="page-item active" ng-if="Pager.lines==50"><div ng-show="Pager.flag!=1" style="width: 40px" ><a href="">50件</a></div></li>
+    <li class="page-item" ng-if="Pager.lines!=100"><span ng-show="Pager.flag!=1" style="width: 40px" ><a href="#" ng-click="app.fn_click('lg_do', 'do_page_count_no', 100)">100件</a></span></li>
+    <li class="page-item active" ng-if="Pager.lines==100"><div ng-show="Pager.flag!=1" style="width: 40px" ><a href="">100件</a></div></li>
+    <li class="page-item"><span ng-show="Pager.flag!=1" style="width: 100px" ><input style="width:45px; ime-mode: disabled" type="text" maxlength="4" 
+        ng-model="Pager.lines"  ng-change="app.fn_click('lg_do', 'do_page_count_no', Pager.lines)"></input>件</span></li>
+</ul>
+<span>{{$parent.fn_displayEvent ? $parent.fn_displayEvent() : ''}}</span>

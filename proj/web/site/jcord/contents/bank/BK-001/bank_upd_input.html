@@ -12,15 +12,15 @@
                         <tr>
                             <th>バンクID</th>
                             <td>
-                                <input type="text" placeholder="番号" ng-model="Detail.bankid" id="err_バンクID">
-                                <span id="err_バンクID"></span>
+                                <input type="text" placeholder="番号" ng-model="Detail.bankid" class="err_バンクID" required>
+                                <span class="err_バンクID"></span>
                             </td>
                         </tr>
                         <tr>
                             <th>管理バンクID</th>
                             <td>
-                                <input type="text" placeholder="番号" ng-model="Detail.cur_bankid" id="err_管理バンクID">
-                                <span id="err_管理バンクID"></span>
+                                <input type="text" placeholder="番号" ng-model="Detail.cur_bankid" class="err_管理バンクID">
+                                <span class="err_管理バンクID"></span>
                             </td>
                         </tr>
                         <tr>
@@ -28,7 +28,7 @@
                                 <th>有効フラグ</th>
                                 <td>
                                     <div class="select">
-                                        <select ng-options="item.id as item.label for item in availables" ng-model="Detail.available" id="err_有効フラグ">
+                                        <select ng-options="item.id as item.label for item in availables" ng-model="Detail.available" class="err_有効フラグ">
                                             <option value="" selected="selected" >-- choose an option --</option>
                                         </select>
                                     </div>
@@ -37,64 +37,64 @@
                             <tr>
                                 <th>バンク名称</th>
                                 <td>
-                                    <input type="text" placeholder="Blood bank" ng-model="Detail.bank_name" id="err_バンク名称">
-                                    <span id="err_バンク名称"></span>
+                                    <input type="text" placeholder="Blood bank" ng-model="Detail.bank_name" class="err_バンク名称">
+                                    <span class="err_バンク名称"></span>
                                 </td>
                             </tr>
                             <tr>
                                 <th>省略名称</th>
                                 <td>
-                                    <input type="text" placeholder="BB" ng-model="Detail.short_name" id="err_省略名称">
-                                    <span id="err_省略名称"></span>
+                                    <input type="text" placeholder="BB" ng-model="Detail.short_name" class="err_省略名称">
+                                    <span class="err_省略名称"></span>
                                 </td>
                             </tr>
                             <tr>
                                 <th>英語名称</th>
                                 <td>
-                                    <input type="text" placeholder="Nis Company" ng-model="Detail.ename" id="err_英語名称">
-                                    <span id="err_英語名称"></span>
+                                    <input type="text" placeholder="Nis Company" ng-model="Detail.ename" class="err_英語名称">
+                                    <span class="err_英語名称"></span>
                                 </td>
                             </tr>
                             <tr>
                                 <th>英語省略名称</th>
                                 <td>
-                                    <input type="text" placeholder="Nis Ltd" ng-model="Detail.short_ename" id="err_英語省略名称">
-                                    <span id="err_英語省略名称"></span>
+                                    <input type="text" placeholder="Nis Ltd" ng-model="Detail.short_ename" class="err_英語省略名称">
+                                    <span class="err_英語省略名称"></span>
                                 </td>
                             </tr>
                             <tr>
                                 <th>担当者</th>
                                 <td>
-                                    <input type="text" placeholder="Hattori" ng-model="Detail.person" id="err_担当者">
-                                    <span id="err_担当者"></span>
+                                    <input type="text" placeholder="Hattori" ng-model="Detail.person" class="err_担当者">
+                                    <span class="err_担当者"></span>
                                 </td>
                             </tr>
                             <tr>
                                 <th>電話番号</th>
                                 <td>
-                                    <input type="text" placeholder="0963528393" ng-model="Detail.tel_num" id="err_電話番号">
-                                    <span id="err_電話番号"></span>
+                                    <input type="text" placeholder="0963528393" ng-model="Detail.tel_num" class="err_電話番号">
+                                    <span class="err_電話番号"></span>
                                 </td>
                             </tr>
                             <tr>
                                 <th>FAX番号</th>
                                 <td>
-                                    <input type="text" placeholder="096-352-8393" ng-model="Detail.fax_num" id="err_FAX番号">
-                                    <span id="err_FAX番号"></span>
+                                    <input type="text" placeholder="096-352-8393" ng-model="Detail.fax_num" class="err_FAX番号">
+                                    <span class="err_FAX番号"></span>
                                 </td>
                             </tr>
                             <tr>
                                 <th>バンク種別</th>
                                 <td>
-                                    <input type="text" placeholder="1" ng-model="Detail.kind" id="err_バンク種別">
-                                    <span id="err_バンク種別"></span>
+                                    <input type="text" placeholder="1" ng-model="Detail.kind" class="err_バンク種別">
+                                    <span class="err_バンク種別"></span>
                                 </td>
                             </tr>
                             <tr>
                                 <th>バンク並び順</th>
                                 <td>
-                                    <input type="text" placeholder="1" ng-model="Detail.row_nth" id="err_バンク並び順">
-                                    <span id="err_バンク並び順"></span>
+                                    <input type="text" placeholder="1" ng-model="Detail.row_nth" class="err_バンク並び順">
+                                    <span class="err_バンク並び順"></span>
                                 </td>
                             </tr>
                     </tbody>
@@ -103,10 +103,11 @@
             <div class="bottom-btn_area">
                 <ul class="bottom-btn_list wrap">
                     <li>
-                        <button class="btn" type="button" ng-click=""><span class="txt">一覧へ戻る</span></button>
+                        <button class="btn" type="button" ng-click="app.fn_click('lg_get_contents', 'admin/AD-Bank')"><span class="txt">一覧へ戻る</span></button>
                     </li>
                     <li>
-                        <button class="btn GRY" type="button" style="width:260px;" ng-click="app.fn_click('lg_next')"><span class="txt">確認</span></button>
+                        <button ng-if="addform.$pristine" disabled class="btn GRY" type="button" style="width:260px;cursor: not-allowed;"><span class="txt">確認</span></button>
+                        <button ng-if="!addform.$pristine" class="btn GRY" type="button" style="width:260px;" ng-click="app.fn_click('lg_next')"><span class="txt">確認</span></button>
                     </li>
                 </ul>
             </div>

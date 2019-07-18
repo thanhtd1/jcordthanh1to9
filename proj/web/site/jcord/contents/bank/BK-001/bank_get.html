@@ -1,13 +1,12 @@
 <!------------------------------------------------>
+<!------------------------------------------------>
 <p hidden>{{ app.title="銀行情報の更新 - 更新結果" }}</p>
 <div id="wrapper">
+
     <form action="">
         <div id="contents">
-            <div class=" messageArea form-user_tbl ">
-                <span id="err_ERROR " class="red "></span>
-            </div>
-            <div class="wrap ">
-                <table class="table-default_list form-user_tbl ">
+            <div class="wrap">
+                <table class="table-default_list form-user_tbl">
                     <tbody>
                         <tr>
                             <th>バンクID</th>
@@ -60,16 +59,16 @@
                     </tbody>
                 </table>
             </div>
-            <div class="bottom-btn_area ">
-                <ul class="bottom-btn_list wrap ">
+            <div class="bottom-btn_area">
+                <ul class="bottom-btn_list wrap">
                     <li>
-                        <button class="btn " type="button " ng-click=" "><span class="txt ">戻る</span></button>
+                        <button class="btn" type="button" ng-click=""><span class="txt">戻る</span></button>
                     </li>
                     <li>
-                        <button class="btn GRY " type="button " style="width:260px; " ng-click="app.fn_click( 'lg_next') "><span class="txt ">更新</span></button>
+                        <button class="btn GRY" type="button" style="width:260px;" ng-click="app.fn_click('lg_next')"><span class="txt">更新</span></button>
                     </li>
                     <li>
-                        <button class="btn " type="button " ng-click="app.fn_click( 'lg_do', 'do_delete') "><span class="txt ">削除</span></button>
+                        <button class="btn" type="button" ng-click="app.fn_click('lg_do', 'do_delete')"><span class="txt">削除</span></button>
                     </li>
                 </ul>
             </div>

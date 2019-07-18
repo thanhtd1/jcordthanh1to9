@@ -54,7 +54,7 @@ angular.module("nispApp").service("ContentsService", ["groundwork", function(gw)
 			var l_business = "contents/"+a_contentsPaths[0].split('/')[0];
 			l_result.headerPath = l_this.headerUrl;
 			l_result.footerPath = l_this.footerUrl;
-			l_result.listPagingPath = "../../contents/html/list_paging.html";
+			l_result.listPagingPath = "../../contents/html/list_paging2.html";
 			l_result.headerMenuPath = l_business+"/header_menu.html";
 			l_result.dialogPath = l_business+"/dialog";
 		} else if (gw.isObject(a_contentsPaths)) {

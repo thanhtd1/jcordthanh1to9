@@ -242,6 +242,7 @@ angular.module("nispApp").service("NetworkService", ["groundwork", "$timeout", f
             l_message = "";
             for (var key in a_resultHeader.reasons) {
                 var reason = a_resultHeader.reasons[key];
+                // ERROR = 4
                 if (reason.level != "4") continue;
                 var names = reason.what.split('.');
                 var name = names[names.length - 1];
@@ -393,6 +394,7 @@ angular.module("nispApp").service("NetworkService", ["groundwork", "$timeout", f
     }
 
     function httpSearch(a_method, a_context, a_apiPathName, a_apiRequest, a_apiData, a_apiQueryArgs, a_after) {
+        $('#waiting_bar').html('<div class="load-bar"><div class="bar"></div><div class="bar"></div><div class="bar"></div></div>');
         gw.app.scope.done = true;
         delete a_apiData.entries;
         delete a_apiQueryArgs.entries;
@@ -405,12 +407,14 @@ angular.module("nispApp").service("NetworkService", ["groundwork", "$timeout", f
         var l_promise = jQuery.ajax(l_request);
 
         l_promise.then(function(result, status) {
+            $('#waiting_bar').html('');
             getHeaders(a_context, l_promise);
             //setContext(a_apiData, a_apiRequest);
             //setContext(a_apiQueryArgs, a_apiRequest);
             postDone(true, a_context, result, a_apiData, a_after, a_apiQueryArgs);
             return a_apiData;
         }, function(result, status) {
+            $('#waiting_bar').html('');
             //setContext(a_apiData, a_apiRequest);
             //setContext(a_apiQueryArgs, a_apiRequest);
             postDone(false, a_context, result, a_apiData, a_after, a_apiQueryArgs);

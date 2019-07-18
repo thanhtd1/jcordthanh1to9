@@ -1,0 +1,67 @@
+<!------------------------------------------------>
+<!--						-->
+<!-- 画面ID: AD-Bank				-->
+<!--						-->
+<!-- id:$Id$					-->
+<!-- author:$Author$				-->
+<!-- version:$Revision$				-->
+<!-- log:$Log$					-->
+<!------------------------------------------------>
+<div class="w1000 pageing" id="waiting_bar"></div>
+<div id="list-paging-top" class="w1000 pageing" ng-include="app.contents.listPagingPath"></div>
+<div id="wrapper">
+
+    <div id="contents">
+        <div class="wrap">
+            <form action="">
+                <div class="table-default_area">
+                    <table class="table-default_list">
+                        <thead>
+                            <th class="num">No.</th>
+                            <th>Bank ID</th>
+                            <th>Detail</th>
+                            <th>Available</th>
+                            <th>Bank name</th>
+                            <th class="id">Short name</th>
+                            <th class="date">Ename</th>
+                            <th>Short ename</th>
+                            <th>Person</th>
+                            <th>Tel num</th>
+                            <th>Fax num</th>
+                            <th>Kind</th>
+                            <th>Row_nth</th>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="entry in Query.entries" ng-class="{delete: isDeleted($index)}">
+                                <th>{{(num*page-num+1)+$index}}</th>
+                                <td>{{entry.bankid}}</td>
+                                <td><input class="button" type="button" ng-click="app.fn_click('lg_do', 'do_detail', entry.recid)" value="参照"></input>
+                                </td>
+                                <td>{{entry.available}}</td>
+                                <td>{{entry.bank_name}}</td>
+                                <td>{{entry.short_name}}</td>
+                                <td>{{entry.ename}}</td>
+                                <td>{{entry.short_ename}}</td>
+                                <td>{{entry.person}}</td>
+                                <td>{{entry.tel_num}}</td>
+                                <td>{{entry.fax_num}}</td>
+                                <td>{{entry.kind}}</td>
+                                <td>{{entry.row_nth}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- ///  #contents-->
+
+</div>
+<div id=" " class="w1000 pageing" ng-include="app.contents.listPagingPath"></div>
+<div class="bottom-btn_area">
+    <ul class="bottom-btn_list wrap">
+        <li>
+            <button class="btn" type="button" ng-click="app.fn_click('lg_get_contents', 'admin/AD-002')"><span class="txt">戻る</span></button>
+        </li>
+    </ul>
+</div>

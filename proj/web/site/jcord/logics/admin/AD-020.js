@@ -32,8 +32,7 @@ angular.module("nispApp").controller("Jcord::admin/AD-020", function($scope) {
 	    l_this.QueryCond.queryContext.sortDir = "";
 
 	    // 表示時検索
-	    app.lg_pagingQuery_api('admin/BankRequest/list/query', l_this.Query, l_this.QueryCond, l_this.QueryCond.queryContext.lines, 1, true);
-
+		app.lg_pagingQuery_api('admin/Bank/list/query', l_this.Query, l_this.QueryCond, l_this.QueryCond.queryContext.lines, 1, true);
 	    return false;
 	},
 	do_exit : function() {

@@ -87,6 +87,10 @@ class webapiJSON extends webapiCore
 
 		// data value
 		debug_log(print_r($out,True));
+		if(isset($out['total'])){
+			$v_obj->assign("total",$out['total']);
+			unset($out['total']);
+		}
 		$v_obj->assign("data",$out);
 
 		// output
@@ -96,8 +100,12 @@ class webapiJSON extends webapiCore
 		header( 'Cache-Control: post-check=0, pre-check=0', false );
 		header( 'Pragma: no-cache' );
 
-
-		$v_obj->display($this->name . "_" . $this->func . ".tpl");
+		if($this->func == "getBankid"){
+			$v_obj->display($this->name . "_get.tpl");
+		}
+		else{
+			$v_obj->display($this->name . "_" . $this->func . ".tpl");
+		}
 
 		debug_log("<< 1") ;
 		return 1;
@@ -142,14 +150,14 @@ class webapiJSON extends webapiCore
 		// INPUT
 		//
 		// [get]
-		if ( preg_match( "/\/lib\/webapi\/member\/([^\/]+)\/([^\/]+)\/([0-9]+)/",$p_param,$match ) )
+		if ( preg_match( "/\/lib\/webapi\/member\/([^\/]+)\/([^\/]+)\/([0-9]+)/",$p_param,$match ) || preg_match( "/\/lib\/webapi\/bank\/([^\/]+)\/([^\/]+)\/([0-9]+)/",$p_param,$match ) )
 		{
 			$this->name	= $match[1];
 			$this->func	= $match[2];
 			$in[]		= $match[3];
 		}
 		// [query]
-		else if ( preg_match( "/\/lib\/webapi\/member\/([^\/]+)\/([^\?]*)\/(query)\?/",$p_param,$match ) )
+		else if ( preg_match( "/\/lib\/webapi\/member\/([^\/]+)\/([^\?]*)\/(query)\?/",$p_param,$match ) || preg_match( "/\/lib\/webapi\/admin\/([^\/]+)\/([^\?]*)\/(query)\?/",$p_param,$match ) )
 		{
 			$this->name	= $match[1];
 			$this->func	= $match[2];
@@ -164,34 +172,8 @@ class webapiJSON extends webapiCore
 			}
 		}
 		// other
-		else if ( preg_match( "/\/lib\/webapi\/member\/([^\/]+)\/([^\?]*)\/([^\?]*)/",$p_param,$match ) )
+		else if ( preg_match( "/\/lib\/webapi\/member\/([^\/]+)\/([^\?]*)\/([^\?]*)/",$p_param,$match ) || preg_match( "/\/lib\/webapi\/bank\/([^\/]+)\/([^\?]*)\/([^\?]*)/",$p_param,$match ) )
 		{
-			$this->name	= $match[1];
-			$this->func	= $match[2];
-			$in[]		= $match[3];
-
-			$json	= json_decode(file_get_contents('php://input'),true);
-			debug_log(print_r($json,True));
-
-			$in[]		= $json;
-		}
-		// [admin-query]
-		else if ( preg_match( "/\/lib\/webapi\/admin\/([^\/]+)\/([^\?]*)\/(query)\?/",$p_param,$match ) )
-		{
-			$this->name	= $match[1];
-			$this->func	= $match[2];
-			$in[]		= $match[3];
-		 	foreach ( $_GET as $k =>$v )
-			{
-				debug_log("GET $k:$v");
-
-				if ($k == 'q')	  {  $in[]	= json_decode($v);	}
-				if ($k == 'p')	  {  $in[]	= json_decode($v);	}
-				if ($k == 'r')	  {  $in[]	= json_decode($v);	}
-			}
-		}
-		// [bank -add, upd, delete]
-		else if(preg_match( "/\/lib\/webapi\/bank\/([^\/]+)\/([^\?]*)\/([^\?]*)/",$p_param,$match )) {
 			$this->name	= $match[1];
 			$this->func	= $match[2];
 			$in[]		= $match[3];
@@ -206,9 +188,6 @@ class webapiJSON extends webapiCore
 		//
 		// CLASS
 		//
-		// if($this->name == 'User'){
-		// 	$this->name = 'Bank';
-		// }
 		require_once(WEBAPI_DIR . API_CGI_API . $this->name . API_CGI_EXT);
 		$w_class	= API_CGI_API . $this->name ;
 		$this->api	= new $w_class();

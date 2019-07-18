@@ -42,25 +42,11 @@ class logicBank {
 			debug_log("$l_k :". $l_v);
 		}
 
-		// paging
-		// keys (default asc, ! desc) ext. name  !name
-		debug_log("paging sortKey count :". count($a_in_order->sortKey));
-		foreach( $a_in_order->sortKey as $l_v )
-		{
-			debug_log("paging sortKey :". $l_v);
-		}
-		// (null:asc, !:desc)
-		debug_log("paging sortDir :". $a_in_order->sortDir);
-		// 表示行数:lines
-		debug_log("paging lines   :". $a_in_order->lines);
-		// 表示頁数:page
-		debug_log("paging page    :". $a_in_order->page);
 
 		// APD作成
 		$l_apdBank    = new apdBank();
-
 		// 条件組み立て
-		$l_per_where = null;
+		$l_per_where = 'del_flg = 0';
 		if ( isset( $a_in_where ) )
 		{
 			$l_cnt = 0;
@@ -80,7 +66,20 @@ class logicBank {
 		// ソート組み立て
 		$l_per_sort = "";
 		if ( isset( $a_in_order ) )
-		{
+		{			
+			// paging
+			// keys (default asc, ! desc) ext. name  !name
+			debug_log("paging sortKey count :". count($a_in_order->sortKey));
+			foreach( $a_in_order->sortKey as $l_v )
+			{
+				debug_log("paging sortKey :". $l_v);
+			}
+			// (null:asc, !:desc)
+			debug_log("paging sortDir :". $a_in_order->sortDir);
+			// 表示行数:lines
+			debug_log("paging lines   :". $a_in_order->lines);
+			// 表示頁数:page
+			debug_log("paging page    :". $a_in_order->page);
 			$l_cnt=0;
 			foreach( $a_in_order->sortKey as $l_v )
 			{
@@ -110,9 +109,9 @@ class logicBank {
 			$l_per_other       .= " limit " . $a_in_order->lines;
 		}
 		// 表示頁数:page
-		if ( isset($a_in_order->page) && $a_in_order->page > 1 )
+		if ( isset($a_in_order->page) && $a_in_order->page > 0 )
 		{
-			$l_per_other       .= " offset " . ($a_in_order->page-1)*$a_in_order->lines ;
+			$l_per_other       .= " offset " . ($a_in_order->page)*$a_in_order->lines ;
 		}
 		debug_log("sort :". $l_per_sort);
 
@@ -233,9 +232,9 @@ class logicBank {
     
         // Start BLOCK C
     
-		$l_valBank = new validBank();
+		$validBank = new validBank();
 		$l_out = [];
-		if ( $l_valBank->check_RECID($a_recid,$l_out,$a_err,['required'=>1]) == -1 )
+		if ( $validBank->check_RECID($a_recid,$l_out,$a_err,['required'=>1]) == -1 )
 		{
 			debug_log("<< ".API_RET_NG) ;
 			$l_db_con->disconnect(DB_NG);
@@ -255,13 +254,14 @@ class logicBank {
             $l_dbdBank->setData($l_dbdBank::DBD_DEL_FLG, 0);
     
             $l_bank_data = array();
-            $l_rtn = $l_svcBank->Get($l_dbh, $l_dbdBank, $l_bank_data);
+			$l_rtn = $l_svcBank->Get($l_dbh, $l_dbdBank, $l_bank_data);
+			$temper= new Valid;
             if ($l_rtn < 0) {
 				if($l_rtn == ERR_DB_TOO_MUCH){
-					$a_err[] = array("what" => 'Data too much', "how" =>'Data too much', "why" => "Have more than one recid = $a_recid in DB");
+					$a_err[] = array("what" => 'Data too much','level'=>4, "how" =>'Data too much', "why" => "Have more than one recid = $a_recid in DB");
 				}
 				elseif($l_rtn == ERR_DB_NOT_FOUND){
-					$a_err[] = array("what" => 'Data not found', "how" =>'Data not found', "why" => "Don't have any data with recid = $a_recid in DB");
+					$a_err[] = array("what" => 'Data not found','level'=>4, "how" =>'Data not found', "why" => "Don't have any data with recid = $a_recid in DB");
 				}
                 $l_db_con->disconnect(DB_NG);
                 return $l_rtn;
