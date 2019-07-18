@@ -1,0 +1,24 @@
+■logicState list -- 状態取得
+　▼BLOCK A
+	・get now datetime
+
+　▼BLOCK B
+	・DB Connect
+	・start transaction
+	・dbsvc create
+
+　▼BLOCK C
+
+　▼BLOCK D
+
+　▼BLOCK E
+	・where区を組み立て
+	・order by区を組み立て
+	・その他条件を組み立て
+
+	・DB select
+
+　▼BLOCK F
+	・取得した配列をDBDに設定
+	・APDのリストに変換
+	・DB close

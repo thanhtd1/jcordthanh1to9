@@ -1,0 +1,58 @@
+<!------------------------------------------------>
+<p hidden>{{ app.title="ユーザー情報更新-更新結果" }}</p>
+<!--						-->
+<!-- 画面ID: AD-035				-->
+<!--						-->
+<!-- id:$Id$					-->
+<!-- author:$Author$				-->
+<!-- version:$Revision$				-->
+<!-- log:$Log$					-->
+<!------------------------------------------------>
+<div id="wrapper">
+
+      <div id="contents">
+        <div class="wrap">
+          <form action="">
+            <div class="form-txt_area tcenter">
+              <p>バンクユーザ更新が完了しました。<br>バンクユーザ登録内容は、以下の通りとなっています。</p>
+            </div>
+            <table class="table-default_list form-user_tbl">
+              <tbody>
+                <tr>
+                  <th>ユーザID</th>
+                  <td>{{Detail.userid}}</td>
+                </tr>
+                <tr>
+                  <th>所属機関名</th>
+                  <td>{{Detail.org_name}}</td>
+                </tr>
+                <tr>
+                  <th>ユーザ名(漢字)</th>
+                  <td>{{Detail.name}}</td>
+                </tr>
+                <tr>
+                  <th>ユーザ名(英字)</th>
+                  <td>{{Detail.name_eng}}</td>
+                </tr>
+                <tr>
+                  <th>仮パスワード発行</th>
+                  <td>{{Detail.passwd}}</td>
+                </tr>
+              </tbody>
+            </table>
+          </form>
+        </div>
+        <div class="bottom-btn_area">
+          <ul class="bottom-btn_list wrap">
+            <li>
+              <button class="btn" type="button" ng-click=""><span class="txt">一覧へ戻る</span></button>
+            </li>
+            <li>
+              <button class="btn" type="button"><span class="txt">仮パスワード通知書印刷</span></button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ///  #contents-->
+
+</div>

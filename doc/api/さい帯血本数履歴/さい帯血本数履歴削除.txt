@@ -1,0 +1,32 @@
+■logicStat_hist del -- さい帯血本数履歴削除
+　▼BLOCK A
+	・get now datetime
+	・get dbdata
+
+　▼BLOCK B
+	・DB Connect
+	・start transaction
+	・dbsvc create
+
+　▼BLOCK C
+	・validate
+		→ RECIDは必須
+
+　▼BLOCK D
+	・DB check validate
+		→ 対象が既に削除済みの場合はエラー
+
+　▼BLOCK E
+	・sysid = getSysid
+	・opeid = getOpeid
+	・sys_mode = SYS_MODE_DELETE
+	・sys_date = now datetime		// BLOCK A get
+	・upd_date = now datetime		// BLOCK A get
+	・sys_user_id = sess['USER_ID']
+	・upd_user_id = sess['USER_ID']
+	・del_flg = 1
+
+	・DB delete
+
+　▼BLOCK F
+	・DB close

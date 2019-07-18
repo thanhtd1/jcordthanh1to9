@@ -1,0 +1,57 @@
+■logicTrump trumpErrCommment -- TRUMPエラーコメント登録
+　▼BLOCK A
+	・get now datetime
+	・get dbdata
+
+　▼BLOCK B
+	・DB Connect
+	・start transaction
+	・dbsvc create
+
+　▼BLOCK C
+	・validate
+		→ trump_masterのRECIDは必須
+		→ バンクIDは必須
+		→ さい帯血管理番号は必須
+
+　▼BLOCK D
+	・DB check validate
+		→ trump_masterの「RECID」のデータがDB上に既に存在しない場合はエラーを返す。
+		→ バンクIDとさい帯血管理番号の組み合わせがDB上に存在しない場合はエラーフラグをONにする。
+
+　▼BLOCK E
+	・trump_master
+		・sysid = getSysid
+		・opeid = getOpeid
+		・sys_mode = SYS_MODE_UPDATE
+		・sys_date = now datetime		// BLOCK A get
+		・upd_date = now datetime		// BLOCK A get
+		・sys_user_id = sess['USER_ID']
+		・upd_user_id = sess['USER_ID']
+		・上記のチェックでエラーフラグをチェック
+			→ エラーフラグがOFFの場合
+				→ 正バンクID1にバンクIDを設定
+				→ 正管理番号1にさい帯血管理番号を設定
+				→ 解決フラグを0に設定
+
+			→ エラーフラグがONの場合
+				→ 解決フラグを1に設定
+
+		・DB update
+
+	・trump_err_comment
+		・sysid = getSysid
+		・opeid = getOpeid
+		・sys_mode = SYS_MODE_INSERT
+		・sys_date = now datetime		// BLOCK A get
+		・reg_date = now datetime		// BLOCK A get
+		・upd_date = now datetime		// BLOCK A get
+		・sys_user_id = sess['USER_ID']
+		・reg_user_id = sess['USER_ID']
+		・upd_user_id = sess['USER_ID']
+		・修正バンク名に修正者名を設定
+
+		・DB uinsert
+
+　▼BLOCK F
+	・DB close

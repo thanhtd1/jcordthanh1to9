@@ -1,0 +1,32 @@
+■logicBank del -- バンク削除
+　▼BLOCK A
+	・get now datetime
+	・get dbdata
+
+　▼BLOCK B
+	・DB Connect
+	・start transaction
+	・dbsvc create
+
+　▼BLOCK C
+	・validate
+		→ バンクIDは必須
+
+　▼BLOCK D
+	・DB check validate
+		→ DBのデータが削除済み(del_flg = 1)の場合はエラー
+
+　▼BLOCK E
+	・sysid = getSysid
+	・opeid = getOpeid
+	・sys_mode = SYS_MODE_DELETE
+	・sys_date = now datetime		// BLOCK A get
+	・upd_date = now datetime		// BLOCK A get
+	・sys_user_id = sess['USER_ID']
+	・upd_user_id = sess['USER_ID']
+	・del_flg = 1;
+
+	・DB update
+
+　▼BLOCK F
+	・DB close

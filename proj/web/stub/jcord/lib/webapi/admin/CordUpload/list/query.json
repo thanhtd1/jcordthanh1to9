@@ -1,0 +1,12 @@
+{"head":{"status":"SUCCEEDED","message":"succeeded"},"data":{"count":10,"entries":[
+{"recid":1,"receipt_bank_no":"XXXX00001","result":"Error","name":"血液型(ABO)","reason":"必須項目です。"},
+{"recid":2,"receipt_bank_no":"XXXX00001","result":"Error","name":"性別","reason":"必須項目です。"},
+{"recid":3,"receipt_bank_no":"XXXX00001","result":"Error","name":"登録状態","reason":"値が不正です。"},
+{"recid":4,"receipt_bank_no":"XXXX00001","result":"Error","name":"採取年月日","reason":"書式が不正です。"},
+{"recid":5,"receipt_bank_no":"XXXX00002","result":"Error","name":"血液型(ABO)","reason":"必須項目です。"},
+{"recid":6,"receipt_bank_no":"XXXX00002","result":"Error","name":"性別","reason":"必須項目です。"},
+{"recid":7,"receipt_bank_no":"XXXX00003","result":"Error","name":"血液型(ABO)","reason":"必須項目です。"},
+{"recid":8,"receipt_bank_no":"XXXX00003","result":"Error","name":"性別","reason":"必須項目です。"},
+{"recid":9,"receipt_bank_no":"XXXX00004","result":"Error","name":"血液型(ABO)","reason":"必須項目です。"},
+{"recid":10,"receipt_bank_no":"XXXX00004","result":"Error","name":"採取年月日","reason":"必須項目です。"}
+]}}

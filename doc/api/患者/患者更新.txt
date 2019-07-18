@@ -1,0 +1,46 @@
+■logicRecip upd -- 患者更新
+　▼BLOCK A
+	・get now datetime
+	・get dbdata
+
+　▼BLOCK B
+	・DB Connect
+	・start transaction
+	・dbsvc create
+	・recip get webapi call <- 別会社が作っているが間に合わないので、stubを作成して対応
+
+　▼BLOCK C
+	・validate <- webapiで取得したデータに対してvalidateを行う。
+		→ RECIDは必須とする
+		→ 患者OIDは必須とする
+		→ 生年月日は必須とする。
+		→ ABO血液型は必須とする。
+		→ Rh血液型は必須とする。
+		→ 性別は必須とする。
+		→ HLA-A(1)は必須とする。
+		→ HLA-A(2)は必須とする。
+		→ HLA-B(1)は必須とする。
+		→ HLA-B(2)は必須とする。
+		→ HLA-DR(1)は必須とする。
+		→ HLA-DR(2)は必須とする。
+
+　▼BLOCK D
+	・DB check validate
+		→ 「患者ID」と「患者OID」のデータがDB上に既に存在しない場合はエラーを返す。
+
+　▼BLOCK E
+	・sysid = getSysid
+	・opeid = getOpeid
+	・recid = webapi getdata recid
+	・oid = webapi getdata oid
+	・sys_mode = SYS_MODE_UPDATE
+	・sys_date = now datetime		// BLOCK A get
+	・upd_date = now datetime		// BLOCK A get
+	・sys_user_id = sess['USER_ID']
+	・upd_user_id = sess['USER_ID']
+
+	・DB update
+
+　▼BLOCK F
+	・DB close
+

@@ -1,0 +1,84 @@
+﻿<!------------------------------------------------>
+<p hidden>{{ app.title="ユーザー情報更新-更新入力" }}</p>
+<!--						-->
+<!-- 画面ID: AD-033				-->
+<!--						-->
+<!-- id:$Id$					-->
+<!-- author:$Author$				-->
+<!-- version:$Revision$				-->
+<!-- log:$Log$					-->
+<!------------------------------------------------>
+<div id="wrapper">
+
+      <form action="">
+        <div id="contents">
+          <div class="wrap">
+            <div class="form-txt_area tcenter">
+                          </div>
+            <table class="table-default_list form-user_tbl">
+              <tbody>
+                <tr>
+                  <th>ユーザID</th>
+                  <td>
+                    <input type="text" placeholder="半角英数字" ng-model="Detail.userid">
+                  </td>
+                </tr>
+                <tr>
+                  <th>所属機関名</th>
+                  <td>
+                    <div class="select">
+                      <select>
+                        <option value="">選択してください</option>
+                        <option value="">ダミーテキストダミーテキスト</option>
+                        <option value="">ダミーテキストダミーテキスト</option>
+                        <option value="">ダミーテキストダミーテキスト</option>
+                      </select>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th>ユーザ名(漢字)</th>
+                  <td>
+                    <input type="text" placeholder="日赤太郎" ng-model="Detail.name">
+                  </td>
+                </tr>
+                <tr>
+                  <th>ユーザ名(英字)</th>
+                  <td>
+                    <input type="text" placeholder="Taro Nisseki" ng-model="Detail.name_eng">
+                  </td>
+                </tr>
+                <tr>
+                  <th>仮パスワード発行</th>
+                  <td>
+                    <div class="select">
+                      <select>
+                        <option value="123456789">123456789</option>
+                        <option value="123456789">123456789</option>
+                        <option value="123456789">123456789</option>
+                        <option value="123456789">123456789</option>
+                      </select>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="bottom-btn_area">
+            <ul class="bottom-btn_list wrap">
+              <li>
+                <button class="btn" type="button" ng-click="app.fn_click('lg_prev')"><span class="txt">一覧へ戻る</span></button>
+              </li>
+              <li>
+                <button class="btn GRY" type="button" style="width:260px;" ng-click="app.fn_click('lg_next')"><span class="txt">確認</span></button>
+              </li>
+              <li>
+                <button class="btn" type="button"><span class="txt">仮パスワード通知書印刷</span></button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </form>
+      <!-- ///  #contents-->
+
+</div>

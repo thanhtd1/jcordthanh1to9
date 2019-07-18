@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="nomalTest" file="D:\xampp\htdocs\jcord\proj\tests\normalTest.php" tests="1" assertions="3" errors="0" failures="0" skipped="0" time="6.389609">
+    <testcase name="testMain" class="nomalTest" classname="nomalTest" file="D:\xampp\htdocs\jcord\proj\tests\normalTest.php" line="20" assertions="3" time="6.389609">
+      <system-out>[43;30m
+Skip 7[0m
+</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

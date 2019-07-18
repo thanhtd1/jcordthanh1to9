@@ -1,0 +1,33 @@
+    <div id="wrapper">
+      <header>
+        <!-- / header-->
+        <div class="global-menu_area">
+          <div class="wrap">
+            <ul class="global-menu_list">
+              <li><a class="global-menu_btn drop-btn" href="#"><span class="txt">ユーザー管理</span></a>
+                <ul class="global-sub_list">
+                  <li><a class="global-sub_btn" href="#" ng-click="app.fn_click('lg_get_contents', 'admin/AD-020')">ユーザー登録</a></li>
+                  <li><a class="global-sub_btn" href="#" ng-click="app.fn_click('lg_get_contents', 'admin/AD-032')">ユーザー情報表示</a></li>
+                  <li><a class="global-sub_btn" href="#l">臍帯血バンク情報</a></li>
+                  <li><a class="global-sub_btn" href="#">パスワード更新</a></li>
+                </ul>
+              </li>
+              <li><a class="global-menu_btn" href="#" ng-click="app.fn_click('lg_get_contents', 'admin/AD-060')"><span class="txt">公開臍帯血管理</span></a></li>
+              <li><a class="global-menu_btn" href="#"><span class="txt">患者・臍帯血提供管理</span></a></li>
+              <li><a class="global-menu_btn" href="#"><span class="txt">集計データ管理</span></a></li>
+              <li><a class="global-menu_btn" href="#"><span class="txt">TRUMP</span></a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- / global-menu_area-->
+      </header>
+      <div class="page-title_area">
+        <div class="wrap">
+          <h2 class="title">{{ app.title }}</h2>
+          <dl class="login-status">
+            <dt><span>{{app.loginUser.userName}}</span></dt>
+            <dd>ログイン日時：{{app.loginUser.login_dateTime}}</dd>
+          </dl>
+        </div>
+      </div>
+    </div>

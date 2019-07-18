@@ -1,0 +1,32 @@
+<?php
+require_once(COMM_DIR . "define.php");
+require_once(COMM_DIR . "logger.php");
+require_once(DBD_DIR . "dbdCore.php");
+require_once(DBO_DIR . "dbo{0}.php");
+
+class dbd{0} extends dbdCore {
+
+	// 定数
+{1}
+
+	public function __construct() {
+		$this->l_dbo = new dbo{0}();
+		$this->l_dbo_list = array();
+	}
+
+	public function convertListData($list) {
+		$this->l_dbo_list = array();
+		for($i = 0; $i < count($list); $i++) {
+			$data = $list[$i];
+			$dbo_data = new dbo{0}();
+			foreach($dbo_data as $key => $value)
+			{
+				$key_preg = preg_replace('/m_/', '', $key);
+				$dbo_data->{$key} = isset($data[$key_preg])?$data[$key_preg]:null ;
+			}
+			$this->l_dbo_list[$i] = $dbo_data;
+		}
+	}
+
+}
+?>

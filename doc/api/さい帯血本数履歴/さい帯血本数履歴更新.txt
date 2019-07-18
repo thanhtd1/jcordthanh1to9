@@ -1,0 +1,34 @@
+■logicStat_hist upd -- さい帯血本数履歴更新
+　▼BLOCK A
+	・get now datetime
+	・get dbdata
+
+　▼BLOCK B
+	・DB Connect
+	・start transaction
+	・dbsvc create
+
+　▼BLOCK C
+	・validate
+		→ RECIDは必須
+		→ 集計年月日は必須とする。
+		→ バンクコードは必須とする。
+
+　▼BLOCK D
+	・DB check validate
+		→ 「RECID」のデータがDB上に既に存在しない場合はエラーを返す。
+		→ 「集計年月日」、「バンクコード」のデータがDB上に既に存在しない場合はエラーを返す。
+
+　▼BLOCK E
+	・sysid = getSysid
+	・opeid = getOpeid
+	・sys_mode = SYS_MODE_UPDATE
+	・sys_date = now datetime		// BLOCK A get
+	・upd_date = now datetime		// BLOCK A get
+	・sys_user_id = sess['USER_ID']
+	・upd_user_id = sess['USER_ID']
+
+	・DB update
+
+　▼BLOCK F
+	・DB close

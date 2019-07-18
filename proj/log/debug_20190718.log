@@ -1,0 +1,758 @@
+2019/07/18 11:50:34(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:263 webapiJSON->__construct >>()
+2019/07/18 11:50:34(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:263 webapiJSON->__construct <<
+2019/07/18 11:50:34(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:264 webapiJSON->main >>()
+2019/07/18 11:50:34(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:264 webapiJSON->main param:/jcord/proj/lib/webapi/bank/Bank/get/594
+2019/07/18 11:50:34(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:264 webapiJSON->main 
+2019/07/18 11:50:34(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:264 webapiJSON->main MATCH other(Bank:get)
+2019/07/18 11:50:34(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:219 webapiCore->action >>()
+2019/07/18 11:50:34(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:141 webapiCore->pre >>(1)
+2019/07/18 11:50:34(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:141 webapiCore->pre << 1
+2019/07/18 11:50:34(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:219 webapiCore->action << (pre:1)
+2019/07/18 11:50:34(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:144 webapiCore->exec >>(1)
+2019/07/18 11:50:34(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\logic\logicBank.php:226 dbsvcCommon->connect dsn = pgsql:dbname=jcorddb host=192.168.201.74 port=5432
+2019/07/18 11:50:34(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\logic\logicBank.php:238 BVBank->check_RECID >> (594)
+2019/07/18 11:50:34(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\validate\level2\FVInteger.php:59 PVType::validate input = 1
+2019/07/18 11:50:34(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\validate\level2\FVInteger.php:59 PVType::validate type = integer
+2019/07/18 11:50:34(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\validate\level1\PVType.php:59 PVType::_validate_int << (594,1,RECID)
+2019/07/18 11:50:34(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\logic\logicBank.php:238 BVBank->check_RECID <<
+2019/07/18 11:50:34(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\db\dbsvc\dbsvcCore.php:345 dbsvcCore->bindSQL (1) key m_recid: 594
+2019/07/18 11:50:34(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\db\dbsvc\dbsvcCore.php:345 dbsvcCore->bindSQL (2) key m_del_flg: 0
+2019/07/18 11:50:34(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\logic\logicBank.php:258 dbsvcCore->Get bindSQL: ret(3)
+2019/07/18 11:50:34(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\logic\logicBank.php:258 dbsvcCore->Get execute: ret(true)
+2019/07/18 11:50:34(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\logic\logicBank.php:266 dbsvcCommon->disconnect disconnect flag = 0
+2019/07/18 11:50:34(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\db\dbsvc\dbsvcCommon.php:34 dbsvcCommon->rollback rollback flag = 0
+2019/07/18 11:50:34(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:89 apiBank->get << (-110)
+2019/07/18 11:50:34(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:144 webapiCore->exec << 0
+2019/07/18 11:50:34(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:219 webapiCore->action << (pre:0)
+2019/07/18 11:50:34(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:147 webapiJSON->post >>(0)
+2019/07/18 11:50:34(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:147 webapiJSON->post Array
+(
+    [0] => Array
+        (
+            [what] => Data not found
+            [how] => Data not found
+            [why] => Don't have any data with recid = 594 in DB
+        )
+
+)
+
+2019/07/18 11:50:34(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:147 webapiJSON->post Array
+(
+)
+
+2019/07/18 11:50:34(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:147 webapiJSON->post << 1
+2019/07/18 11:50:34(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:219 webapiCore->action << (pre:1)
+2019/07/18 11:50:34(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:219 webapiCore->action <<
+2019/07/18 11:50:34(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:264 webapiJSON->main <<
+2019/07/18 11:50:34(5712)	::1                     :0 {closure} Array
+(
+    [type] => 8
+    [message] => Undefined index: level
+    [file] => D:\xampp\htdocs\jcord\proj\tmp\3f9d125053422e0ae2176471d8dc697171e5b8c9_0.file.Bank_head.tpl.php
+    [line] => 46
+)
+
+2019/07/18 11:50:38(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:263 webapiJSON->__construct >>()
+2019/07/18 11:50:38(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:263 webapiJSON->__construct <<
+2019/07/18 11:50:38(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:264 webapiJSON->main >>()
+2019/07/18 11:50:38(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:264 webapiJSON->main param:/jcord/proj/lib/webapi/bank/Bank/get/594
+2019/07/18 11:50:38(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:264 webapiJSON->main 
+2019/07/18 11:50:38(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:264 webapiJSON->main MATCH other(Bank:get)
+2019/07/18 11:50:38(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:219 webapiCore->action >>()
+2019/07/18 11:50:38(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:141 webapiCore->pre >>(1)
+2019/07/18 11:50:38(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:141 webapiCore->pre << 1
+2019/07/18 11:50:38(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:219 webapiCore->action << (pre:1)
+2019/07/18 11:50:38(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:144 webapiCore->exec >>(1)
+2019/07/18 11:50:38(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\logic\logicBank.php:226 dbsvcCommon->connect dsn = pgsql:dbname=jcorddb host=192.168.201.74 port=5432
+2019/07/18 11:50:38(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\logic\logicBank.php:238 BVBank->check_RECID >> (594)
+2019/07/18 11:50:38(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\validate\level2\FVInteger.php:59 PVType::validate input = 1
+2019/07/18 11:50:38(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\validate\level2\FVInteger.php:59 PVType::validate type = integer
+2019/07/18 11:50:38(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\validate\level1\PVType.php:59 PVType::_validate_int << (594,1,RECID)
+2019/07/18 11:50:38(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\logic\logicBank.php:238 BVBank->check_RECID <<
+2019/07/18 11:50:38(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\db\dbsvc\dbsvcCore.php:345 dbsvcCore->bindSQL (1) key m_recid: 594
+2019/07/18 11:50:38(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\db\dbsvc\dbsvcCore.php:345 dbsvcCore->bindSQL (2) key m_del_flg: 0
+2019/07/18 11:50:38(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\logic\logicBank.php:258 dbsvcCore->Get bindSQL: ret(3)
+2019/07/18 11:50:38(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\logic\logicBank.php:258 dbsvcCore->Get execute: ret(true)
+2019/07/18 11:50:38(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\logic\logicBank.php:266 dbsvcCommon->disconnect disconnect flag = 0
+2019/07/18 11:50:38(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\db\dbsvc\dbsvcCommon.php:34 dbsvcCommon->rollback rollback flag = 0
+2019/07/18 11:50:38(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:89 apiBank->get << (-110)
+2019/07/18 11:50:38(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:144 webapiCore->exec << 0
+2019/07/18 11:50:38(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:219 webapiCore->action << (pre:0)
+2019/07/18 11:50:38(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:147 webapiJSON->post >>(0)
+2019/07/18 11:50:38(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:147 webapiJSON->post Array
+(
+    [0] => Array
+        (
+            [what] => Data not found
+            [how] => Data not found
+            [why] => Don't have any data with recid = 594 in DB
+        )
+
+)
+
+2019/07/18 11:50:38(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:147 webapiJSON->post Array
+(
+)
+
+2019/07/18 11:50:38(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:147 webapiJSON->post << 1
+2019/07/18 11:50:38(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:219 webapiCore->action << (pre:1)
+2019/07/18 11:50:38(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:219 webapiCore->action <<
+2019/07/18 11:50:38(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:264 webapiJSON->main <<
+2019/07/18 11:50:39(5712)	::1                     :0 {closure} Array
+(
+    [type] => 8
+    [message] => Undefined index: level
+    [file] => D:\xampp\htdocs\jcord\proj\tmp\3f9d125053422e0ae2176471d8dc697171e5b8c9_0.file.Bank_head.tpl.php
+    [line] => 46
+)
+
+2019/07/18 11:50:41(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:263 webapiJSON->__construct >>()
+2019/07/18 11:50:41(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:263 webapiJSON->__construct <<
+2019/07/18 11:50:41(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:264 webapiJSON->main >>()
+2019/07/18 11:50:41(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:264 webapiJSON->main param:/jcord/proj/lib/webapi/bank/BankWeb/upd/prepare
+2019/07/18 11:50:41(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:264 webapiJSON->main Array
+(
+    [bankid] => 
+    [cur_bankid] => 
+    [available] => 
+    [bank_name] => 
+    [short_name] => 
+    [ename] => 
+    [short_ename] => 
+    [person] => 
+    [tel_num] => 
+    [fax_num] => 
+    [kind] => 
+    [row_nth] => 
+    [recid] => 
+    [readyState] => 4
+    [responseText] => {
+	"head":{
+		"status":"FAILED"
+		,"message":"failed"
+		,"reasons":[
+	 	 {
+			"what":"Data not found"
+			,"how":"Data not found"
+			,"why":"Don't have any data with recid = 594 in DB"
+			,"level":"<br />
+<font size='1'><table class='xdebug-error xe-notice' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Notice: Undefined index: level in D:\xampp\htdocs\jcord\proj\tmp\3f9d125053422e0ae2176471d8dc697171e5b8c9_0.file.Bank_head.tpl.php on line <i>46</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.2016</td><td bgcolor='#eeeeec' align='right'>442920</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php' bgcolor='#eeeeec'>...\webapiJSON.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.2077</td><td bgcolor='#eeeeec' align='right'>861496</td><td bgcolor='#eeeeec'>webapiJSON->main(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php' bgcolor='#eeeeec'>...\webapiJSON.php<b>:</b>264</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.2187</td><td bgcolor='#eeeeec' align='right'>1729560</td><td bgcolor='#eeeeec'>webapiJSON->action(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php' bgcolor='#eeeeec'>...\webapiJSON.php<b>:</b>219</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.2378</td><td bgcolor='#eeeeec' align='right'>1730416</td><td bgcolor='#eeeeec'>webapiJSON->post(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php' bgcolor='#eeeeec'>...\webapiCore.php<b>:</b>147</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>0.2386</td><td bgcolor='#eeeeec' align='right'>1733584</td><td bgcolor='#eeeeec'>Smarty->display(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php' bgcolor='#eeeeec'>...\webapiJSON.php<b>:</b>100</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>6</td><td bgcolor='#eeeeec' align='center'>0.2386</td><td bgcolor='#eeeeec' align='right'>1733584</td><td bgcolor='#eeeeec'>Smarty->_execute(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_templatebase.php' bgcolor='#eeeeec'>...\smarty_internal_templatebase.php<b>:</b>134</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>7</td><td bgcolor='#eeeeec' align='center'>0.2392</td><td bgcolor='#eeeeec' align='right'>1752968</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_templatebase.php' bgcolor='#eeeeec'>...\smarty_internal_templatebase.php<b>:</b>232</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>8</td><td bgcolor='#eeeeec' align='center'>0.2399</td><td bgcolor='#eeeeec' align='right'>1798656</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>216</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>9</td><td bgcolor='#eeeeec' align='center'>0.2401</td><td bgcolor='#eeeeec' align='right'>1810384</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->getRenderedTemplateCode(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_compiled.php' bgcolor='#eeeeec'>...\smarty_template_compiled.php<b>:</b>114</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>10</td><td bgcolor='#eeeeec' align='center'>0.2401</td><td bgcolor='#eeeeec' align='right'>1810384</td><td bgcolor='#eeeeec'>content_5d2d3e6ef2c364_40725225(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_resource_base.php' bgcolor='#eeeeec'>...\smarty_template_resource_base.php<b>:</b>123</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>11</td><td bgcolor='#eeeeec' align='center'>0.2401</td><td bgcolor='#eeeeec' align='right'>1810384</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->_subTemplateRender(  )</td><td title='D:\xampp\htdocs\jcord\proj\tmp\c5389a24df95d8e1d8ecd1830310793286824bc4_0.file.Bank_get.tpl.php' bgcolor='#eeeeec'>...\c5389a24df95d8e1d8ecd1830310793286824bc4_0.file.Bank_get.tpl.php<b>:</b>28</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>12</td><td bgcolor='#eeeeec' align='center'>0.2402</td><td bgcolor='#eeeeec' align='right'>1812776</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>385</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>13</td><td bgcolor='#eeeeec' align='center'>0.2403</td><td bgcolor='#eeeeec' align='right'>1813240</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>216</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>14</td><td bgcolor='#eeeeec' align='center'>0.2404</td><td bgcolor='#eeeeec' align='right'>1823856</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->getRenderedTemplateCode(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_compiled.php' bgcolor='#eeeeec'>...\smarty_template_compiled.php<b>:</b>114</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>15</td><td bgcolor='#eeeeec' align='center'>0.2404</td><td bgcolor='#eeeeec' align='right'>1823856</td><td bgcolor='#eeeeec'>content_5d22e9f68003a2_93250047(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_resource_base.php' bgcolor='#eeeeec'>...\smarty_template_resource_base.php<b>:</b>123</td></tr>
+</table></font>
+"
+		}
+		]
+	},
+	"data":{
+	}
+}
+{
+	"head":{
+		"status":"FAILED"
+		,"message":"failed"
+		,"reasons":[
+	 	 {
+			"what":"<br />
+<font size='1'><table class='xdebug-error xe-notice' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Notice: Undefined offset: 0 in D:\xampp\htdocs\jcord\proj\tmp\3f9d125053422e0ae2176471d8dc697171e5b8c9_0.file.Bank_head.tpl.php on line <i>40</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.4434</td><td bgcolor='#eeeeec' align='right'>1786656</td><td bgcolor='#eeeeec'>{closure:D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:241-260}(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php' bgcolor='#eeeeec'>...\webapiJSON.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.4439</td><td bgcolor='#eeeeec' align='right'>1789920</td><td bgcolor='#eeeeec'>Smarty->display(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php' bgcolor='#eeeeec'>...\webapiJSON.php<b>:</b>258</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.4439</td><td bgcolor='#eeeeec' align='right'>1789920</td><td bgcolor='#eeeeec'>Smarty->_execute(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_templatebase.php' bgcolor='#eeeeec'>...\smarty_internal_templatebase.php<b>:</b>134</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.4443</td><td bgcolor='#eeeeec' align='right'>1809192</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_templatebase.php' bgcolor='#eeeeec'>...\smarty_internal_templatebase.php<b>:</b>232</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>0.4445</td><td bgcolor='#eeeeec' align='right'>1811000</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>216</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>6</td><td bgcolor='#eeeeec' align='center'>0.4448</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->getRenderedTemplateCode(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_compiled.php' bgcolor='#eeeeec'>...\smarty_template_compiled.php<b>:</b>114</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>7</td><td bgcolor='#eeeeec' align='center'>0.4449</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>content_5d2c4d9add5664_88398057(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_resource_base.php' bgcolor='#eeeeec'>...\smarty_template_resource_base.php<b>:</b>123</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>8</td><td bgcolor='#eeeeec' align='center'>0.4449</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->_subTemplateRender(  )</td><td title='D:\xampp\htdocs\jcord\proj\tmp\94b48cbe7adc9504ffad569a62e11b0b11aa771f_0.file.Error.tpl.php' bgcolor='#eeeeec'>...\94b48cbe7adc9504ffad569a62e11b0b11aa771f_0.file.Error.tpl.php<b>:</b>27</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>9</td><td bgcolor='#eeeeec' align='center'>0.4450</td><td bgcolor='#eeeeec' align='right'>1817144</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>385</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>10</td><td bgcolor='#eeeeec' align='center'>0.4451</td><td bgcolor='#eeeeec' align='right'>1817608</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>216</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>11</td><td bgcolor='#eeeeec' align='center'>0.4456</td><td bgcolor='#eeeeec' align='right'>1827096</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->getRenderedTemplateCode(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_compiled.php' bgcolor='#eeeeec'>...\smarty_template_compiled.php<b>:</b>114</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>12</td><td bgcolor='#eeeeec' align='center'>0.4456</td><td bgcolor='#eeeeec' align='right'>1827096</td><td bgcolor='#eeeeec'>content_5d22e9f68003a2_93250047(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_resource_base.php' bgcolor='#eeeeec'>...\smarty_template_resource_base.php<b>:</b>123</td></tr>
+</table></font>
+"
+			,"how":"<br />
+<font size='1'><table class='xdebug-error xe-notice' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Notice: Undefined offset: 0 in D:\xampp\htdocs\jcord\proj\tmp\3f9d125053422e0ae2176471d8dc697171e5b8c9_0.file.Bank_head.tpl.php on line <i>42</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.4434</td><td bgcolor='#eeeeec' align='right'>1786656</td><td bgcolor='#eeeeec'>{closure:D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:241-260}(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php' bgcolor='#eeeeec'>...\webapiJSON.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.4439</td><td bgcolor='#eeeeec' align='right'>1789920</td><td bgcolor='#eeeeec'>Smarty->display(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php' bgcolor='#eeeeec'>...\webapiJSON.php<b>:</b>258</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.4439</td><td bgcolor='#eeeeec' align='right'>1789920</td><td bgcolor='#eeeeec'>Smarty->_execute(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_templatebase.php' bgcolor='#eeeeec'>...\smarty_internal_templatebase.php<b>:</b>134</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.4443</td><td bgcolor='#eeeeec' align='right'>1809192</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_templatebase.php' bgcolor='#eeeeec'>...\smarty_internal_templatebase.php<b>:</b>232</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>0.4445</td><td bgcolor='#eeeeec' align='right'>1811000</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>216</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>6</td><td bgcolor='#eeeeec' align='center'>0.4448</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->getRenderedTemplateCode(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_compiled.php' bgcolor='#eeeeec'>...\smarty_template_compiled.php<b>:</b>114</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>7</td><td bgcolor='#eeeeec' align='center'>0.4449</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>content_5d2c4d9add5664_88398057(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_resource_base.php' bgcolor='#eeeeec'>...\smarty_template_resource_base.php<b>:</b>123</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>8</td><td bgcolor='#eeeeec' align='center'>0.4449</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->_subTemplateRender(  )</td><td title='D:\xampp\htdocs\jcord\proj\tmp\94b48cbe7adc9504ffad569a62e11b0b11aa771f_0.file.Error.tpl.php' bgcolor='#eeeeec'>...\94b48cbe7adc9504ffad569a62e11b0b11aa771f_0.file.Error.tpl.php<b>:</b>27</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>9</td><td bgcolor='#eeeeec' align='center'>0.4450</td><td bgcolor='#eeeeec' align='right'>1817144</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>385</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>10</td><td bgcolor='#eeeeec' align='center'>0.4451</td><td bgcolor='#eeeeec' align='right'>1817608</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>216</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>11</td><td bgcolor='#eeeeec' align='center'>0.4456</td><td bgcolor='#eeeeec' align='right'>1827096</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->getRenderedTemplateCode(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_compiled.php' bgcolor='#eeeeec'>...\smarty_template_compiled.php<b>:</b>114</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>12</td><td bgcolor='#eeeeec' align='center'>0.4456</td><td bgcolor='#eeeeec' align='right'>1827096</td><td bgcolor='#eeeeec'>content_5d22e9f68003a2_93250047(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_resource_base.php' bgcolor='#eeeeec'>...\smarty_template_resource_base.php<b>:</b>123</td></tr>
+</table></font>
+"
+			,"why":"<br />
+<font size='1'><table class='xdebug-error xe-notice' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Notice: Undefined offset: 0 in D:\xampp\htdocs\jcord\proj\tmp\3f9d125053422e0ae2176471d8dc697171e5b8c9_0.file.Bank_head.tpl.php on line <i>44</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.4434</td><td bgcolor='#eeeeec' align='right'>1786656</td><td bgcolor='#eeeeec'>{closure:D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:241-260}(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php' bgcolor='#eeeeec'>...\webapiJSON.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.4439</td><td bgcolor='#eeeeec' align='right'>1789920</td><td bgcolor='#eeeeec'>Smarty->display(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php' bgcolor='#eeeeec'>...\webapiJSON.php<b>:</b>258</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.4439</td><td bgcolor='#eeeeec' align='right'>1789920</td><td bgcolor='#eeeeec'>Smarty->_execute(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_templatebase.php' bgcolor='#eeeeec'>...\smarty_internal_templatebase.php<b>:</b>134</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.4443</td><td bgcolor='#eeeeec' align='right'>1809192</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_templatebase.php' bgcolor='#eeeeec'>...\smarty_internal_templatebase.php<b>:</b>232</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>0.4445</td><td bgcolor='#eeeeec' align='right'>1811000</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>216</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>6</td><td bgcolor='#eeeeec' align='center'>0.4448</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->getRenderedTemplateCode(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_compiled.php' bgcolor='#eeeeec'>...\smarty_template_compiled.php<b>:</b>114</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>7</td><td bgcolor='#eeeeec' align='center'>0.4449</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>content_5d2c4d9add5664_88398057(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_resource_base.php' bgcolor='#eeeeec'>...\smarty_template_resource_base.php<b>:</b>123</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>8</td><td bgcolor='#eeeeec' align='center'>0.4449</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->_subTemplateRender(  )</td><td title='D:\xampp\htdocs\jcord\proj\tmp\94b48cbe7adc9504ffad569a62e11b0b11aa771f_0.file.Error.tpl.php' bgcolor='#eeeeec'>...\94b48cbe7adc9504ffad569a62e11b0b11aa771f_0.file.Error.tpl.php<b>:</b>27</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>9</td><td bgcolor='#eeeeec' align='center'>0.4450</td><td bgcolor='#eeeeec' align='right'>1817144</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>385</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>10</td><td bgcolor='#eeeeec' align='center'>0.4451</td><td bgcolor='#eeeeec' align='right'>1817608</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>216</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>11</td><td bgcolor='#eeeeec' align='center'>0.4456</td><td bgcolor='#eeeeec' align='right'>1827096</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->getRenderedTemplateCode(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_compiled.php' bgcolor='#eeeeec'>...\smarty_template_compiled.php<b>:</b>114</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>12</td><td bgcolor='#eeeeec' align='center'>0.4456</td><td bgcolor='#eeeeec' align='right'>1827096</td><td bgcolor='#eeeeec'>content_5d22e9f68003a2_93250047(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_resource_base.php' bgcolor='#eeeeec'>...\smarty_template_resource_base.php<b>:</b>123</td></tr>
+</table></font>
+"
+			,"level":"<br />
+<font size='1'><table class='xdebug-error xe-notice' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Notice: Undefined offset: 0 in D:\xampp\htdocs\jcord\proj\tmp\3f9d125053422e0ae2176471d8dc697171e5b8c9_0.file.Bank_head.tpl.php on line <i>46</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.4434</td><td bgcolor='#eeeeec' align='right'>1786656</td><td bgcolor='#eeeeec'>{closure:D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:241-260}(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php' bgcolor='#eeeeec'>...\webapiJSON.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.4439</td><td bgcolor='#eeeeec' align='right'>1789920</td><td bgcolor='#eeeeec'>Smarty->display(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php' bgcolor='#eeeeec'>...\webapiJSON.php<b>:</b>258</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.4439</td><td bgcolor='#eeeeec' align='right'>1789920</td><td bgcolor='#eeeeec'>Smarty->_execute(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_templatebase.php' bgcolor='#eeeeec'>...\smarty_internal_templatebase.php<b>:</b>134</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.4443</td><td bgcolor='#eeeeec' align='right'>1809192</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_templatebase.php' bgcolor='#eeeeec'>...\smarty_internal_templatebase.php<b>:</b>232</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>0.4445</td><td bgcolor='#eeeeec' align='right'>1811000</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>216</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>6</td><td bgcolor='#eeeeec' align='center'>0.4448</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->getRenderedTemplateCode(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_compiled.php' bgcolor='#eeeeec'>...\smarty_template_compiled.php<b>:</b>114</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>7</td><td bgcolor='#eeeeec' align='center'>0.4449</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>content_5d2c4d9add5664_88398057(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_resource_base.php' bgcolor='#eeeeec'>...\smarty_template_resource_base.php<b>:</b>123</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>8</td><td bgcolor='#eeeeec' align='center'>0.4449</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->_subTemplateRender(  )</td><td title='D:\xampp\htdocs\jcord\proj\tmp\94b48cbe7adc9504ffad569a62e11b0b11aa771f_0.file.Error.tpl.php' bgcolor='#eeeeec'>...\94b48cbe7adc9504ffad569a62e11b0b11aa771f_0.file.Error.tpl.php<b>:</b>27</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>9</td><td bgcolor='#eeeeec' align='center'>0.4450</td><td bgcolor='#eeeeec' align='right'>1817144</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>385</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>10</td><td bgcolor='#eeeeec' align='center'>0.4451</td><td bgcolor='#eeeeec' align='right'>1817608</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>216</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>11</td><td bgcolor='#eeeeec' align='center'>0.4456</td><td bgcolor='#eeeeec' align='right'>1827096</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->getRenderedTemplateCode(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_compiled.php' bgcolor='#eeeeec'>...\smarty_template_compiled.php<b>:</b>114</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>12</td><td bgcolor='#eeeeec' align='center'>0.4456</td><td bgcolor='#eeeeec' align='right'>1827096</td><td bgcolor='#eeeeec'>content_5d22e9f68003a2_93250047(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_resource_base.php' bgcolor='#eeeeec'>...\smarty_template_resource_base.php<b>:</b>123</td></tr>
+</table></font>
+"
+		}
+		,
+	 	 {
+			"what":"<br />
+<font size='1'><table class='xdebug-error xe-notice' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Notice: Undefined offset: 1 in D:\xampp\htdocs\jcord\proj\tmp\3f9d125053422e0ae2176471d8dc697171e5b8c9_0.file.Bank_head.tpl.php on line <i>40</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.4434</td><td bgcolor='#eeeeec' align='right'>1786656</td><td bgcolor='#eeeeec'>{closure:D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:241-260}(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php' bgcolor='#eeeeec'>...\webapiJSON.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.4439</td><td bgcolor='#eeeeec' align='right'>1789920</td><td bgcolor='#eeeeec'>Smarty->display(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php' bgcolor='#eeeeec'>...\webapiJSON.php<b>:</b>258</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.4439</td><td bgcolor='#eeeeec' align='right'>1789920</td><td bgcolor='#eeeeec'>Smarty->_execute(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_templatebase.php' bgcolor='#eeeeec'>...\smarty_internal_templatebase.php<b>:</b>134</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.4443</td><td bgcolor='#eeeeec' align='right'>1809192</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_templatebase.php' bgcolor='#eeeeec'>...\smarty_internal_templatebase.php<b>:</b>232</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>0.4445</td><td bgcolor='#eeeeec' align='right'>1811000</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>216</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>6</td><td bgcolor='#eeeeec' align='center'>0.4448</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->getRenderedTemplateCode(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_compiled.php' bgcolor='#eeeeec'>...\smarty_template_compiled.php<b>:</b>114</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>7</td><td bgcolor='#eeeeec' align='center'>0.4449</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>content_5d2c4d9add5664_88398057(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_resource_base.php' bgcolor='#eeeeec'>...\smarty_template_resource_base.php<b>:</b>123</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>8</td><td bgcolor='#eeeeec' align='center'>0.4449</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->_subTemplateRender(  )</td><td title='D:\xampp\htdocs\jcord\proj\tmp\94b48cbe7adc9504ffad569a62e11b0b11aa771f_0.file.Error.tpl.php' bgcolor='#eeeeec'>...\94b48cbe7adc9504ffad569a62e11b0b11aa771f_0.file.Error.tpl.php<b>:</b>27</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>9</td><td bgcolor='#eeeeec' align='center'>0.4450</td><td bgcolor='#eeeeec' align='right'>1817144</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>385</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>10</td><td bgcolor='#eeeeec' align='center'>0.4451</td><td bgcolor='#eeeeec' align='right'>1817608</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>216</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>11</td><td bgcolor='#eeeeec' align='center'>0.4456</td><td bgcolor='#eeeeec' align='right'>1827096</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->getRenderedTemplateCode(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_compiled.php' bgcolor='#eeeeec'>...\smarty_template_compiled.php<b>:</b>114</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>12</td><td bgcolor='#eeeeec' align='center'>0.4456</td><td bgcolor='#eeeeec' align='right'>1827096</td><td bgcolor='#eeeeec'>content_5d22e9f68003a2_93250047(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_resource_base.php' bgcolor='#eeeeec'>...\smarty_template_resource_base.php<b>:</b>123</td></tr>
+</table></font>
+"
+			,"how":"<br />
+<font size='1'><table class='xdebug-error xe-notice' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Notice: Undefined offset: 1 in D:\xampp\htdocs\jcord\proj\tmp\3f9d125053422e0ae2176471d8dc697171e5b8c9_0.file.Bank_head.tpl.php on line <i>42</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.4434</td><td bgcolor='#eeeeec' align='right'>1786656</td><td bgcolor='#eeeeec'>{closure:D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:241-260}(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php' bgcolor='#eeeeec'>...\webapiJSON.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.4439</td><td bgcolor='#eeeeec' align='right'>1789920</td><td bgcolor='#eeeeec'>Smarty->display(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php' bgcolor='#eeeeec'>...\webapiJSON.php<b>:</b>258</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.4439</td><td bgcolor='#eeeeec' align='right'>1789920</td><td bgcolor='#eeeeec'>Smarty->_execute(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_templatebase.php' bgcolor='#eeeeec'>...\smarty_internal_templatebase.php<b>:</b>134</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.4443</td><td bgcolor='#eeeeec' align='right'>1809192</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_templatebase.php' bgcolor='#eeeeec'>...\smarty_internal_templatebase.php<b>:</b>232</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>0.4445</td><td bgcolor='#eeeeec' align='right'>1811000</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>216</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>6</td><td bgcolor='#eeeeec' align='center'>0.4448</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->getRenderedTemplateCode(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_compiled.php' bgcolor='#eeeeec'>...\smarty_template_compiled.php<b>:</b>114</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>7</td><td bgcolor='#eeeeec' align='center'>0.4449</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>content_5d2c4d9add5664_88398057(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_resource_base.php' bgcolor='#eeeeec'>...\smarty_template_resource_base.php<b>:</b>123</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>8</td><td bgcolor='#eeeeec' align='center'>0.4449</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->_subTemplateRender(  )</td><td title='D:\xampp\htdocs\jcord\proj\tmp\94b48cbe7adc9504ffad569a62e11b0b11aa771f_0.file.Error.tpl.php' bgcolor='#eeeeec'>...\94b48cbe7adc9504ffad569a62e11b0b11aa771f_0.file.Error.tpl.php<b>:</b>27</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>9</td><td bgcolor='#eeeeec' align='center'>0.4450</td><td bgcolor='#eeeeec' align='right'>1817144</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>385</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>10</td><td bgcolor='#eeeeec' align='center'>0.4451</td><td bgcolor='#eeeeec' align='right'>1817608</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>216</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>11</td><td bgcolor='#eeeeec' align='center'>0.4456</td><td bgcolor='#eeeeec' align='right'>1827096</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->getRenderedTemplateCode(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_compiled.php' bgcolor='#eeeeec'>...\smarty_template_compiled.php<b>:</b>114</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>12</td><td bgcolor='#eeeeec' align='center'>0.4456</td><td bgcolor='#eeeeec' align='right'>1827096</td><td bgcolor='#eeeeec'>content_5d22e9f68003a2_93250047(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_resource_base.php' bgcolor='#eeeeec'>...\smarty_template_resource_base.php<b>:</b>123</td></tr>
+</table></font>
+"
+			,"why":"<br />
+<font size='1'><table class='xdebug-error xe-notice' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Notice: Undefined offset: 1 in D:\xampp\htdocs\jcord\proj\tmp\3f9d125053422e0ae2176471d8dc697171e5b8c9_0.file.Bank_head.tpl.php on line <i>44</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.4434</td><td bgcolor='#eeeeec' align='right'>1786656</td><td bgcolor='#eeeeec'>{closure:D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:241-260}(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php' bgcolor='#eeeeec'>...\webapiJSON.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.4439</td><td bgcolor='#eeeeec' align='right'>1789920</td><td bgcolor='#eeeeec'>Smarty->display(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php' bgcolor='#eeeeec'>...\webapiJSON.php<b>:</b>258</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.4439</td><td bgcolor='#eeeeec' align='right'>1789920</td><td bgcolor='#eeeeec'>Smarty->_execute(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_templatebase.php' bgcolor='#eeeeec'>...\smarty_internal_templatebase.php<b>:</b>134</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.4443</td><td bgcolor='#eeeeec' align='right'>1809192</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_templatebase.php' bgcolor='#eeeeec'>...\smarty_internal_templatebase.php<b>:</b>232</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>0.4445</td><td bgcolor='#eeeeec' align='right'>1811000</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>216</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>6</td><td bgcolor='#eeeeec' align='center'>0.4448</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->getRenderedTemplateCode(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_compiled.php' bgcolor='#eeeeec'>...\smarty_template_compiled.php<b>:</b>114</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>7</td><td bgcolor='#eeeeec' align='center'>0.4449</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>content_5d2c4d9add5664_88398057(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_resource_base.php' bgcolor='#eeeeec'>...\smarty_template_resource_base.php<b>:</b>123</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>8</td><td bgcolor='#eeeeec' align='center'>0.4449</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->_subTemplateRender(  )</td><td title='D:\xampp\htdocs\jcord\proj\tmp\94b48cbe7adc9504ffad569a62e11b0b11aa771f_0.file.Error.tpl.php' bgcolor='#eeeeec'>...\94b48cbe7adc9504ffad569a62e11b0b11aa771f_0.file.Error.tpl.php<b>:</b>27</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>9</td><td bgcolor='#eeeeec' align='center'>0.4450</td><td bgcolor='#eeeeec' align='right'>1817144</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>385</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>10</td><td bgcolor='#eeeeec' align='center'>0.4451</td><td bgcolor='#eeeeec' align='right'>1817608</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>216</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>11</td><td bgcolor='#eeeeec' align='center'>0.4456</td><td bgcolor='#eeeeec' align='right'>1827096</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->getRenderedTemplateCode(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_compiled.php' bgcolor='#eeeeec'>...\smarty_template_compiled.php<b>:</b>114</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>12</td><td bgcolor='#eeeeec' align='center'>0.4456</td><td bgcolor='#eeeeec' align='right'>1827096</td><td bgcolor='#eeeeec'>content_5d22e9f68003a2_93250047(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_resource_base.php' bgcolor='#eeeeec'>...\smarty_template_resource_base.php<b>:</b>123</td></tr>
+</table></font>
+"
+			,"level":"<br />
+<font size='1'><table class='xdebug-error xe-notice' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Notice: Undefined offset: 1 in D:\xampp\htdocs\jcord\proj\tmp\3f9d125053422e0ae2176471d8dc697171e5b8c9_0.file.Bank_head.tpl.php on line <i>46</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.4434</td><td bgcolor='#eeeeec' align='right'>1786656</td><td bgcolor='#eeeeec'>{closure:D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:241-260}(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php' bgcolor='#eeeeec'>...\webapiJSON.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.4439</td><td bgcolor='#eeeeec' align='right'>1789920</td><td bgcolor='#eeeeec'>Smarty->display(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php' bgcolor='#eeeeec'>...\webapiJSON.php<b>:</b>258</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.4439</td><td bgcolor='#eeeeec' align='right'>1789920</td><td bgcolor='#eeeeec'>Smarty->_execute(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_templatebase.php' bgcolor='#eeeeec'>...\smarty_internal_templatebase.php<b>:</b>134</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.4443</td><td bgcolor='#eeeeec' align='right'>1809192</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_templatebase.php' bgcolor='#eeeeec'>...\smarty_internal_templatebase.php<b>:</b>232</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>0.4445</td><td bgcolor='#eeeeec' align='right'>1811000</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>216</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>6</td><td bgcolor='#eeeeec' align='center'>0.4448</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->getRenderedTemplateCode(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_compiled.php' bgcolor='#eeeeec'>...\smarty_template_compiled.php<b>:</b>114</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>7</td><td bgcolor='#eeeeec' align='center'>0.4449</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>content_5d2c4d9add5664_88398057(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_resource_base.php' bgcolor='#eeeeec'>...\smarty_template_resource_base.php<b>:</b>123</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>8</td><td bgcolor='#eeeeec' align='center'>0.4449</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->_subTemplateRender(  )</td><td title='D:\xampp\htdocs\jcord\proj\tmp\94b48cbe7adc9504ffad569a62e11b0b11aa771f_0.file.Error.tpl.php' bgcolor='#eeeeec'>...\94b48cbe7adc9504ffad569a62e11b0b11aa771f_0.file.Error.tpl.php<b>:</b>27</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>9</td><td bgcolor='#eeeeec' align='center'>0.4450</td><td bgcolor='#eeeeec' align='right'>1817144</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>385</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>10</td><td bgcolor='#eeeeec' align='center'>0.4451</td><td bgcolor='#eeeeec' align='right'>1817608</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>216</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>11</td><td bgcolor='#eeeeec' align='center'>0.4456</td><td bgcolor='#eeeeec' align='right'>1827096</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->getRenderedTemplateCode(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_compiled.php' bgcolor='#eeeeec'>...\smarty_template_compiled.php<b>:</b>114</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>12</td><td bgcolor='#eeeeec' align='center'>0.4456</td><td bgcolor='#eeeeec' align='right'>1827096</td><td bgcolor='#eeeeec'>content_5d22e9f68003a2_93250047(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_resource_base.php' bgcolor='#eeeeec'>...\smarty_template_resource_base.php<b>:</b>123</td></tr>
+</table></font>
+"
+		}
+		]
+	}
+}
+
+    [status] => 200
+    [statusText] => OK
+    [isConverted] => 1
+)
+
+2019/07/18 11:50:41(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:264 webapiJSON->main MATCH other(BankWeb:upd)
+2019/07/18 11:50:41(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:219 webapiCore->action >>()
+2019/07/18 11:50:41(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:141 webapiCore->pre >>(1)
+2019/07/18 11:50:41(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:141 webapiCore->pre << 1
+2019/07/18 11:50:41(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:219 webapiCore->action << (pre:1)
+2019/07/18 11:50:41(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:144 webapiCore->exec >>(1)
+2019/07/18 11:50:41(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:89 apiBankWeb->upd >>()
+2019/07/18 11:50:41(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:89 apiBankWeb->upd Array
+(
+    [0] => prepare
+    [1] => Array
+        (
+            [bankid] => 
+            [cur_bankid] => 
+            [available] => 
+            [bank_name] => 
+            [short_name] => 
+            [ename] => 
+            [short_ename] => 
+            [person] => 
+            [tel_num] => 
+            [fax_num] => 
+            [kind] => 
+            [row_nth] => 
+            [recid] => 
+            [readyState] => 4
+            [responseText] => {
+	"head":{
+		"status":"FAILED"
+		,"message":"failed"
+		,"reasons":[
+	 	 {
+			"what":"Data not found"
+			,"how":"Data not found"
+			,"why":"Don't have any data with recid = 594 in DB"
+			,"level":"<br />
+<font size='1'><table class='xdebug-error xe-notice' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Notice: Undefined index: level in D:\xampp\htdocs\jcord\proj\tmp\3f9d125053422e0ae2176471d8dc697171e5b8c9_0.file.Bank_head.tpl.php on line <i>46</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.2016</td><td bgcolor='#eeeeec' align='right'>442920</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php' bgcolor='#eeeeec'>...\webapiJSON.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.2077</td><td bgcolor='#eeeeec' align='right'>861496</td><td bgcolor='#eeeeec'>webapiJSON->main(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php' bgcolor='#eeeeec'>...\webapiJSON.php<b>:</b>264</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.2187</td><td bgcolor='#eeeeec' align='right'>1729560</td><td bgcolor='#eeeeec'>webapiJSON->action(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php' bgcolor='#eeeeec'>...\webapiJSON.php<b>:</b>219</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.2378</td><td bgcolor='#eeeeec' align='right'>1730416</td><td bgcolor='#eeeeec'>webapiJSON->post(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php' bgcolor='#eeeeec'>...\webapiCore.php<b>:</b>147</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>0.2386</td><td bgcolor='#eeeeec' align='right'>1733584</td><td bgcolor='#eeeeec'>Smarty->display(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php' bgcolor='#eeeeec'>...\webapiJSON.php<b>:</b>100</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>6</td><td bgcolor='#eeeeec' align='center'>0.2386</td><td bgcolor='#eeeeec' align='right'>1733584</td><td bgcolor='#eeeeec'>Smarty->_execute(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_templatebase.php' bgcolor='#eeeeec'>...\smarty_internal_templatebase.php<b>:</b>134</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>7</td><td bgcolor='#eeeeec' align='center'>0.2392</td><td bgcolor='#eeeeec' align='right'>1752968</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_templatebase.php' bgcolor='#eeeeec'>...\smarty_internal_templatebase.php<b>:</b>232</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>8</td><td bgcolor='#eeeeec' align='center'>0.2399</td><td bgcolor='#eeeeec' align='right'>1798656</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>216</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>9</td><td bgcolor='#eeeeec' align='center'>0.2401</td><td bgcolor='#eeeeec' align='right'>1810384</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->getRenderedTemplateCode(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_compiled.php' bgcolor='#eeeeec'>...\smarty_template_compiled.php<b>:</b>114</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>10</td><td bgcolor='#eeeeec' align='center'>0.2401</td><td bgcolor='#eeeeec' align='right'>1810384</td><td bgcolor='#eeeeec'>content_5d2d3e6ef2c364_40725225(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_resource_base.php' bgcolor='#eeeeec'>...\smarty_template_resource_base.php<b>:</b>123</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>11</td><td bgcolor='#eeeeec' align='center'>0.2401</td><td bgcolor='#eeeeec' align='right'>1810384</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->_subTemplateRender(  )</td><td title='D:\xampp\htdocs\jcord\proj\tmp\c5389a24df95d8e1d8ecd1830310793286824bc4_0.file.Bank_get.tpl.php' bgcolor='#eeeeec'>...\c5389a24df95d8e1d8ecd1830310793286824bc4_0.file.Bank_get.tpl.php<b>:</b>28</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>12</td><td bgcolor='#eeeeec' align='center'>0.2402</td><td bgcolor='#eeeeec' align='right'>1812776</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>385</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>13</td><td bgcolor='#eeeeec' align='center'>0.2403</td><td bgcolor='#eeeeec' align='right'>1813240</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>216</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>14</td><td bgcolor='#eeeeec' align='center'>0.2404</td><td bgcolor='#eeeeec' align='right'>1823856</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->getRenderedTemplateCode(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_compiled.php' bgcolor='#eeeeec'>...\smarty_template_compiled.php<b>:</b>114</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>15</td><td bgcolor='#eeeeec' align='center'>0.2404</td><td bgcolor='#eeeeec' align='right'>1823856</td><td bgcolor='#eeeeec'>content_5d22e9f68003a2_93250047(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_resource_base.php' bgcolor='#eeeeec'>...\smarty_template_resource_base.php<b>:</b>123</td></tr>
+</table></font>
+"
+		}
+		]
+	},
+	"data":{
+	}
+}
+{
+	"head":{
+		"status":"FAILED"
+		,"message":"failed"
+		,"reasons":[
+	 	 {
+			"what":"<br />
+<font size='1'><table class='xdebug-error xe-notice' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Notice: Undefined offset: 0 in D:\xampp\htdocs\jcord\proj\tmp\3f9d125053422e0ae2176471d8dc697171e5b8c9_0.file.Bank_head.tpl.php on line <i>40</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.4434</td><td bgcolor='#eeeeec' align='right'>1786656</td><td bgcolor='#eeeeec'>{closure:D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:241-260}(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php' bgcolor='#eeeeec'>...\webapiJSON.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.4439</td><td bgcolor='#eeeeec' align='right'>1789920</td><td bgcolor='#eeeeec'>Smarty->display(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php' bgcolor='#eeeeec'>...\webapiJSON.php<b>:</b>258</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.4439</td><td bgcolor='#eeeeec' align='right'>1789920</td><td bgcolor='#eeeeec'>Smarty->_execute(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_templatebase.php' bgcolor='#eeeeec'>...\smarty_internal_templatebase.php<b>:</b>134</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.4443</td><td bgcolor='#eeeeec' align='right'>1809192</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_templatebase.php' bgcolor='#eeeeec'>...\smarty_internal_templatebase.php<b>:</b>232</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>0.4445</td><td bgcolor='#eeeeec' align='right'>1811000</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>216</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>6</td><td bgcolor='#eeeeec' align='center'>0.4448</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->getRenderedTemplateCode(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_compiled.php' bgcolor='#eeeeec'>...\smarty_template_compiled.php<b>:</b>114</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>7</td><td bgcolor='#eeeeec' align='center'>0.4449</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>content_5d2c4d9add5664_88398057(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_resource_base.php' bgcolor='#eeeeec'>...\smarty_template_resource_base.php<b>:</b>123</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>8</td><td bgcolor='#eeeeec' align='center'>0.4449</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->_subTemplateRender(  )</td><td title='D:\xampp\htdocs\jcord\proj\tmp\94b48cbe7adc9504ffad569a62e11b0b11aa771f_0.file.Error.tpl.php' bgcolor='#eeeeec'>...\94b48cbe7adc9504ffad569a62e11b0b11aa771f_0.file.Error.tpl.php<b>:</b>27</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>9</td><td bgcolor='#eeeeec' align='center'>0.4450</td><td bgcolor='#eeeeec' align='right'>1817144</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>385</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>10</td><td bgcolor='#eeeeec' align='center'>0.4451</td><td bgcolor='#eeeeec' align='right'>1817608</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>216</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>11</td><td bgcolor='#eeeeec' align='center'>0.4456</td><td bgcolor='#eeeeec' align='right'>1827096</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->getRenderedTemplateCode(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_compiled.php' bgcolor='#eeeeec'>...\smarty_template_compiled.php<b>:</b>114</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>12</td><td bgcolor='#eeeeec' align='center'>0.4456</td><td bgcolor='#eeeeec' align='right'>1827096</td><td bgcolor='#eeeeec'>content_5d22e9f68003a2_93250047(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_resource_base.php' bgcolor='#eeeeec'>...\smarty_template_resource_base.php<b>:</b>123</td></tr>
+</table></font>
+"
+			,"how":"<br />
+<font size='1'><table class='xdebug-error xe-notice' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Notice: Undefined offset: 0 in D:\xampp\htdocs\jcord\proj\tmp\3f9d125053422e0ae2176471d8dc697171e5b8c9_0.file.Bank_head.tpl.php on line <i>42</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.4434</td><td bgcolor='#eeeeec' align='right'>1786656</td><td bgcolor='#eeeeec'>{closure:D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:241-260}(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php' bgcolor='#eeeeec'>...\webapiJSON.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.4439</td><td bgcolor='#eeeeec' align='right'>1789920</td><td bgcolor='#eeeeec'>Smarty->display(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php' bgcolor='#eeeeec'>...\webapiJSON.php<b>:</b>258</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.4439</td><td bgcolor='#eeeeec' align='right'>1789920</td><td bgcolor='#eeeeec'>Smarty->_execute(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_templatebase.php' bgcolor='#eeeeec'>...\smarty_internal_templatebase.php<b>:</b>134</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.4443</td><td bgcolor='#eeeeec' align='right'>1809192</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_templatebase.php' bgcolor='#eeeeec'>...\smarty_internal_templatebase.php<b>:</b>232</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>0.4445</td><td bgcolor='#eeeeec' align='right'>1811000</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>216</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>6</td><td bgcolor='#eeeeec' align='center'>0.4448</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->getRenderedTemplateCode(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_compiled.php' bgcolor='#eeeeec'>...\smarty_template_compiled.php<b>:</b>114</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>7</td><td bgcolor='#eeeeec' align='center'>0.4449</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>content_5d2c4d9add5664_88398057(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_resource_base.php' bgcolor='#eeeeec'>...\smarty_template_resource_base.php<b>:</b>123</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>8</td><td bgcolor='#eeeeec' align='center'>0.4449</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->_subTemplateRender(  )</td><td title='D:\xampp\htdocs\jcord\proj\tmp\94b48cbe7adc9504ffad569a62e11b0b11aa771f_0.file.Error.tpl.php' bgcolor='#eeeeec'>...\94b48cbe7adc9504ffad569a62e11b0b11aa771f_0.file.Error.tpl.php<b>:</b>27</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>9</td><td bgcolor='#eeeeec' align='center'>0.4450</td><td bgcolor='#eeeeec' align='right'>1817144</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>385</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>10</td><td bgcolor='#eeeeec' align='center'>0.4451</td><td bgcolor='#eeeeec' align='right'>1817608</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>216</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>11</td><td bgcolor='#eeeeec' align='center'>0.4456</td><td bgcolor='#eeeeec' align='right'>1827096</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->getRenderedTemplateCode(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_compiled.php' bgcolor='#eeeeec'>...\smarty_template_compiled.php<b>:</b>114</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>12</td><td bgcolor='#eeeeec' align='center'>0.4456</td><td bgcolor='#eeeeec' align='right'>1827096</td><td bgcolor='#eeeeec'>content_5d22e9f68003a2_93250047(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_resource_base.php' bgcolor='#eeeeec'>...\smarty_template_resource_base.php<b>:</b>123</td></tr>
+</table></font>
+"
+			,"why":"<br />
+<font size='1'><table class='xdebug-error xe-notice' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Notice: Undefined offset: 0 in D:\xampp\htdocs\jcord\proj\tmp\3f9d125053422e0ae2176471d8dc697171e5b8c9_0.file.Bank_head.tpl.php on line <i>44</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.4434</td><td bgcolor='#eeeeec' align='right'>1786656</td><td bgcolor='#eeeeec'>{closure:D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:241-260}(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php' bgcolor='#eeeeec'>...\webapiJSON.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.4439</td><td bgcolor='#eeeeec' align='right'>1789920</td><td bgcolor='#eeeeec'>Smarty->display(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php' bgcolor='#eeeeec'>...\webapiJSON.php<b>:</b>258</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.4439</td><td bgcolor='#eeeeec' align='right'>1789920</td><td bgcolor='#eeeeec'>Smarty->_execute(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_templatebase.php' bgcolor='#eeeeec'>...\smarty_internal_templatebase.php<b>:</b>134</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.4443</td><td bgcolor='#eeeeec' align='right'>1809192</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_templatebase.php' bgcolor='#eeeeec'>...\smarty_internal_templatebase.php<b>:</b>232</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>0.4445</td><td bgcolor='#eeeeec' align='right'>1811000</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>216</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>6</td><td bgcolor='#eeeeec' align='center'>0.4448</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->getRenderedTemplateCode(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_compiled.php' bgcolor='#eeeeec'>...\smarty_template_compiled.php<b>:</b>114</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>7</td><td bgcolor='#eeeeec' align='center'>0.4449</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>content_5d2c4d9add5664_88398057(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_resource_base.php' bgcolor='#eeeeec'>...\smarty_template_resource_base.php<b>:</b>123</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>8</td><td bgcolor='#eeeeec' align='center'>0.4449</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->_subTemplateRender(  )</td><td title='D:\xampp\htdocs\jcord\proj\tmp\94b48cbe7adc9504ffad569a62e11b0b11aa771f_0.file.Error.tpl.php' bgcolor='#eeeeec'>...\94b48cbe7adc9504ffad569a62e11b0b11aa771f_0.file.Error.tpl.php<b>:</b>27</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>9</td><td bgcolor='#eeeeec' align='center'>0.4450</td><td bgcolor='#eeeeec' align='right'>1817144</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>385</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>10</td><td bgcolor='#eeeeec' align='center'>0.4451</td><td bgcolor='#eeeeec' align='right'>1817608</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>216</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>11</td><td bgcolor='#eeeeec' align='center'>0.4456</td><td bgcolor='#eeeeec' align='right'>1827096</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->getRenderedTemplateCode(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_compiled.php' bgcolor='#eeeeec'>...\smarty_template_compiled.php<b>:</b>114</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>12</td><td bgcolor='#eeeeec' align='center'>0.4456</td><td bgcolor='#eeeeec' align='right'>1827096</td><td bgcolor='#eeeeec'>content_5d22e9f68003a2_93250047(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_resource_base.php' bgcolor='#eeeeec'>...\smarty_template_resource_base.php<b>:</b>123</td></tr>
+</table></font>
+"
+			,"level":"<br />
+<font size='1'><table class='xdebug-error xe-notice' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Notice: Undefined offset: 0 in D:\xampp\htdocs\jcord\proj\tmp\3f9d125053422e0ae2176471d8dc697171e5b8c9_0.file.Bank_head.tpl.php on line <i>46</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.4434</td><td bgcolor='#eeeeec' align='right'>1786656</td><td bgcolor='#eeeeec'>{closure:D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:241-260}(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php' bgcolor='#eeeeec'>...\webapiJSON.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.4439</td><td bgcolor='#eeeeec' align='right'>1789920</td><td bgcolor='#eeeeec'>Smarty->display(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php' bgcolor='#eeeeec'>...\webapiJSON.php<b>:</b>258</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.4439</td><td bgcolor='#eeeeec' align='right'>1789920</td><td bgcolor='#eeeeec'>Smarty->_execute(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_templatebase.php' bgcolor='#eeeeec'>...\smarty_internal_templatebase.php<b>:</b>134</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.4443</td><td bgcolor='#eeeeec' align='right'>1809192</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_templatebase.php' bgcolor='#eeeeec'>...\smarty_internal_templatebase.php<b>:</b>232</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>0.4445</td><td bgcolor='#eeeeec' align='right'>1811000</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>216</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>6</td><td bgcolor='#eeeeec' align='center'>0.4448</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->getRenderedTemplateCode(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_compiled.php' bgcolor='#eeeeec'>...\smarty_template_compiled.php<b>:</b>114</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>7</td><td bgcolor='#eeeeec' align='center'>0.4449</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>content_5d2c4d9add5664_88398057(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_resource_base.php' bgcolor='#eeeeec'>...\smarty_template_resource_base.php<b>:</b>123</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>8</td><td bgcolor='#eeeeec' align='center'>0.4449</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->_subTemplateRender(  )</td><td title='D:\xampp\htdocs\jcord\proj\tmp\94b48cbe7adc9504ffad569a62e11b0b11aa771f_0.file.Error.tpl.php' bgcolor='#eeeeec'>...\94b48cbe7adc9504ffad569a62e11b0b11aa771f_0.file.Error.tpl.php<b>:</b>27</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>9</td><td bgcolor='#eeeeec' align='center'>0.4450</td><td bgcolor='#eeeeec' align='right'>1817144</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>385</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>10</td><td bgcolor='#eeeeec' align='center'>0.4451</td><td bgcolor='#eeeeec' align='right'>1817608</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>216</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>11</td><td bgcolor='#eeeeec' align='center'>0.4456</td><td bgcolor='#eeeeec' align='right'>1827096</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->getRenderedTemplateCode(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_compiled.php' bgcolor='#eeeeec'>...\smarty_template_compiled.php<b>:</b>114</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>12</td><td bgcolor='#eeeeec' align='center'>0.4456</td><td bgcolor='#eeeeec' align='right'>1827096</td><td bgcolor='#eeeeec'>content_5d22e9f68003a2_93250047(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_resource_base.php' bgcolor='#eeeeec'>...\smarty_template_resource_base.php<b>:</b>123</td></tr>
+</table></font>
+"
+		}
+		,
+	 	 {
+			"what":"<br />
+<font size='1'><table class='xdebug-error xe-notice' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Notice: Undefined offset: 1 in D:\xampp\htdocs\jcord\proj\tmp\3f9d125053422e0ae2176471d8dc697171e5b8c9_0.file.Bank_head.tpl.php on line <i>40</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.4434</td><td bgcolor='#eeeeec' align='right'>1786656</td><td bgcolor='#eeeeec'>{closure:D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:241-260}(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php' bgcolor='#eeeeec'>...\webapiJSON.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.4439</td><td bgcolor='#eeeeec' align='right'>1789920</td><td bgcolor='#eeeeec'>Smarty->display(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php' bgcolor='#eeeeec'>...\webapiJSON.php<b>:</b>258</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.4439</td><td bgcolor='#eeeeec' align='right'>1789920</td><td bgcolor='#eeeeec'>Smarty->_execute(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_templatebase.php' bgcolor='#eeeeec'>...\smarty_internal_templatebase.php<b>:</b>134</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.4443</td><td bgcolor='#eeeeec' align='right'>1809192</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_templatebase.php' bgcolor='#eeeeec'>...\smarty_internal_templatebase.php<b>:</b>232</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>0.4445</td><td bgcolor='#eeeeec' align='right'>1811000</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>216</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>6</td><td bgcolor='#eeeeec' align='center'>0.4448</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->getRenderedTemplateCode(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_compiled.php' bgcolor='#eeeeec'>...\smarty_template_compiled.php<b>:</b>114</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>7</td><td bgcolor='#eeeeec' align='center'>0.4449</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>content_5d2c4d9add5664_88398057(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_resource_base.php' bgcolor='#eeeeec'>...\smarty_template_resource_base.php<b>:</b>123</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>8</td><td bgcolor='#eeeeec' align='center'>0.4449</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->_subTemplateRender(  )</td><td title='D:\xampp\htdocs\jcord\proj\tmp\94b48cbe7adc9504ffad569a62e11b0b11aa771f_0.file.Error.tpl.php' bgcolor='#eeeeec'>...\94b48cbe7adc9504ffad569a62e11b0b11aa771f_0.file.Error.tpl.php<b>:</b>27</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>9</td><td bgcolor='#eeeeec' align='center'>0.4450</td><td bgcolor='#eeeeec' align='right'>1817144</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>385</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>10</td><td bgcolor='#eeeeec' align='center'>0.4451</td><td bgcolor='#eeeeec' align='right'>1817608</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>216</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>11</td><td bgcolor='#eeeeec' align='center'>0.4456</td><td bgcolor='#eeeeec' align='right'>1827096</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->getRenderedTemplateCode(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_compiled.php' bgcolor='#eeeeec'>...\smarty_template_compiled.php<b>:</b>114</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>12</td><td bgcolor='#eeeeec' align='center'>0.4456</td><td bgcolor='#eeeeec' align='right'>1827096</td><td bgcolor='#eeeeec'>content_5d22e9f68003a2_93250047(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_resource_base.php' bgcolor='#eeeeec'>...\smarty_template_resource_base.php<b>:</b>123</td></tr>
+</table></font>
+"
+			,"how":"<br />
+<font size='1'><table class='xdebug-error xe-notice' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Notice: Undefined offset: 1 in D:\xampp\htdocs\jcord\proj\tmp\3f9d125053422e0ae2176471d8dc697171e5b8c9_0.file.Bank_head.tpl.php on line <i>42</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.4434</td><td bgcolor='#eeeeec' align='right'>1786656</td><td bgcolor='#eeeeec'>{closure:D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:241-260}(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php' bgcolor='#eeeeec'>...\webapiJSON.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.4439</td><td bgcolor='#eeeeec' align='right'>1789920</td><td bgcolor='#eeeeec'>Smarty->display(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php' bgcolor='#eeeeec'>...\webapiJSON.php<b>:</b>258</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.4439</td><td bgcolor='#eeeeec' align='right'>1789920</td><td bgcolor='#eeeeec'>Smarty->_execute(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_templatebase.php' bgcolor='#eeeeec'>...\smarty_internal_templatebase.php<b>:</b>134</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.4443</td><td bgcolor='#eeeeec' align='right'>1809192</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_templatebase.php' bgcolor='#eeeeec'>...\smarty_internal_templatebase.php<b>:</b>232</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>0.4445</td><td bgcolor='#eeeeec' align='right'>1811000</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>216</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>6</td><td bgcolor='#eeeeec' align='center'>0.4448</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->getRenderedTemplateCode(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_compiled.php' bgcolor='#eeeeec'>...\smarty_template_compiled.php<b>:</b>114</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>7</td><td bgcolor='#eeeeec' align='center'>0.4449</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>content_5d2c4d9add5664_88398057(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_resource_base.php' bgcolor='#eeeeec'>...\smarty_template_resource_base.php<b>:</b>123</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>8</td><td bgcolor='#eeeeec' align='center'>0.4449</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->_subTemplateRender(  )</td><td title='D:\xampp\htdocs\jcord\proj\tmp\94b48cbe7adc9504ffad569a62e11b0b11aa771f_0.file.Error.tpl.php' bgcolor='#eeeeec'>...\94b48cbe7adc9504ffad569a62e11b0b11aa771f_0.file.Error.tpl.php<b>:</b>27</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>9</td><td bgcolor='#eeeeec' align='center'>0.4450</td><td bgcolor='#eeeeec' align='right'>1817144</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>385</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>10</td><td bgcolor='#eeeeec' align='center'>0.4451</td><td bgcolor='#eeeeec' align='right'>1817608</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>216</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>11</td><td bgcolor='#eeeeec' align='center'>0.4456</td><td bgcolor='#eeeeec' align='right'>1827096</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->getRenderedTemplateCode(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_compiled.php' bgcolor='#eeeeec'>...\smarty_template_compiled.php<b>:</b>114</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>12</td><td bgcolor='#eeeeec' align='center'>0.4456</td><td bgcolor='#eeeeec' align='right'>1827096</td><td bgcolor='#eeeeec'>content_5d22e9f68003a2_93250047(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_resource_base.php' bgcolor='#eeeeec'>...\smarty_template_resource_base.php<b>:</b>123</td></tr>
+</table></font>
+"
+			,"why":"<br />
+<font size='1'><table class='xdebug-error xe-notice' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Notice: Undefined offset: 1 in D:\xampp\htdocs\jcord\proj\tmp\3f9d125053422e0ae2176471d8dc697171e5b8c9_0.file.Bank_head.tpl.php on line <i>44</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.4434</td><td bgcolor='#eeeeec' align='right'>1786656</td><td bgcolor='#eeeeec'>{closure:D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:241-260}(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php' bgcolor='#eeeeec'>...\webapiJSON.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.4439</td><td bgcolor='#eeeeec' align='right'>1789920</td><td bgcolor='#eeeeec'>Smarty->display(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php' bgcolor='#eeeeec'>...\webapiJSON.php<b>:</b>258</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.4439</td><td bgcolor='#eeeeec' align='right'>1789920</td><td bgcolor='#eeeeec'>Smarty->_execute(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_templatebase.php' bgcolor='#eeeeec'>...\smarty_internal_templatebase.php<b>:</b>134</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.4443</td><td bgcolor='#eeeeec' align='right'>1809192</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_templatebase.php' bgcolor='#eeeeec'>...\smarty_internal_templatebase.php<b>:</b>232</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>0.4445</td><td bgcolor='#eeeeec' align='right'>1811000</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>216</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>6</td><td bgcolor='#eeeeec' align='center'>0.4448</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->getRenderedTemplateCode(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_compiled.php' bgcolor='#eeeeec'>...\smarty_template_compiled.php<b>:</b>114</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>7</td><td bgcolor='#eeeeec' align='center'>0.4449</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>content_5d2c4d9add5664_88398057(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_resource_base.php' bgcolor='#eeeeec'>...\smarty_template_resource_base.php<b>:</b>123</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>8</td><td bgcolor='#eeeeec' align='center'>0.4449</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->_subTemplateRender(  )</td><td title='D:\xampp\htdocs\jcord\proj\tmp\94b48cbe7adc9504ffad569a62e11b0b11aa771f_0.file.Error.tpl.php' bgcolor='#eeeeec'>...\94b48cbe7adc9504ffad569a62e11b0b11aa771f_0.file.Error.tpl.php<b>:</b>27</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>9</td><td bgcolor='#eeeeec' align='center'>0.4450</td><td bgcolor='#eeeeec' align='right'>1817144</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>385</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>10</td><td bgcolor='#eeeeec' align='center'>0.4451</td><td bgcolor='#eeeeec' align='right'>1817608</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>216</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>11</td><td bgcolor='#eeeeec' align='center'>0.4456</td><td bgcolor='#eeeeec' align='right'>1827096</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->getRenderedTemplateCode(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_compiled.php' bgcolor='#eeeeec'>...\smarty_template_compiled.php<b>:</b>114</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>12</td><td bgcolor='#eeeeec' align='center'>0.4456</td><td bgcolor='#eeeeec' align='right'>1827096</td><td bgcolor='#eeeeec'>content_5d22e9f68003a2_93250047(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_resource_base.php' bgcolor='#eeeeec'>...\smarty_template_resource_base.php<b>:</b>123</td></tr>
+</table></font>
+"
+			,"level":"<br />
+<font size='1'><table class='xdebug-error xe-notice' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Notice: Undefined offset: 1 in D:\xampp\htdocs\jcord\proj\tmp\3f9d125053422e0ae2176471d8dc697171e5b8c9_0.file.Bank_head.tpl.php on line <i>46</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.4434</td><td bgcolor='#eeeeec' align='right'>1786656</td><td bgcolor='#eeeeec'>{closure:D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:241-260}(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php' bgcolor='#eeeeec'>...\webapiJSON.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.4439</td><td bgcolor='#eeeeec' align='right'>1789920</td><td bgcolor='#eeeeec'>Smarty->display(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php' bgcolor='#eeeeec'>...\webapiJSON.php<b>:</b>258</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.4439</td><td bgcolor='#eeeeec' align='right'>1789920</td><td bgcolor='#eeeeec'>Smarty->_execute(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_templatebase.php' bgcolor='#eeeeec'>...\smarty_internal_templatebase.php<b>:</b>134</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.4443</td><td bgcolor='#eeeeec' align='right'>1809192</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_templatebase.php' bgcolor='#eeeeec'>...\smarty_internal_templatebase.php<b>:</b>232</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>0.4445</td><td bgcolor='#eeeeec' align='right'>1811000</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>216</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>6</td><td bgcolor='#eeeeec' align='center'>0.4448</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->getRenderedTemplateCode(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_compiled.php' bgcolor='#eeeeec'>...\smarty_template_compiled.php<b>:</b>114</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>7</td><td bgcolor='#eeeeec' align='center'>0.4449</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>content_5d2c4d9add5664_88398057(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_resource_base.php' bgcolor='#eeeeec'>...\smarty_template_resource_base.php<b>:</b>123</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>8</td><td bgcolor='#eeeeec' align='center'>0.4449</td><td bgcolor='#eeeeec' align='right'>1814376</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->_subTemplateRender(  )</td><td title='D:\xampp\htdocs\jcord\proj\tmp\94b48cbe7adc9504ffad569a62e11b0b11aa771f_0.file.Error.tpl.php' bgcolor='#eeeeec'>...\94b48cbe7adc9504ffad569a62e11b0b11aa771f_0.file.Error.tpl.php<b>:</b>27</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>9</td><td bgcolor='#eeeeec' align='center'>0.4450</td><td bgcolor='#eeeeec' align='right'>1817144</td><td bgcolor='#eeeeec'>Smarty_Internal_Template->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>385</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>10</td><td bgcolor='#eeeeec' align='center'>0.4451</td><td bgcolor='#eeeeec' align='right'>1817608</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->render(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_internal_template.php' bgcolor='#eeeeec'>...\smarty_internal_template.php<b>:</b>216</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>11</td><td bgcolor='#eeeeec' align='center'>0.4456</td><td bgcolor='#eeeeec' align='right'>1827096</td><td bgcolor='#eeeeec'>Smarty_Template_Compiled->getRenderedTemplateCode(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_compiled.php' bgcolor='#eeeeec'>...\smarty_template_compiled.php<b>:</b>114</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>12</td><td bgcolor='#eeeeec' align='center'>0.4456</td><td bgcolor='#eeeeec' align='right'>1827096</td><td bgcolor='#eeeeec'>content_5d22e9f68003a2_93250047(  )</td><td title='D:\xampp\htdocs\jcord\proj\lib\smarty\libs\sysplugins\smarty_template_resource_base.php' bgcolor='#eeeeec'>...\smarty_template_resource_base.php<b>:</b>123</td></tr>
+</table></font>
+"
+		}
+		]
+	}
+}
+
+            [status] => 200
+            [statusText] => OK
+            [isConverted] => 1
+        )
+
+)
+
+2019/07/18 11:50:41(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:89 apiBankWeb->upd prepare
+2019/07/18 11:50:41(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:89 apiBankWeb->upd prepare
+2019/07/18 11:50:41(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\logic\logicBank.php:226 dbsvcCommon->connect dsn = pgsql:dbname=jcorddb host=192.168.201.74 port=5432
+2019/07/18 11:50:41(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\logic\logicBank.php:238 BVBank->check_RECID >> ()
+2019/07/18 11:50:41(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\logic\logicBank.php:238 BVBank->check_RECID <<
+2019/07/18 11:50:41(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\apiBankWeb.php:132 logicBank->getRecId << 0
+2019/07/18 11:50:41(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\logic\logicBank.php:241 dbsvcCommon->disconnect disconnect flag = 0
+2019/07/18 11:50:41(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\db\dbsvc\dbsvcCommon.php:34 dbsvcCommon->rollback rollback flag = 0
+2019/07/18 11:50:41(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:89 apiBankWeb->upd << (-1)
+2019/07/18 11:50:41(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:144 webapiCore->exec << 0
+2019/07/18 11:50:41(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:219 webapiCore->action << (pre:0)
+2019/07/18 11:50:41(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:147 webapiJSON->post >>(0)
+2019/07/18 11:50:41(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:147 webapiJSON->post Array
+(
+    [0] => Array
+        (
+            [what] => RECID
+            [how] => 
+            [why] => error.validation.data.mandatory
+            [level] => 4
+        )
+
+)
+
+2019/07/18 11:50:41(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:147 webapiJSON->post Array
+(
+)
+
+2019/07/18 11:50:41(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:147 webapiJSON->post << 1
+2019/07/18 11:50:41(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:219 webapiCore->action << (pre:1)
+2019/07/18 11:50:41(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:219 webapiCore->action <<
+2019/07/18 11:50:41(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:264 webapiJSON->main <<
+2019/07/18 11:50:42(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:263 webapiJSON->__construct >>()
+2019/07/18 11:50:42(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:263 webapiJSON->__construct <<
+2019/07/18 11:50:42(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:264 webapiJSON->main >>()
+2019/07/18 11:50:42(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:264 webapiJSON->main param:/jcord/proj/lib/webapi/bank/Bank/get/594
+2019/07/18 11:50:42(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:264 webapiJSON->main 
+2019/07/18 11:50:42(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:264 webapiJSON->main MATCH other(Bank:get)
+2019/07/18 11:50:42(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:219 webapiCore->action >>()
+2019/07/18 11:50:42(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:141 webapiCore->pre >>(1)
+2019/07/18 11:50:42(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:141 webapiCore->pre << 1
+2019/07/18 11:50:42(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:219 webapiCore->action << (pre:1)
+2019/07/18 11:50:42(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:144 webapiCore->exec >>(1)
+2019/07/18 11:50:42(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\logic\logicBank.php:226 dbsvcCommon->connect dsn = pgsql:dbname=jcorddb host=192.168.201.74 port=5432
+2019/07/18 11:50:42(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\logic\logicBank.php:238 BVBank->check_RECID >> (594)
+2019/07/18 11:50:42(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\validate\level2\FVInteger.php:59 PVType::validate input = 1
+2019/07/18 11:50:42(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\validate\level2\FVInteger.php:59 PVType::validate type = integer
+2019/07/18 11:50:42(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\validate\level1\PVType.php:59 PVType::_validate_int << (594,1,RECID)
+2019/07/18 11:50:42(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\logic\logicBank.php:238 BVBank->check_RECID <<
+2019/07/18 11:50:42(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\db\dbsvc\dbsvcCore.php:345 dbsvcCore->bindSQL (1) key m_recid: 594
+2019/07/18 11:50:42(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\db\dbsvc\dbsvcCore.php:345 dbsvcCore->bindSQL (2) key m_del_flg: 0
+2019/07/18 11:50:42(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\logic\logicBank.php:258 dbsvcCore->Get bindSQL: ret(3)
+2019/07/18 11:50:42(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\logic\logicBank.php:258 dbsvcCore->Get execute: ret(true)
+2019/07/18 11:50:42(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\logic\logicBank.php:266 dbsvcCommon->disconnect disconnect flag = 0
+2019/07/18 11:50:42(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\db\dbsvc\dbsvcCommon.php:34 dbsvcCommon->rollback rollback flag = 0
+2019/07/18 11:50:42(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:89 apiBank->get << (-110)
+2019/07/18 11:50:42(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:144 webapiCore->exec << 0
+2019/07/18 11:50:42(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:219 webapiCore->action << (pre:0)
+2019/07/18 11:50:42(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:147 webapiJSON->post >>(0)
+2019/07/18 11:50:42(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:147 webapiJSON->post Array
+(
+    [0] => Array
+        (
+            [what] => Data not found
+            [how] => Data not found
+            [why] => Don't have any data with recid = 594 in DB
+        )
+
+)
+
+2019/07/18 11:50:42(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:147 webapiJSON->post Array
+(
+)
+
+2019/07/18 11:50:42(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:147 webapiJSON->post << 1
+2019/07/18 11:50:42(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:219 webapiCore->action << (pre:1)
+2019/07/18 11:50:42(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:219 webapiCore->action <<
+2019/07/18 11:50:42(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:264 webapiJSON->main <<
+2019/07/18 11:50:43(5712)	::1                     :0 {closure} Array
+(
+    [type] => 8
+    [message] => Undefined index: level
+    [file] => D:\xampp\htdocs\jcord\proj\tmp\3f9d125053422e0ae2176471d8dc697171e5b8c9_0.file.Bank_head.tpl.php
+    [line] => 46
+)
+
+2019/07/18 11:50:58(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:263 webapiJSON->__construct >>()
+2019/07/18 11:50:58(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:263 webapiJSON->__construct <<
+2019/07/18 11:50:58(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:264 webapiJSON->main >>()
+2019/07/18 11:50:58(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:264 webapiJSON->main param:/jcord/proj/lib/webapi/bank/Bank/get/594
+2019/07/18 11:50:58(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:264 webapiJSON->main 
+2019/07/18 11:50:58(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:264 webapiJSON->main MATCH other(Bank:get)
+2019/07/18 11:50:58(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:219 webapiCore->action >>()
+2019/07/18 11:50:58(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:141 webapiCore->pre >>(1)
+2019/07/18 11:50:58(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:141 webapiCore->pre << 1
+2019/07/18 11:50:58(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:219 webapiCore->action << (pre:1)
+2019/07/18 11:50:58(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:144 webapiCore->exec >>(1)
+2019/07/18 11:50:58(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\logic\logicBank.php:226 dbsvcCommon->connect dsn = pgsql:dbname=jcorddb host=192.168.201.74 port=5432
+2019/07/18 11:50:58(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\logic\logicBank.php:238 BVBank->check_RECID >> (594)
+2019/07/18 11:50:58(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\validate\level2\FVInteger.php:59 PVType::validate input = 1
+2019/07/18 11:50:58(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\validate\level2\FVInteger.php:59 PVType::validate type = integer
+2019/07/18 11:50:58(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\validate\level1\PVType.php:59 PVType::_validate_int << (594,1,RECID)
+2019/07/18 11:50:58(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\logic\logicBank.php:238 BVBank->check_RECID <<
+2019/07/18 11:50:58(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\db\dbsvc\dbsvcCore.php:345 dbsvcCore->bindSQL (1) key m_recid: 594
+2019/07/18 11:50:58(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\db\dbsvc\dbsvcCore.php:345 dbsvcCore->bindSQL (2) key m_del_flg: 0
+2019/07/18 11:50:58(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\logic\logicBank.php:258 dbsvcCore->Get bindSQL: ret(3)
+2019/07/18 11:50:58(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\logic\logicBank.php:258 dbsvcCore->Get execute: ret(true)
+2019/07/18 11:50:58(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\logic\logicBank.php:266 dbsvcCommon->disconnect disconnect flag = 0
+2019/07/18 11:50:58(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\db\dbsvc\dbsvcCommon.php:34 dbsvcCommon->rollback rollback flag = 0
+2019/07/18 11:50:58(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:89 apiBank->get << (-110)
+2019/07/18 11:50:58(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:144 webapiCore->exec << 0
+2019/07/18 11:50:58(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:219 webapiCore->action << (pre:0)
+2019/07/18 11:50:58(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:147 webapiJSON->post >>(0)
+2019/07/18 11:50:58(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:147 webapiJSON->post Array
+(
+    [0] => Array
+        (
+            [what] => Data not found
+            [how] => Data not found
+            [why] => Don't have any data with recid = 594 in DB
+        )
+
+)
+
+2019/07/18 11:50:58(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:147 webapiJSON->post Array
+(
+)
+
+2019/07/18 11:50:58(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:147 webapiJSON->post << 1
+2019/07/18 11:50:58(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:219 webapiCore->action << (pre:1)
+2019/07/18 11:50:58(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:219 webapiCore->action <<
+2019/07/18 11:50:58(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:264 webapiJSON->main <<
+2019/07/18 11:50:58(5712)	::1                     :0 {closure} Array
+(
+    [type] => 8
+    [message] => Undefined index: level
+    [file] => D:\xampp\htdocs\jcord\proj\tmp\3f9d125053422e0ae2176471d8dc697171e5b8c9_0.file.Bank_head.tpl.php
+    [line] => 46
+)
+
+2019/07/18 11:52:12(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:263 webapiJSON->__construct >>()
+2019/07/18 11:52:12(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:263 webapiJSON->__construct <<
+2019/07/18 11:52:12(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:264 webapiJSON->main >>()
+2019/07/18 11:52:12(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:264 webapiJSON->main param:/jcord/proj/lib/webapi/bank/BankWeb/add/prepare
+2019/07/18 11:52:12(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:264 webapiJSON->main Array
+(
+    [bankid] => 
+    [cur_bankid] => 
+    [available] => 
+    [bank_name] => 
+    [short_name] => 
+    [ename] => 
+    [short_ename] => 
+    [person] => 
+    [tel_num] => 
+    [fax_num] => 
+    [kind] => 
+    [row_nth] => 
+    [recid] => 
+    [isConverted] => 1
+)
+
+2019/07/18 11:52:12(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:264 webapiJSON->main MATCH other(BankWeb:add)
+2019/07/18 11:52:13(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:219 webapiCore->action >>()
+2019/07/18 11:52:13(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:141 webapiCore->pre >>(1)
+2019/07/18 11:52:13(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:141 webapiCore->pre << 1
+2019/07/18 11:52:13(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:219 webapiCore->action << (pre:1)
+2019/07/18 11:52:13(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:144 webapiCore->exec >>(1)
+2019/07/18 11:52:13(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:89 apiBankWeb->add >>()
+2019/07/18 11:52:13(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:89 apiBankWeb->add prepare
+2019/07/18 11:52:13(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:89 apiBankWeb->add << 1
+2019/07/18 11:52:13(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:144 webapiCore->exec << 1
+2019/07/18 11:52:13(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:219 webapiCore->action << (pre:1)
+2019/07/18 11:52:13(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:147 webapiJSON->post >>(1)
+2019/07/18 11:52:13(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:147 webapiJSON->post Array
+(
+)
+
+2019/07/18 11:52:13(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:147 webapiJSON->post Array
+(
+)
+
+2019/07/18 11:52:13(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiCore.php:147 webapiJSON->post << 1
+2019/07/18 11:52:13(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:219 webapiCore->action << (pre:1)
+2019/07/18 11:52:13(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:219 webapiCore->action <<
+2019/07/18 11:52:13(5712)	::1 D:\xampp\htdocs\jcord\proj\lib\webapi\webapiJSON.php:264 webapiJSON->main <<

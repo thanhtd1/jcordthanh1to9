@@ -1,0 +1,14 @@
+<?php
+
+class dboCore {
+
+	// メンバ定数
+{0}
+	// メンバ変数
+{1}
+
+	function __construct()
+	{
+	}
+}
+?>

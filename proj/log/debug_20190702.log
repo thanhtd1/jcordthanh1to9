@@ -1,0 +1,1651 @@
+2019/07/02 15:11:09(3224)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_equals >>(1,1)
+2019/07/02 15:11:09(3224)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_equals << 1
+2019/07/02 15:11:09(3224)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_equals >>(1,1)
+2019/07/02 15:11:09(3224)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_equals << 
+2019/07/02 15:11:09(3224)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_equals >>(1,1)
+2019/07/02 15:11:09(3224)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_equals << 
+2019/07/02 15:11:09(3224)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_equals >>(1,1)
+2019/07/02 15:11:09(3224)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_equals << 
+2019/07/02 15:11:09(3224)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_equals >>(,1)
+2019/07/02 15:11:09(3224)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_equals << 
+2019/07/02 15:11:09(3224)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_equals >>(,1)
+2019/07/02 15:11:09(3224)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_equals << 
+2019/07/02 15:15:25(8732)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_equals >>(1,1)
+2019/07/02 15:15:25(8732)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_equals << 1
+2019/07/02 15:15:25(8732)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_equals >>(1,1)
+2019/07/02 15:15:25(8732)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_equals << 
+2019/07/02 15:15:25(8732)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_equals >>(1,1)
+2019/07/02 15:15:25(8732)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_equals << 
+2019/07/02 15:15:25(8732)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_equals >>(1,1)
+2019/07/02 15:15:25(8732)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_equals << 
+2019/07/02 15:15:25(8732)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_equals >>(,1)
+2019/07/02 15:15:25(8732)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_equals << 
+2019/07/02 15:15:25(8732)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_equals >>(,1)
+2019/07/02 15:15:25(8732)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_equals << 
+2019/07/02 15:22:54(9184)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,1)
+2019/07/02 15:22:54(9184)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 15:22:54(9184)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 15:22:54(9184)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(1)
+2019/07/02 15:22:54(9184)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 15:22:54(9184)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(1)
+2019/07/02 15:22:54(9184)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 15:22:54(9184)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 15:24:50(7012)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,1)
+2019/07/02 15:24:52(7012)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 15:24:52(7012)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 15:24:54(7012)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(1)
+2019/07/02 15:24:54(7012)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 15:24:55(7012)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(1)
+2019/07/02 15:24:55(7012)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 15:25:04(7012)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 16:50:49(11524)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(0,1)
+2019/07/02 16:50:49(11524)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 16:50:49(11524)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 16:50:49(11524)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(0)
+2019/07/02 16:50:49(11524)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 16:50:49(11524)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(0)
+2019/07/02 16:50:49(11524)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 16:50:49(11524)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 16:52:03(16368)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(0,1)
+2019/07/02 16:52:03(16368)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 16:52:03(16368)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 16:52:03(16368)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(0)
+2019/07/02 16:52:03(16368)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 16:52:03(16368)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(0)
+2019/07/02 16:52:03(16368)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 16:52:03(16368)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 16:53:45(13976)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(0,1)
+2019/07/02 16:53:45(13976)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 16:53:45(13976)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 16:53:47(13976)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(0)
+2019/07/02 16:53:47(13976)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 16:53:50(13976)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(0)
+2019/07/02 16:53:50(13976)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 16:54:13(13976)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 16:57:07(10948)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,)
+2019/07/02 16:57:07(10948)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 16:57:07(10948)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 16:57:07(10948)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(1)
+2019/07/02 16:57:07(10948)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 16:57:07(10948)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(1)
+2019/07/02 16:57:07(10948)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 16:57:07(10948)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 16:57:19(15736)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,)
+2019/07/02 16:57:19(15736)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 16:57:19(15736)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 16:57:19(15736)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(1)
+2019/07/02 16:57:19(15736)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 16:57:19(15736)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(1)
+2019/07/02 16:57:19(15736)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 16:57:19(15736)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:06:56(9376)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,)
+2019/07/02 17:06:56(9376)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:06:56(9376)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:06:56(9376)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(1)
+2019/07/02 17:06:56(9376)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:06:56(9376)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(1)
+2019/07/02 17:06:56(9376)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:06:56(9376)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:06:56(9376)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,1)
+2019/07/02 17:06:56(9376)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 17:06:56(9376)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:06:56(9376)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(-1)
+2019/07/02 17:06:56(9376)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:06:56(9376)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(-1)
+2019/07/02 17:06:56(9376)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:06:56(9376)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:07:03(13780)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,)
+2019/07/02 17:07:03(13780)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:07:03(13780)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:07:03(13780)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(1)
+2019/07/02 17:07:03(13780)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:07:03(13780)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(1)
+2019/07/02 17:07:03(13780)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:07:03(13780)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:07:03(13780)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,1)
+2019/07/02 17:07:03(13780)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 17:07:03(13780)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:07:03(13780)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(-1)
+2019/07/02 17:07:03(13780)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:07:03(13780)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(-1)
+2019/07/02 17:07:03(13780)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:07:03(13780)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:09:39(15084)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,)
+2019/07/02 17:09:39(15084)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:09:39(15084)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:09:39(15084)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(1)
+2019/07/02 17:09:39(15084)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:09:39(15084)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(1)
+2019/07/02 17:09:39(15084)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:09:39(15084)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:09:39(15084)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,1)
+2019/07/02 17:09:39(15084)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 17:09:39(15084)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:09:39(15084)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(-1)
+2019/07/02 17:09:39(15084)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:09:39(15084)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(-1)
+2019/07/02 17:09:39(15084)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:09:39(15084)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:09:39(15084)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,)
+2019/07/02 17:09:39(15084)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:09:39(15084)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:09:39(15084)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(-1)
+2019/07/02 17:09:39(15084)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:09:39(15084)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(-1)
+2019/07/02 17:09:39(15084)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:09:39(15084)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:10:55(7184)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,1)
+2019/07/02 17:10:57(7184)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 17:10:57(7184)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:11:01(7184)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(-1)
+2019/07/02 17:11:01(7184)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:11:18(7184)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(-1)
+2019/07/02 17:11:18(7184)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:16:38(3000)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,1)
+2019/07/02 17:16:38(3000)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 17:16:38(3000)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:16:38(3000)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(1)
+2019/07/02 17:16:38(3000)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:16:38(3000)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(1)
+2019/07/02 17:16:38(3000)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:16:38(3000)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,1)
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(1)
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(1)
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,)
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(1)
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(1)
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,1)
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(-1)
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(-1)
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,)
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(-1)
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(-1)
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,)
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,)
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,)
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,)
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,)
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,)
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,)
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,)
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:16:42(7848)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:16:49(15216)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,1)
+2019/07/02 17:16:49(15216)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 17:16:49(15216)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:16:49(15216)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(1)
+2019/07/02 17:16:49(15216)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:16:49(15216)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(1)
+2019/07/02 17:16:49(15216)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:16:49(15216)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:16:49(15216)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,)
+2019/07/02 17:16:49(15216)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:16:49(15216)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:16:49(15216)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(1)
+2019/07/02 17:16:49(15216)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:16:49(15216)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(1)
+2019/07/02 17:16:49(15216)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:16:49(15216)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:16:49(15216)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,1)
+2019/07/02 17:16:49(15216)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 17:16:49(15216)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:16:49(15216)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(-1)
+2019/07/02 17:16:49(15216)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:16:49(15216)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(-1)
+2019/07/02 17:16:49(15216)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:16:49(15216)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:16:49(15216)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,)
+2019/07/02 17:16:49(15216)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:16:49(15216)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:16:49(15216)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(-1)
+2019/07/02 17:16:49(15216)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:16:49(15216)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(-1)
+2019/07/02 17:16:49(15216)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:16:49(15216)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:16:49(15216)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,)
+2019/07/02 17:16:49(15216)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:16:49(15216)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:16:49(15216)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:16:50(15216)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,)
+2019/07/02 17:16:50(15216)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:16:50(15216)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:16:50(15216)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:16:50(15216)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,)
+2019/07/02 17:16:50(15216)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:16:50(15216)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:16:50(15216)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:16:50(15216)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,)
+2019/07/02 17:16:50(15216)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:16:50(15216)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:16:50(15216)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:16:50(15216)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,)
+2019/07/02 17:16:50(15216)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:16:50(15216)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:16:50(15216)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:16:50(15216)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,)
+2019/07/02 17:16:50(15216)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:16:50(15216)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:16:50(15216)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:16:50(15216)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,)
+2019/07/02 17:16:50(15216)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:16:50(15216)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:16:50(15216)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:16:50(15216)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,)
+2019/07/02 17:16:50(15216)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:16:50(15216)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:16:50(15216)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,1)
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(1)
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(1)
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,)
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(1)
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(1)
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,1)
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(-1)
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(-1)
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,)
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(-1)
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(-1)
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,)
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,)
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,)
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,)
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,)
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,)
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,)
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,)
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:19:38(11508)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,1)
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(1)
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(1)
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,)
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(1)
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(1)
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,1)
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(-1)
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(-1)
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,)
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(-1)
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(-1)
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,)
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,)
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,)
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,)
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,)
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,)
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,)
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,)
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:20:23(15740)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:22:58(14716)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,1)
+2019/07/02 17:22:58(14716)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 17:22:58(14716)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:22:58(14716)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(1)
+2019/07/02 17:22:58(14716)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:22:58(14716)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(1)
+2019/07/02 17:22:58(14716)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:22:58(14716)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:22:58(14716)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,)
+2019/07/02 17:22:58(14716)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:22:58(14716)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:22:58(14716)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(1)
+2019/07/02 17:22:58(14716)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:22:58(14716)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(1)
+2019/07/02 17:22:58(14716)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:22:58(14716)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:22:59(14716)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,1)
+2019/07/02 17:22:59(14716)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 17:22:59(14716)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:22:59(14716)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(-1)
+2019/07/02 17:22:59(14716)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:22:59(14716)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(-1)
+2019/07/02 17:22:59(14716)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:22:59(14716)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:22:59(14716)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,)
+2019/07/02 17:22:59(14716)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:22:59(14716)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:22:59(14716)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(-1)
+2019/07/02 17:22:59(14716)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:22:59(14716)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(-1)
+2019/07/02 17:22:59(14716)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:22:59(14716)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,1)
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(1)
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(1)
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,)
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(1)
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(1)
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,1)
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(-1)
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(-1)
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(0,1)
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(0)
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(0)
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(0,)
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(0)
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(0)
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,)
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(-1)
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(-1)
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,)
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:33:56(9788)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:33:57(9788)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,)
+2019/07/02 17:33:57(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:33:57(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:33:57(9788)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:33:57(9788)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,)
+2019/07/02 17:33:57(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:33:57(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:33:57(9788)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:33:57(9788)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,)
+2019/07/02 17:33:57(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:33:57(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:33:57(9788)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:33:57(9788)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(0,)
+2019/07/02 17:33:57(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:33:57(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:33:57(9788)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:33:57(9788)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(0,)
+2019/07/02 17:33:57(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:33:57(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:33:57(9788)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:33:57(9788)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(,1)
+2019/07/02 17:33:57(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 17:33:57(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:33:57(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>()
+2019/07/02 17:33:57(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << true
+2019/07/02 17:33:57(9788)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << null 1
+2019/07/02 17:33:57(9788)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(,)
+2019/07/02 17:33:57(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:33:57(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:33:57(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>()
+2019/07/02 17:33:57(9788)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << true
+2019/07/02 17:33:57(9788)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << null 
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,1)
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(1)
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(1)
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,)
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(1)
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(1)
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,1)
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(-1)
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(-1)
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(0,1)
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(0)
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(0)
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(0,)
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(0)
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(0)
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,)
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(-1)
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(-1)
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,)
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,)
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,)
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,)
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(0,)
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(0,)
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(,1)
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>()
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << true
+2019/07/02 17:38:21(2512)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << null 1
+2019/07/02 17:38:22(2512)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(,)
+2019/07/02 17:38:22(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:38:22(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:38:22(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>()
+2019/07/02 17:38:22(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << true
+2019/07/02 17:38:22(2512)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << null 
+2019/07/02 17:38:22(2512)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(,1)
+2019/07/02 17:38:22(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 17:38:22(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:38:22(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>()
+2019/07/02 17:38:22(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << true
+2019/07/02 17:38:22(2512)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << null 1
+2019/07/02 17:38:22(2512)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(,)
+2019/07/02 17:38:22(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:38:22(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:38:22(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>()
+2019/07/02 17:38:22(2512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << true
+2019/07/02 17:38:22(2512)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << null 
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,1)
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(1)
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(1)
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,)
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(1)
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(1)
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,1)
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(-1)
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(-1)
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(0,1)
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(0)
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(0)
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(0,)
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(0)
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(0)
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,)
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(-1)
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(-1)
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,)
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:41:10(15384)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:41:11(15384)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,)
+2019/07/02 17:41:11(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:41:11(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:41:11(15384)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:41:11(15384)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,)
+2019/07/02 17:41:11(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:41:11(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:41:11(15384)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:41:11(15384)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,)
+2019/07/02 17:41:11(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:41:11(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:41:11(15384)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:41:11(15384)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(0,)
+2019/07/02 17:41:11(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:41:11(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:41:11(15384)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:41:11(15384)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(0,)
+2019/07/02 17:41:11(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:41:11(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:41:11(15384)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:41:11(15384)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(,1)
+2019/07/02 17:41:11(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 17:41:11(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:41:11(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>()
+2019/07/02 17:41:11(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << true
+2019/07/02 17:41:11(15384)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << null 1
+2019/07/02 17:41:11(15384)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(,)
+2019/07/02 17:41:11(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:41:11(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:41:11(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>()
+2019/07/02 17:41:11(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << true
+2019/07/02 17:41:11(15384)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << null 
+2019/07/02 17:41:11(15384)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(,1)
+2019/07/02 17:41:11(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 17:41:11(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:41:11(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>()
+2019/07/02 17:41:11(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << true
+2019/07/02 17:41:11(15384)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << null 1
+2019/07/02 17:41:11(15384)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(,)
+2019/07/02 17:41:11(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:41:11(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:41:11(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>()
+2019/07/02 17:41:11(15384)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << true
+2019/07/02 17:41:11(15384)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << null 
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,1)
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(1)
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(1)
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,)
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(1)
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(1)
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,1)
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(-1)
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(-1)
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(0,1)
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(0)
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(0)
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(0,)
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(0)
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(0)
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,)
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(-1)
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(-1)
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,)
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,)
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,)
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,)
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(0,)
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(0,)
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(,1)
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>()
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << true
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << null 1
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(,)
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>()
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << true
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << null 
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(,1)
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>()
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << true
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << null 1
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(,)
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>()
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << true
+2019/07/02 17:42:45(4616)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << null 
+2019/07/02 18:00:28(9496)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,1)
+2019/07/02 18:00:28(9496)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 18:00:28(9496)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 18:00:28(9496)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(1)
+2019/07/02 18:00:28(9496)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 18:00:28(9496)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(1)
+2019/07/02 18:00:28(9496)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << true
+2019/07/02 18:00:28(9496)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << val boolean
+2019/07/02 18:00:28(9496)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(,)
+2019/07/02 18:00:28(9496)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 18:00:28(9496)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 18:00:28(9496)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>()
+2019/07/02 18:00:28(9496)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 18:00:28(9496)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>()
+2019/07/02 18:00:28(9496)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << true
+2019/07/02 18:00:28(9496)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << val boolean
+2019/07/02 18:00:58(6968)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,1)
+2019/07/02 18:00:58(6968)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 18:00:58(6968)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 18:00:58(6968)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(1)
+2019/07/02 18:00:58(6968)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 18:00:58(6968)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(1)
+2019/07/02 18:00:58(6968)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << true
+2019/07/02 18:00:58(6968)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << val boolean
+2019/07/02 18:00:58(6968)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(,1)
+2019/07/02 18:00:58(6968)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 18:00:58(6968)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 18:00:58(6968)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>()
+2019/07/02 18:00:58(6968)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 18:00:58(6968)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>()
+2019/07/02 18:00:58(6968)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << true
+2019/07/02 18:00:58(6968)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << val boolean
+2019/07/02 18:02:50(5220)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,1)
+2019/07/02 18:02:50(5220)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 18:02:50(5220)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 18:02:50(5220)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(1)
+2019/07/02 18:02:50(5220)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 18:02:50(5220)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(1)
+2019/07/02 18:02:50(5220)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << true
+2019/07/02 18:02:50(5220)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << val boolean
+2019/07/02 18:02:50(5220)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(,)
+2019/07/02 18:02:50(5220)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 18:02:50(5220)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 18:02:50(5220)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>()
+2019/07/02 18:02:50(5220)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 18:02:50(5220)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>()
+2019/07/02 18:02:50(5220)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << true
+2019/07/02 18:02:50(5220)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << val boolean
+2019/07/02 18:06:52(16328)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(thanhtd,1)
+2019/07/02 18:06:52(16328)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 18:06:52(16328)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 18:06:52(16328)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(thanhtd)
+2019/07/02 18:06:52(16328)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 18:06:52(16328)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(thanhtd)
+2019/07/02 18:06:52(16328)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 18:06:52(16328)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false is_numeric
+2019/07/02 18:06:53(16328)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(0.5,)
+2019/07/02 18:06:53(16328)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 18:06:53(16328)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 18:06:53(16328)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(0.5)
+2019/07/02 18:06:53(16328)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 18:06:53(16328)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(0.5)
+2019/07/02 18:06:53(16328)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 18:06:53(16328)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false is_numeric
+2019/07/02 18:07:07(15160)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(thanhtd,1)
+2019/07/02 18:07:07(15160)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 18:07:07(15160)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 18:07:07(15160)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(thanhtd)
+2019/07/02 18:07:07(15160)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 18:07:07(15160)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(thanhtd)
+2019/07/02 18:07:07(15160)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 18:07:07(15160)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false is_numeric
+2019/07/02 18:07:07(15160)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(0.5,)
+2019/07/02 18:07:07(15160)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 18:07:07(15160)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 18:07:07(15160)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(0.5)
+2019/07/02 18:07:07(15160)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 18:07:07(15160)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(0.5)
+2019/07/02 18:07:07(15160)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 18:07:07(15160)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false is_numeric
+2019/07/02 18:09:14(15392)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(thanhtd,1)
+2019/07/02 18:09:14(15392)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 18:09:14(15392)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 18:09:14(15392)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(thanhtd)
+2019/07/02 18:09:14(15392)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 18:09:14(15392)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(thanhtd)
+2019/07/02 18:09:14(15392)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 18:09:14(15392)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false is_numeric
+2019/07/02 18:09:14(15392)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(0.5,)
+2019/07/02 18:09:14(15392)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 18:09:14(15392)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 18:09:14(15392)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(0.5)
+2019/07/02 18:09:14(15392)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 18:09:14(15392)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(0.5)
+2019/07/02 18:09:14(15392)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 18:09:14(15392)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false is_numeric
+2019/07/02 18:09:14(15392)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(null,)
+2019/07/02 18:09:14(15392)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 18:09:14(15392)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 18:09:14(15392)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(null)
+2019/07/02 18:09:14(15392)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 18:09:14(15392)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(null)
+2019/07/02 18:09:14(15392)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 18:09:14(15392)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false is_numeric
+2019/07/02 18:09:14(15392)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(,)
+2019/07/02 18:09:14(15392)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 18:09:14(15392)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 18:09:14(15392)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>()
+2019/07/02 18:09:14(15392)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << true
+2019/07/02 18:09:14(15392)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << null 
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,1)
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(1)
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(1)
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,)
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(1)
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(1)
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,1)
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(-1)
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(-1)
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(0,1)
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(0)
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(0)
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(0,)
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(0)
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(0)
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,)
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(-1)
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(-1)
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << true
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,)
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,)
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,)
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(-1,)
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(0,)
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(0,)
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << false
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false boolean
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(,1)
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>()
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << true
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << null 1
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(,)
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>()
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << true
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << null 
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(,1)
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>()
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << true
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << null 1
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(,)
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>()
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << true
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << null 
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(1,1)
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(1)
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(1)
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << true
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << val boolean
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(,)
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>()
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>()
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << true
+2019/07/02 18:12:27(3892)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << val boolean
+2019/07/02 18:12:28(3892)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(thanhtd,1)
+2019/07/02 18:12:28(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>(1)
+2019/07/02 18:12:28(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 18:12:28(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(thanhtd)
+2019/07/02 18:12:28(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 18:12:28(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(thanhtd)
+2019/07/02 18:12:28(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 18:12:28(3892)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false is_numeric
+2019/07/02 18:12:28(3892)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(null,)
+2019/07/02 18:12:28(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 18:12:28(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 18:12:28(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(null)
+2019/07/02 18:12:28(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 18:12:28(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(null)
+2019/07/02 18:12:28(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 18:12:28(3892)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false is_numeric
+2019/07/02 18:12:28(3892)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(,)
+2019/07/02 18:12:28(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 18:12:28(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 18:12:28(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>()
+2019/07/02 18:12:28(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << true
+2019/07/02 18:12:28(3892)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << null 
+2019/07/02 18:12:28(3892)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric >>(0.5,)
+2019/07/02 18:12:28(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean >>()
+2019/07/02 18:12:28(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:167 Valid->check_boolean << true
+2019/07/02 18:12:28(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null >>(0.5)
+2019/07/02 18:12:28(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:174 Valid->check_null << false
+2019/07/02 18:12:28(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean >>(0.5)
+2019/07/02 18:12:28(3892)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:181 Valid->check_boolean << false
+2019/07/02 18:12:28(3892)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_numeric << false is_numeric
+2019/07/02 18:25:23(13580)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(ｵﾊﾖｳｺﾞｻﾞｲﾏｽ,1)
+2019/07/02 18:25:23(13580)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>(1)
+2019/07/02 18:25:23(13580)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 18:25:23(13580)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(ｵﾊﾖｳｺﾞｻﾞｲﾏｽ)
+2019/07/02 18:25:23(13580)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 18:25:23(13580)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(ｵﾊﾖｳｺﾞｻﾞｲﾏｽ)
+2019/07/02 18:25:23(13580)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 18:25:23(13580)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << false hankau
+2019/07/02 18:25:23(13580)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(0,)
+2019/07/02 18:25:23(13580)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>()
+2019/07/02 18:25:23(13580)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 18:25:23(13580)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(0)
+2019/07/02 18:25:23(13580)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 18:25:23(13580)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(0)
+2019/07/02 18:25:23(13580)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 18:25:23(13580)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << true
+2019/07/02 18:27:17(2056)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(ｵﾊﾖｳｺﾞｻﾞｲﾏｽ,1)
+2019/07/02 18:27:17(2056)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>(1)
+2019/07/02 18:27:17(2056)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 18:27:17(2056)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(ｵﾊﾖｳｺﾞｻﾞｲﾏｽ)
+2019/07/02 18:27:17(2056)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 18:27:17(2056)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(ｵﾊﾖｳｺﾞｻﾞｲﾏｽ)
+2019/07/02 18:27:17(2056)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 18:27:17(2056)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << false hankau
+2019/07/02 18:27:17(2056)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(ｵﾊﾖｳｺﾞｻﾞｲﾏｽ,)
+2019/07/02 18:27:17(2056)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>()
+2019/07/02 18:27:17(2056)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 18:27:17(2056)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(ｵﾊﾖｳｺﾞｻﾞｲﾏｽ)
+2019/07/02 18:27:17(2056)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 18:27:17(2056)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(ｵﾊﾖｳｺﾞｻﾞｲﾏｽ)
+2019/07/02 18:27:17(2056)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 18:27:17(2056)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << false hankau
+2019/07/02 18:28:17(10352)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(ｵﾊﾖｳｺﾞｻﾞｲﾏｽ,1)
+2019/07/02 18:28:17(10352)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>(1)
+2019/07/02 18:28:17(10352)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 18:28:17(10352)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(ｵﾊﾖｳｺﾞｻﾞｲﾏｽ)
+2019/07/02 18:28:17(10352)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 18:28:17(10352)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(ｵﾊﾖｳｺﾞｻﾞｲﾏｽ)
+2019/07/02 18:28:17(10352)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 18:28:17(10352)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << false hankau
+2019/07/02 18:28:17(10352)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(ｵﾊﾖｳｺﾞｻﾞｲﾏｽ,)
+2019/07/02 18:28:17(10352)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>()
+2019/07/02 18:28:17(10352)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 18:28:17(10352)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(ｵﾊﾖｳｺﾞｻﾞｲﾏｽ)
+2019/07/02 18:28:17(10352)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 18:28:17(10352)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(ｵﾊﾖｳｺﾞｻﾞｲﾏｽ)
+2019/07/02 18:28:17(10352)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 18:28:17(10352)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << false hankau
+2019/07/02 18:29:41(16168)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(ｵﾊﾖｳｺﾞｻﾞｲﾏｽ,1)
+2019/07/02 18:29:41(16168)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>(1)
+2019/07/02 18:29:41(16168)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 18:29:41(16168)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(ｵﾊﾖｳｺﾞｻﾞｲﾏｽ)
+2019/07/02 18:29:41(16168)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 18:29:41(16168)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(ｵﾊﾖｳｺﾞｻﾞｲﾏｽ)
+2019/07/02 18:29:41(16168)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 18:29:41(16168)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << false hankau
+2019/07/02 18:29:41(16168)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(オハヨウゴザイマス ,)
+2019/07/02 18:29:41(16168)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>()
+2019/07/02 18:29:41(16168)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 18:29:41(16168)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(オハヨウゴザイマス )
+2019/07/02 18:29:41(16168)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 18:29:41(16168)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(オハヨウゴザイマス )
+2019/07/02 18:29:41(16168)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 18:29:41(16168)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << false hankau
+2019/07/02 18:31:06(11296)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(ｵﾊﾖｳｺﾞｻﾞｲﾏｽ,1)
+2019/07/02 18:31:07(11296)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>(1)
+2019/07/02 18:31:07(11296)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 18:31:07(11296)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(ｵﾊﾖｳｺﾞｻﾞｲﾏｽ)
+2019/07/02 18:31:07(11296)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 18:31:08(11296)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(ｵﾊﾖｳｺﾞｻﾞｲﾏｽ)
+2019/07/02 18:31:08(11296)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 18:32:29(11296)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << false hankau
+2019/07/02 18:32:51(11296)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(オハヨウゴザイマス ,)
+2019/07/02 18:32:52(11296)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>()
+2019/07/02 18:32:52(11296)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 18:32:52(11296)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(オハヨウゴザイマス )
+2019/07/02 18:32:52(11296)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 18:32:53(11296)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(オハヨウゴザイマス )
+2019/07/02 18:32:53(11296)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 18:33:19(11296)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << false hankau
+2019/07/02 18:36:44(1252)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(ｱｲｳｴｵｶｷｸｹｺｻｼｽｾｿﾀﾁﾂﾃ ,1)
+2019/07/02 18:36:44(1252)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>(1)
+2019/07/02 18:36:44(1252)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 18:36:44(1252)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(ｱｲｳｴｵｶｷｸｹｺｻｼｽｾｿﾀﾁﾂﾃ )
+2019/07/02 18:36:44(1252)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 18:36:44(1252)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(ｱｲｳｴｵｶｷｸｹｺｻｼｽｾｿﾀﾁﾂﾃ )
+2019/07/02 18:36:44(1252)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 18:36:44(1252)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << false hankau
+2019/07/02 18:37:14(4964)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(ｱｲｳｴｵｶｷｸｹｺｻｼｽｾｿﾀﾁﾂﾃ ,1)
+2019/07/02 18:37:14(4964)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>(1)
+2019/07/02 18:37:14(4964)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 18:37:15(4964)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(ｱｲｳｴｵｶｷｸｹｺｻｼｽｾｿﾀﾁﾂﾃ )
+2019/07/02 18:37:15(4964)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 18:37:15(4964)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(ｱｲｳｴｵｶｷｸｹｺｻｼｽｾｿﾀﾁﾂﾃ )
+2019/07/02 18:37:15(4964)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 18:37:28(4964)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << false hankau
+2019/07/02 18:39:53(15504)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(漢字はユニコード,1)
+2019/07/02 18:39:53(15504)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>(1)
+2019/07/02 18:39:53(15504)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 18:39:53(15504)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(漢字はユニコード)
+2019/07/02 18:39:53(15504)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 18:39:53(15504)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(漢字はユニコード)
+2019/07/02 18:39:53(15504)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 18:39:53(15504)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << false hankau
+2019/07/02 18:40:02(15504)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(漢字はユニコード,)
+2019/07/02 18:40:03(15504)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>()
+2019/07/02 18:40:03(15504)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 18:40:03(15504)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(漢字はユニコード)
+2019/07/02 18:40:03(15504)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 18:40:03(15504)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(漢字はユニコード)
+2019/07/02 18:40:03(15504)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 18:40:15(15504)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << false hankau
+2019/07/02 18:46:08(14176)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(漢字はユニコード,1)
+2019/07/02 18:46:08(14176)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>(1)
+2019/07/02 18:46:08(14176)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 18:46:08(14176)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(漢字はユニコード)
+2019/07/02 18:46:08(14176)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 18:46:08(14176)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(漢字はユニコード)
+2019/07/02 18:46:08(14176)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 18:46:08(14176)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << false hankau
+2019/07/02 18:46:08(14176)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(漢字はユニコード,)
+2019/07/02 18:46:08(14176)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>()
+2019/07/02 18:46:08(14176)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 18:46:08(14176)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(漢字はユニコード)
+2019/07/02 18:46:08(14176)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 18:46:08(14176)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(漢字はユニコード)
+2019/07/02 18:46:08(14176)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 18:46:08(14176)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << false hankau
+2019/07/02 18:50:22(16648)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(新チャオ,1)
+2019/07/02 18:50:22(16648)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>(1)
+2019/07/02 18:50:22(16648)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 18:50:22(16648)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(新チャオ)
+2019/07/02 18:50:22(16648)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 18:50:22(16648)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(新チャオ)
+2019/07/02 18:50:22(16648)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 18:50:22(16648)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << false hankau
+2019/07/02 18:50:22(16648)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(漢字はユニコード,)
+2019/07/02 18:50:22(16648)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>()
+2019/07/02 18:50:22(16648)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 18:50:22(16648)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(漢字はユニコード)
+2019/07/02 18:50:22(16648)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 18:50:22(16648)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(漢字はユニコード)
+2019/07/02 18:50:22(16648)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 18:50:22(16648)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << false hankau
+2019/07/02 18:51:28(15512)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(新ﾁｬｵ,1)
+2019/07/02 18:51:28(15512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>(1)
+2019/07/02 18:51:28(15512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 18:51:28(15512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(新ﾁｬｵ)
+2019/07/02 18:51:28(15512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 18:51:28(15512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(新ﾁｬｵ)
+2019/07/02 18:51:28(15512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 18:51:28(15512)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << false hankau
+2019/07/02 18:51:28(15512)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(新チャオ,)
+2019/07/02 18:51:28(15512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>()
+2019/07/02 18:51:28(15512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 18:51:28(15512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(新チャオ)
+2019/07/02 18:51:28(15512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 18:51:28(15512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(新チャオ)
+2019/07/02 18:51:28(15512)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 18:51:28(15512)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << false hankau
+2019/07/02 18:58:08(15132)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>( ﾆﾂｲﾃﾃﾞｱﾙ,1)
+2019/07/02 18:58:08(15132)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>(1)
+2019/07/02 18:58:08(15132)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 18:58:08(15132)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>( ﾆﾂｲﾃﾃﾞｱﾙ)
+2019/07/02 18:58:08(15132)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 18:58:08(15132)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>( ﾆﾂｲﾃﾃﾞｱﾙ)
+2019/07/02 18:58:08(15132)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 18:58:08(15132)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << false hankau
+2019/07/02 18:58:08(15132)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(ニツイテデアル,)
+2019/07/02 18:58:08(15132)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>()
+2019/07/02 18:58:08(15132)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 18:58:08(15132)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(ニツイテデアル)
+2019/07/02 18:58:08(15132)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 18:58:08(15132)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(ニツイテデアル)
+2019/07/02 18:58:08(15132)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 18:58:08(15132)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << false hankau
+2019/07/02 18:59:10(8132)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>( ﾆﾂｲﾃﾃﾞｱﾙ,1)
+2019/07/02 18:59:10(8132)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>(1)
+2019/07/02 18:59:10(8132)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 18:59:10(8132)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>( ﾆﾂｲﾃﾃﾞｱﾙ)
+2019/07/02 18:59:10(8132)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 18:59:10(8132)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>( ﾆﾂｲﾃﾃﾞｱﾙ)
+2019/07/02 18:59:10(8132)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 18:59:10(8132)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << false hankau
+2019/07/02 18:59:10(8132)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(ニツイテデアル,)
+2019/07/02 18:59:10(8132)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>()
+2019/07/02 18:59:10(8132)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 18:59:10(8132)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(ニツイテデアル)
+2019/07/02 18:59:10(8132)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 18:59:10(8132)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(ニツイテデアル)
+2019/07/02 18:59:10(8132)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 18:59:10(8132)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << false hankau
+2019/07/02 19:00:43(16116)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>( ﾆﾂｲﾃﾃﾞｱﾙ,1)
+2019/07/02 19:00:44(16116)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>(1)
+2019/07/02 19:00:44(16116)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:00:44(16116)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>( ﾆﾂｲﾃﾃﾞｱﾙ)
+2019/07/02 19:00:44(16116)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:00:45(16116)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>( ﾆﾂｲﾃﾃﾞｱﾙ)
+2019/07/02 19:00:45(16116)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 19:04:06(4380)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>( ﾆﾂｲﾃﾃﾞｱﾙ,1)
+2019/07/02 19:04:06(4380)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>(1)
+2019/07/02 19:04:06(4380)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:04:06(4380)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>( ﾆﾂｲﾃﾃﾞｱﾙ)
+2019/07/02 19:04:06(4380)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:04:06(4380)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>( ﾆﾂｲﾃﾃﾞｱﾙ)
+2019/07/02 19:04:06(4380)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 19:04:06(4380)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << false hankau
+2019/07/02 19:06:53(2096)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>( ﾆﾂｲﾃﾃﾞｱﾙ,1)
+2019/07/02 19:06:53(2096)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>(1)
+2019/07/02 19:06:53(2096)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:06:53(2096)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>( ﾆﾂｲﾃﾃﾞｱﾙ)
+2019/07/02 19:06:53(2096)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:06:53(2096)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>( ﾆﾂｲﾃﾃﾞｱﾙ)
+2019/07/02 19:06:53(2096)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 19:06:53(2096)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << false hankau
+2019/07/02 19:07:32(940)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>( ﾆﾂｲﾃﾃﾞｱﾙ,1)
+2019/07/02 19:07:32(940)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>(1)
+2019/07/02 19:07:32(940)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:07:34(940)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>( ﾆﾂｲﾃﾃﾞｱﾙ)
+2019/07/02 19:07:34(940)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:07:36(940)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>( ﾆﾂｲﾃﾃﾞｱﾙ)
+2019/07/02 19:07:36(940)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 19:10:19(15428)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(ニツイテデアル,)
+2019/07/02 19:10:20(15428)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>()
+2019/07/02 19:10:20(15428)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:10:21(15428)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(ニツイテデアル)
+2019/07/02 19:10:21(15428)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:10:22(15428)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(ニツイテデアル)
+2019/07/02 19:10:22(15428)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 19:10:53(15428)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << false hankau
+2019/07/02 19:17:39(16652)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(ニツイテデアル,)
+2019/07/02 19:17:39(16652)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>()
+2019/07/02 19:17:39(16652)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:17:39(16652)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(ニツイテデアル)
+2019/07/02 19:17:39(16652)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:17:39(16652)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(ニツイテデアル)
+2019/07/02 19:17:39(16652)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 19:17:39(16652)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << false hankau
+2019/07/02 19:19:05(15792)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(ニツイテデアル,)
+2019/07/02 19:19:05(15792)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>()
+2019/07/02 19:19:05(15792)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:19:05(15792)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(ニツイテデアル)
+2019/07/02 19:19:05(15792)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:19:05(15792)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(ニツイテデアル)
+2019/07/02 19:19:05(15792)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 19:19:05(15792)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << false hankau
+2019/07/02 19:21:05(16536)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(ニツイテデアル,)
+2019/07/02 19:21:05(16536)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>()
+2019/07/02 19:21:05(16536)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:21:05(16536)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(ニツイテデアル)
+2019/07/02 19:21:05(16536)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:21:05(16536)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(ニツイテデアル)
+2019/07/02 19:21:05(16536)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 19:21:05(16536)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << false hankau
+2019/07/02 19:21:41(14252)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>( ﾆﾂｲﾃﾃﾞｱﾙ,1)
+2019/07/02 19:21:41(14252)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>(1)
+2019/07/02 19:21:41(14252)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:21:41(14252)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>( ﾆﾂｲﾃﾃﾞｱﾙ)
+2019/07/02 19:21:41(14252)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:21:41(14252)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>( ﾆﾂｲﾃﾃﾞｱﾙ)
+2019/07/02 19:21:41(14252)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 19:21:41(14252)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << false hankau
+2019/07/02 19:21:41(14252)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(ニツイテデアル,)
+2019/07/02 19:21:41(14252)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>()
+2019/07/02 19:21:41(14252)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:21:41(14252)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(ニツイテデアル)
+2019/07/02 19:21:41(14252)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:21:41(14252)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(ニツイテデアル)
+2019/07/02 19:21:41(14252)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 19:21:41(14252)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << false hankau
+2019/07/02 19:22:45(15780)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>( ﾆﾂｲﾃﾃﾞｱﾙ,1)
+2019/07/02 19:22:45(15780)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>(1)
+2019/07/02 19:22:45(15780)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:22:45(15780)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>( ﾆﾂｲﾃﾃﾞｱﾙ)
+2019/07/02 19:22:45(15780)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:22:45(15780)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>( ﾆﾂｲﾃﾃﾞｱﾙ)
+2019/07/02 19:22:45(15780)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 19:22:45(15780)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << false hankau
+2019/07/02 19:22:45(15780)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(ニツイテデアル,)
+2019/07/02 19:22:45(15780)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>()
+2019/07/02 19:22:45(15780)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:22:45(15780)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(ニツイテデアル)
+2019/07/02 19:22:45(15780)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:22:45(15780)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(ニツイテデアル)
+2019/07/02 19:22:45(15780)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 19:22:45(15780)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << false hankau
+2019/07/02 19:24:25(9960)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>( ﾆﾂｲﾃﾃﾞｱﾙ,1)
+2019/07/02 19:24:25(9960)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>(1)
+2019/07/02 19:24:25(9960)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:24:25(9960)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>( ﾆﾂｲﾃﾃﾞｱﾙ)
+2019/07/02 19:24:25(9960)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:24:25(9960)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>( ﾆﾂｲﾃﾃﾞｱﾙ)
+2019/07/02 19:24:25(9960)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 19:24:25(9960)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << false hankau
+2019/07/02 19:24:25(9960)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(ニツイテデアル,)
+2019/07/02 19:24:25(9960)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>()
+2019/07/02 19:24:25(9960)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:24:25(9960)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(ニツイテデアル)
+2019/07/02 19:24:25(9960)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:24:25(9960)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(ニツイテデアル)
+2019/07/02 19:24:25(9960)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 19:24:25(9960)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << false hankau
+2019/07/02 19:27:21(16436)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(Aloha!,1)
+2019/07/02 19:27:21(16436)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>(1)
+2019/07/02 19:27:21(16436)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:27:21(16436)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(Aloha!)
+2019/07/02 19:27:21(16436)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:27:21(16436)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(Aloha!)
+2019/07/02 19:27:21(16436)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 19:27:21(16436)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << true
+2019/07/02 19:27:21(16436)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(ニツイテデアル,)
+2019/07/02 19:27:21(16436)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>()
+2019/07/02 19:27:21(16436)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:27:21(16436)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(ニツイテデアル)
+2019/07/02 19:27:21(16436)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:27:21(16436)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(ニツイテデアル)
+2019/07/02 19:27:21(16436)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 19:27:21(16436)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << false hankau
+2019/07/02 19:28:21(16452)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(Aloha!,1)
+2019/07/02 19:28:21(16452)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>(1)
+2019/07/02 19:28:21(16452)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:28:21(16452)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(Aloha!)
+2019/07/02 19:28:21(16452)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:28:21(16452)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(Aloha!)
+2019/07/02 19:28:21(16452)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 19:28:21(16452)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << true
+2019/07/02 19:28:21(16452)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(Ａｌｏｈａ！,)
+2019/07/02 19:28:21(16452)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>()
+2019/07/02 19:28:21(16452)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:28:21(16452)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(Ａｌｏｈａ！)
+2019/07/02 19:28:21(16452)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:28:21(16452)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(Ａｌｏｈａ！)
+2019/07/02 19:28:21(16452)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 19:28:21(16452)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << false hankau
+2019/07/02 19:30:07(6896)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(Aloha!,1)
+2019/07/02 19:30:07(6896)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>(1)
+2019/07/02 19:30:07(6896)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:30:07(6896)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(Aloha!)
+2019/07/02 19:30:07(6896)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:30:07(6896)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(Aloha!)
+2019/07/02 19:30:07(6896)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 19:30:07(6896)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << true
+2019/07/02 19:30:07(6896)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(Ａｌｏｈａ！,)
+2019/07/02 19:30:07(6896)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>()
+2019/07/02 19:30:07(6896)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:30:07(6896)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(Ａｌｏｈａ！)
+2019/07/02 19:30:07(6896)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:30:07(6896)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(Ａｌｏｈａ！)
+2019/07/02 19:30:07(6896)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 19:30:07(6896)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << false hankau
+2019/07/02 19:31:43(14324)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(Aloha!,1)
+2019/07/02 19:31:43(14324)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>(1)
+2019/07/02 19:31:43(14324)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:31:43(14324)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(Aloha!)
+2019/07/02 19:31:43(14324)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:31:43(14324)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(Aloha!)
+2019/07/02 19:31:43(14324)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 19:31:43(14324)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << true
+2019/07/02 19:31:43(14324)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(Ａｌｏｈａ！,)
+2019/07/02 19:31:43(14324)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>()
+2019/07/02 19:31:43(14324)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:31:43(14324)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(Ａｌｏｈａ！)
+2019/07/02 19:31:43(14324)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:31:43(14324)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(Ａｌｏｈａ！)
+2019/07/02 19:31:43(14324)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 19:31:43(14324)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << false hankau
+2019/07/02 19:34:10(11956)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(Aloha!,1)
+2019/07/02 19:34:10(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>(1)
+2019/07/02 19:34:10(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:34:10(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(Aloha!)
+2019/07/02 19:34:10(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:34:10(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(Aloha!)
+2019/07/02 19:34:10(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 19:34:10(11956)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << true
+2019/07/02 19:34:10(11956)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(Ａｌｏｈａ！,)
+2019/07/02 19:34:10(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>()
+2019/07/02 19:34:10(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:34:10(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(Ａｌｏｈａ！)
+2019/07/02 19:34:10(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:34:10(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(Ａｌｏｈａ！)
+2019/07/02 19:34:10(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 19:34:10(11956)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << false hankau
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(,1)
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>(1)
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>()
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << true
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << null 1
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(,)
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>()
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>()
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << true
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << null 
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(,1)
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>(1)
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>()
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << true
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << null 1
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(,)
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>()
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>()
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << true
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << null 
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(1,1)
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>(1)
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(1)
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(1)
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << true
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << val boolean
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(,)
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>()
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>()
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>()
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << true
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << val boolean
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(thanhtd,1)
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>(1)
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(thanhtd)
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(thanhtd)
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << true
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(null,)
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>()
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(null)
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(null)
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << true
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(,)
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>()
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>()
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << true
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << null 
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(0.5,)
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>()
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(0.5)
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(0.5)
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 19:34:11(11956)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << true
+2019/07/02 19:36:28(2996)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(Aloha!,1)
+2019/07/02 19:36:28(2996)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>(1)
+2019/07/02 19:36:28(2996)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:36:28(2996)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(Aloha!)
+2019/07/02 19:36:28(2996)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:36:28(2996)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(Aloha!)
+2019/07/02 19:36:28(2996)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 19:36:28(2996)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << true
+2019/07/02 19:37:07(14868)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(Aloha!,1)
+2019/07/02 19:37:08(14868)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>(1)
+2019/07/02 19:37:08(14868)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:37:08(14868)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(Aloha!)
+2019/07/02 19:37:08(14868)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:37:09(14868)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(Aloha!)
+2019/07/02 19:37:09(14868)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 19:37:34(14868)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << true
+2019/07/02 19:38:14(260)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(Aloha!,1)
+2019/07/02 19:38:14(260)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>(1)
+2019/07/02 19:38:14(260)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:38:15(260)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(Aloha!)
+2019/07/02 19:38:15(260)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:38:15(260)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(Aloha!)
+2019/07/02 19:38:15(260)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 19:38:21(260)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << true
+2019/07/02 19:38:59(17084)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(thanhtd,1)
+2019/07/02 19:38:59(17084)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>(1)
+2019/07/02 19:38:59(17084)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:38:59(17084)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(thanhtd)
+2019/07/02 19:38:59(17084)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:38:59(17084)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(thanhtd)
+2019/07/02 19:38:59(17084)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 19:38:59(17084)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << true
+2019/07/02 19:39:30(9204)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(thanhtd,1)
+2019/07/02 19:39:30(9204)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>(1)
+2019/07/02 19:39:30(9204)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:39:30(9204)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(thanhtd)
+2019/07/02 19:39:30(9204)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:39:30(9204)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(thanhtd)
+2019/07/02 19:39:30(9204)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 19:39:30(9204)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << true
+2019/07/02 19:39:45(16792)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(thanhtd,1)
+2019/07/02 19:39:45(16792)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>(1)
+2019/07/02 19:39:45(16792)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:39:45(16792)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(thanhtd)
+2019/07/02 19:39:45(16792)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:39:45(16792)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(thanhtd)
+2019/07/02 19:39:45(16792)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 19:39:45(16792)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << true
+2019/07/02 19:40:06(8036)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(thanhtd,1)
+2019/07/02 19:40:07(8036)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>(1)
+2019/07/02 19:40:07(8036)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:40:07(8036)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(thanhtd)
+2019/07/02 19:40:07(8036)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:40:08(8036)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(thanhtd)
+2019/07/02 19:40:08(8036)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 19:40:17(8036)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << true
+2019/07/02 19:43:58(11960)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(ｔｈａｎｈｔｄ,1)
+2019/07/02 19:43:58(11960)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>(1)
+2019/07/02 19:43:58(11960)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:43:58(11960)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(ｔｈａｎｈｔｄ)
+2019/07/02 19:43:58(11960)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:43:58(11960)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(ｔｈａｎｈｔｄ)
+2019/07/02 19:43:58(11960)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 19:43:58(11960)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << false hankau
+2019/07/02 19:46:08(11108)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(ｔｈａｎｈｔｄ,1)
+2019/07/02 19:46:08(11108)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>(1)
+2019/07/02 19:46:08(11108)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:46:08(11108)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(ｔｈａｎｈｔｄ)
+2019/07/02 19:46:08(11108)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:46:08(11108)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(ｔｈａｎｈｔｄ)
+2019/07/02 19:46:08(11108)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 19:46:08(11108)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << false hankau
+2019/07/02 19:51:23(16516)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(0.5,)
+2019/07/02 19:51:23(16516)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>()
+2019/07/02 19:51:23(16516)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:51:23(16516)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(0.5)
+2019/07/02 19:51:23(16516)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:51:23(16516)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(0.5)
+2019/07/02 19:51:23(16516)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 19:51:23(16516)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << true
+2019/07/02 19:52:24(15328)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(0.5,)
+2019/07/02 19:52:24(15328)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>()
+2019/07/02 19:52:24(15328)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:52:24(15328)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(0.5)
+2019/07/02 19:52:24(15328)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:52:24(15328)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(0.5)
+2019/07/02 19:52:24(15328)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 19:52:24(15328)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << true
+2019/07/02 19:52:55(10072)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(0.5,)
+2019/07/02 19:52:55(10072)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>()
+2019/07/02 19:52:55(10072)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:52:55(10072)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(0.5)
+2019/07/02 19:52:55(10072)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:52:55(10072)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(0.5)
+2019/07/02 19:52:55(10072)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 19:52:55(10072)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << true
+2019/07/02 19:54:40(4948)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(1,1)
+2019/07/02 19:54:40(4948)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>(1)
+2019/07/02 19:54:40(4948)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:54:40(4948)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(1)
+2019/07/02 19:54:40(4948)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:54:40(4948)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(1)
+2019/07/02 19:54:40(4948)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 19:54:40(4948)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << true
+2019/07/02 19:54:59(3076)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(1,1)
+2019/07/02 19:55:00(3076)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>(1)
+2019/07/02 19:55:00(3076)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:55:00(3076)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(1)
+2019/07/02 19:55:00(3076)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:55:01(3076)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(1)
+2019/07/02 19:55:01(3076)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 19:55:28(3076)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << true
+2019/07/02 19:56:38(17324)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(Aloha!,1)
+2019/07/02 19:56:38(17324)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>(1)
+2019/07/02 19:56:38(17324)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:56:38(17324)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(Aloha!)
+2019/07/02 19:56:38(17324)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:56:38(17324)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(Aloha!)
+2019/07/02 19:56:38(17324)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 19:56:38(17324)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << true
+2019/07/02 19:56:38(17324)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(1,1)
+2019/07/02 19:56:38(17324)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>(1)
+2019/07/02 19:56:38(17324)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:56:38(17324)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(1)
+2019/07/02 19:56:38(17324)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:56:38(17324)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(1)
+2019/07/02 19:56:38(17324)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 19:56:38(17324)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << true
+2019/07/02 19:56:38(17324)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku >>(0.5,)
+2019/07/02 19:56:38(17324)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean >>()
+2019/07/02 19:56:38(17324)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:220 Valid->check_boolean << true
+2019/07/02 19:56:38(17324)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null >>(0.5)
+2019/07/02 19:56:38(17324)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:227 Valid->check_null << false
+2019/07/02 19:56:38(17324)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean >>(0.5)
+2019/07/02 19:56:38(17324)	 D:\xampp\htdocs\jcord\proj\lib\validate\Valid.php:234 Valid->check_boolean << false
+2019/07/02 19:56:38(17324)	 D:\xampp\htdocs\jcord\proj\tests\normalTest.php:192 Valid->check_hankaku << true

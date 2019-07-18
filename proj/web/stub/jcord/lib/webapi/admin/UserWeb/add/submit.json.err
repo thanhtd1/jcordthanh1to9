@@ -1,0 +1,12 @@
+{"head":{"status":"FAILED","message":"failed",
+"reasons":[
+{"what":"name", "how":"null", "why":"名称を入力してください。", "level":"ERROR"}
+,{"what":"division", "how":"null", "why":"所属が存在しません。", "level":"ERROR"}
+]
+},"data":{
+"recid":100
+,"name":""
+,"companyName":"会社100"
+,"division":"所属100"
+,"mail":"mail1@nisp.co.jp"
+}}

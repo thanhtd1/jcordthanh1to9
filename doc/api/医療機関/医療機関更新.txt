@@ -1,0 +1,39 @@
+■logicHosp upd -- 医療機関更新
+　▼BLOCK A
+	・get now datetime
+	・get dbdata
+
+　▼BLOCK B
+	・DB Connect
+	・start transaction
+	・dbsvc create
+	・hosp_address get webapi call <- 別会社が作っているが間に合わないので、stubを作成して対応
+
+　▼BLOCK C
+	・validate <- webapiで取得したデータに対してvalidateを行う。
+		→ RECIDは必須とする
+		→ 施設CODEは必須とする
+		→ 「施設名」は必須とする。
+		→ 「診療科名」は必須とする。
+		→ 「FAX番号」は必須とする。
+		→ 「E-Mail」は必須とする。
+
+　▼BLOCK D
+	・DB check validate
+		→ 「施設CODE」のデータがDB上に既に存在しない場合はエラーを返す。
+
+　▼BLOCK E
+	・sysid = getSysid
+	・opeid = getOpeid
+	・recid = webapi getdata recid
+	・code = webapi getdata code
+	・sys_mode = SYS_MODE_UPDATE
+	・sys_date = now datetime		// BLOCK A get
+	・upd_date = now datetime		// BLOCK A get
+	・sys_user_id = sess['USER_ID']
+	・upd_user_id = sess['USER_ID']
+
+	・DB update
+
+　▼BLOCK F
+	・DB close

@@ -1,0 +1,110 @@
+<?php
+require_once(DBO_DIR . "dboCore.php");
+
+class dbo{0} extends dboCore {
+
+	// メンバ定数
+{1}
+	// メンバ変数
+{2}
+	// 
+	private $insert_item;
+	private $insert_key;
+	private $update_item;
+	private $update_key;
+	private $delete_item;
+	private $delete_key;
+	private $harddelete_item;
+	private $harddelete_key;
+	private $get_item;
+	private $get_key;
+	private $select_item;
+	private $select_key;
+
+	public function __construct() {
+		parent::__construct();
+
+		$this->m_del_flg = 0;
+
+		// ↓ここにSQLで必要な定義を作成していくこと。
+		$this->insert_item = array({3});
+		$this->insert_key = array({4});
+
+		$this->update_item = array({5});
+		$this->update_key = array({6});
+
+		$this->delete_item = array({7});
+		$this->delete_key = array({8});
+
+		$this->harddelete_item = array({9});
+		$this->harddelete_key = array({10});
+
+		$this->get_item = array({11});
+		$this->get_key = array({12});
+
+		$this->select_item = array({13});
+		$this->select_key = array({14});
+		// ↑ここまで
+	}
+
+	public function getInsertItem()
+	{
+		return $this->insert_item;
+	}
+
+	public function getInsertKey()
+	{
+		return $this->insert_key;
+	}
+
+	public function getUpdateItem()
+	{
+		return $this->update_item;
+	}
+
+	public function getUpdateKey()
+	{
+		return $this->update_key;
+	}
+
+	public function getDeleteItem()
+	{
+		return $this->delete_item;
+	}
+
+	public function getDeleteKey()
+	{
+		return $this->delete_key;
+	}
+
+	public function getHardDeleteItem()
+	{
+		return $this->harddelete_item;
+	}
+
+	public function getHardDeleteKey()
+	{
+		return $this->harddelete_key;
+	}
+
+	public function getGetItem()
+	{
+		return $this->get_item;
+	}
+
+	public function getGetKey()
+	{
+		return $this->get_key;
+	}
+
+	public function getSelectItem()
+	{
+		return $this->select_item;
+	}
+
+	public function getSelectKey()
+	{
+		return $this->select_key;
+	}
+}
+?>

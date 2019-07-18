@@ -1,0 +1,74 @@
+<!------------------------------------------------>
+<p hidden>{{ app.title="銀行情報の更新 - 更新結果" }}</p>
+<div id="wrapper">
+
+    <form action="">
+        <div id="contents">
+            <div class="wrap">
+                <table class="table-default_list form-user_tbl">
+                    <tbody>
+                        <tr>
+                            <th>バンクID</th>
+                            <td>{{Detail.bankid}}</td>
+                        </tr>
+                        <tr>
+                            <th>管理バンクID</th>
+                            <td>{{Detail.cur_bankid}}</td>
+                        </tr>
+                        <tr>
+                            <th>有効フラグ</th>
+                            <td>{{Detail.available}}</td>
+                        </tr>
+                        <tr>
+                            <th>バンク名称</th>
+                            <td>{{Detail.bank_name }}</td>
+                        </tr>
+                        <tr>
+                            <th>省略名称</th>
+                            <td>{{Detail.short_name}}</td>
+                        </tr>
+                        <tr>
+                            <th>英語名称</th>
+                            <td>{{Detail.ename}}</td>
+                        </tr>
+                        <tr>
+                            <th>英語省略名称</th>
+                            <td>{{Detail.short_ename}}</td>
+                        </tr>
+                        <tr>
+                            <th>担当者</th>
+                            <td>{{Detail.person }}</td>
+                        </tr>
+                        <tr>
+                            <th>電話番号</th>
+                            <span>{{Detail.tel_num != null}}</span>
+                            <td>{{Detail.tel_num }}</td>
+                        </tr>
+                        <tr>
+                            <th>FAX番号</th>
+                            <td>{{Detail.fax_num }}</td>
+                        </tr>
+                        <tr>
+                            <th>バンク種別</th>
+                            <td>{{Detail.kind}}</td>
+                        </tr>
+                        <tr>
+                            <th>バンク並び順</th>
+                            <td>{{Detail.row_nth}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="bottom-btn_area">
+                <ul class="bottom-btn_list wrap">
+                    <li>
+                        <button class="btn" type="button" ng-click="app.fn_click('lg_prev')"><span class="txt">戻る</span></button>
+                    </li>
+                    <li>
+                        <button class="btn GRY" type="button" style="width:260px;" ng-click="app.fn_click('lg_next')"><span class="txt">登録</span></button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </form>
+</div>

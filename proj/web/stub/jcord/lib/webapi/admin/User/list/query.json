@@ -1,0 +1,12 @@
+{"head":{"status":"SUCCEEDED","message":"succeeded"},"data":{"count":10,"entries":[
+{"recid":1,"name":"日本太郎1","companyName":"会社1"},
+{"recid":2,"name":"日本太郎2","companyName":"会社2"},
+{"recid":3,"name":"日本太郎3","companyName":"会社3"},
+{"recid":4,"name":"日本太郎4","companyName":"会社4"},
+{"recid":5,"name":"日本太郎5","companyName":"会社5"},
+{"recid":6,"name":"日本太郎6","companyName":"会社6"},
+{"recid":7,"name":"日本太郎7","companyName":"会社7"},
+{"recid":8,"name":"日本太郎8","companyName":"会社8"},
+{"recid":9,"name":"日本太郎9","companyName":"会社9"},
+{"recid":10,"name":"日本太郎10","companyName":"会社10"}
+]}}

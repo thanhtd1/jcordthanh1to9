@@ -1,0 +1,69 @@
+■logicTrump trumpUpload -- CSVアップロード(登録)
+　▼BLOCK A
+	・get now datetime
+	・get dbdata
+	・read csv file
+
+　▼BLOCK B
+	・DB Connect
+	・start transaction
+	・dbsvc create
+
+　▼BLOCK C
+	・validate
+		→ CSVデータの「ドナー_ドナーバンク名」は必須とする。
+			→ エラーの場合はエラーフラグをONにする。
+		→ CSVデータの「ドナー番号」は必須とする。
+			→ エラーの場合はエラーフラグをONにする。
+		→ CSVデータの「症例番号_臍帯血バンク」は必須とする。
+			→ エラーの場合はエラーフラグをONにする。
+
+　▼BLOCK D
+	・DB check validate
+		・CSVデータの「ドナー_ドナーバンク名」の値がbank_nameテーブルを比較
+			→ 存在する場合
+				→ バンクIDを取得
+			→ 存在しない場合
+				→ エラーフラグをONにする。
+
+		・バンクIDが取得されている場合はバンクIDとCSVデータの「ドナー番号」で
+		　さい帯血テーブルのデータに移植実施報告として存在するかをチェックする。
+			→ 存在する場合
+				→ 次の処理を実行
+			→ 存在しない場合
+				→ エラーフラグをONにする。
+
+　▼BLOCK E
+	・DBのtrump_masterテーブルに「バンクID1」とバンクID、「管理番号1」とCSVデータの「ドナー番号」が
+	　一致して、カレントフラグが「0」のデータをチェックする。
+		→ 存在する場合。
+			→ trump_masterテーブルのデータを取得し、カレントフラグを「1」にしてアップデートする。
+
+		→ 存在しない場合
+			→ 次の処理を行う。
+
+	・sysid = getSysid
+	・opeid = getOpeid
+	・sys_mode = SYS_MODE_INSERT
+	・sys_date = now datetime		// BLOCK A get
+	・reg_date = now datetime		// BLOCK A get
+	・upd_date = now datetime		// BLOCK A get
+	・sys_user_id = sess['USER_ID']
+	・reg_user_id = sess['USER_ID']
+	・upd_user_id = sess['USER_ID']
+	・アップロード日時 = now datetime
+	・バンクID1 = バンクID
+	・管理番号1とCSVデータのドナー番号
+	・カレントフラグ = 0
+	・事前のチェックで1件でもエラーが
+		→ ある場合
+			→ エラーフラグ = 1
+		→ ない場合
+			→ エラーフラグ = 0
+
+	・trimp_master DB insert
+
+	・trimp_item DB insert
+
+　▼BLOCK F
+	・DB close

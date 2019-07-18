@@ -1,0 +1,25 @@
+■logicBank_caseid getBankid -- 症例番号管理取得(1件 - bankid)
+　▼BLOCK A
+	・get now datetime
+	・get dbdata
+
+　▼BLOCK B
+	・DB Connect
+	・start transaction
+	・dbsvc create
+
+　▼BLOCK C
+	・validate
+		→ バンクIDは必須
+
+　▼BLOCK D
+
+　▼BLOCK E
+	・DB get
+		→ 複数取得できた場合はエラー
+		→ データが見つからない場合はエラー
+
+　▼BLOCK F
+	・取得した配列をDBDに設定
+	・APDのリストに変換
+	・DB close

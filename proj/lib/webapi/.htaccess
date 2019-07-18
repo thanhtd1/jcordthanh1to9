@@ -1,0 +1,10 @@
+RewriteEngine On
+
+# go API
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ webapiJSON.php/$ [L]
+#RewriteCond %{REQUEST_URI} ^/jcord/proj/lib/webapi/
+#RewriteRule .              /jcord/proj/lib/webapi/webapiJSON.php
+#RewriteRule .              /lab1/lib/api/apiJSON.php
+#RewriteRule .              /lab1/web/stub/stub.cgi
+#

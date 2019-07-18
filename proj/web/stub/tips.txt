@@ -1,0 +1,3 @@
+
+wget -q -O - http://localhost/stub/pdf.cgi
+wget -q -O - --post-file=pdf.post http://localhost/stub/pdf.cgi

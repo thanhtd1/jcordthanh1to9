@@ -1,0 +1,13 @@
+<!--
+<h2>(THIS IS BASE3.HTML)</h2>
+<p>app.contents.contentPath1 = '{{app.contents.contentPath1}}'</p>
+<p>app.contents.contentPath2 = '{{app.contents.contentPath2}}'</p>
+<p>app.contents.contentPath3 = '{{app.contents.contentPath3}}'</p>
+ -->
+<div id="contents">
+    <div id="header-content" ng-include="app.contents.headerPath"></div>
+    <div id="triple-content-1" ng-include="app.contents.contentPath1"></div>
+    <div id="triple-content-2" ng-include="app.contents.contentPath2"></div>
+    <div id="triple-content-3" ng-include="app.contents.contentPath3"></div>
+    <div id="footer-content" ng-include="app.contents.footerPath"></div>
+</div>

@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for D:\xampp\htdocs\jcord\proj\lib\webapi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../_css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../_css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../_css/style.css" rel="stylesheet" type="text/css">
+  <link href="../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../index.html">D:\xampp\htdocs\jcord\proj\lib</a></li>
+         <li class="breadcrumb-item"><a href="index.html">webapi</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="apiCord.php.html#22">apiCord</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="apiUser.php.html#22">apiUser</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="apiUserWeb.php.html#23">apiUserWeb</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="old/ifCore.php.html#21">ifCore</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="old/ifJSON.php.html#25">ifJSON</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="old/ifcmd.php.html#25">ifcmd</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="webapiCMD.php.html#25">webapiCMD</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="webapiCore.php.html#21">webapiCore</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="webapiJSON.php.html#25">webapiJSON</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="old/ifJSON.php.html#25">ifJSON</a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="apiCord.php.html#22">apiCord</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="apiUser.php.html#22">apiUser</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="webapiJSON.php.html#25">webapiJSON</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="apiUserWeb.php.html#23">apiUserWeb</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="old/ifcmd.php.html#25">ifcmd</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="webapiCMD.php.html#25">webapiCMD</a></td><td class="text-right">56</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="apiCord.php.html#34"><abbr title="apiCord::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="webapiCMD.php.html#64"><abbr title="webapiCMD::post">post</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="old/ifJSON.php.html#38"><abbr title="ifJSON::post">post</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="old/ifJSON.php.html#82"><abbr title="ifJSON::main">main</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="old/ifcmd.php.html#27"><abbr title="ifcmd::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="old/ifcmd.php.html#38"><abbr title="ifcmd::post">post</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="old/ifcmd.php.html#55"><abbr title="ifcmd::main">main</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="webapiCMD.php.html#37"><abbr title="webapiCMD::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="webapiCMD.php.html#90"><abbr title="webapiCMD::main">main</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="old/ifCore.php.html#68"><abbr title="ifCore::action">action</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="webapiCore.php.html#37"><abbr title="webapiCore::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="webapiCore.php.html#56"><abbr title="webapiCore::pre">pre</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="webapiCore.php.html#82"><abbr title="webapiCore::exec">exec</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="webapiCore.php.html#110"><abbr title="webapiCore::post">post</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="webapiCore.php.html#133"><abbr title="webapiCore::action">action</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="webapiJSON.php.html#37"><abbr title="webapiJSON::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="webapiJSON.php.html#67"><abbr title="webapiJSON::post">post</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="old/ifJSON.php.html#27"><abbr title="ifJSON::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="old/ifCore.php.html#57"><abbr title="ifCore::post">post</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="apiCord.php.html#55"><abbr title="apiCord::add">add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="apiUser.php.html#94"><abbr title="apiUser::upd">upd</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="apiCord.php.html#94"><abbr title="apiCord::upd">upd</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="apiCord.php.html#134"><abbr title="apiCord::del">del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="apiCord.php.html#167"><abbr title="apiCord::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="apiCord.php.html#205"><abbr title="apiCord::list">list</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="apiUser.php.html#34"><abbr title="apiUser::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="apiUser.php.html#55"><abbr title="apiUser::add">add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="apiUser.php.html#134"><abbr title="apiUser::del">del</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="old/ifCore.php.html#44"><abbr title="ifCore::exec">exec</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="apiUser.php.html#167"><abbr title="apiUser::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="apiUser.php.html#205"><abbr title="apiUser::list">list</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="apiUserWeb.php.html#35"><abbr title="apiUserWeb::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="apiUserWeb.php.html#56"><abbr title="apiUserWeb::add">add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="apiUserWeb.php.html#108"><abbr title="apiUserWeb::upd">upd</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="old/ifCore.php.html#27"><abbr title="ifCore::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="old/ifCore.php.html#33"><abbr title="ifCore::pre">pre</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="webapiJSON.php.html#117"><abbr title="webapiJSON::main">main</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="old/ifJSON.php.html#82"><abbr title="ifJSON::main">main</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="webapiJSON.php.html#117"><abbr title="webapiJSON::main">main</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="old/ifcmd.php.html#55"><abbr title="ifcmd::main">main</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="webapiCMD.php.html#90"><abbr title="webapiCMD::main">main</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="apiUserWeb.php.html#56"><abbr title="apiUserWeb::add">add</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="apiUserWeb.php.html#108"><abbr title="apiUserWeb::upd">upd</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="apiCord.php.html#55"><abbr title="apiCord::add">add</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="apiCord.php.html#94"><abbr title="apiCord::upd">upd</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="apiCord.php.html#134"><abbr title="apiCord::del">del</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="apiCord.php.html#167"><abbr title="apiCord::get">get</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="apiCord.php.html#205"><abbr title="apiCord::list">list</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="apiUser.php.html#55"><abbr title="apiUser::add">add</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="apiUser.php.html#94"><abbr title="apiUser::upd">upd</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="apiUser.php.html#134"><abbr title="apiUser::del">del</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="apiUser.php.html#167"><abbr title="apiUser::get">get</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="apiUser.php.html#205"><abbr title="apiUser::list">list</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 7.0.5</a> using <a href="https://secure.php.net/" target="_top">PHP 7.3.6</a> with <a href="https://xdebug.org/">Xdebug 2.7.2</a> and <a href="https://phpunit.de/">PHPUnit 8.2.3</a> at Tue Jul 2 19:56:33 JST 2019.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../_js/jquery.min.js" type="text/javascript"></script>
+  <script src="../_js/d3.min.js" type="text/javascript"></script>
+  <script src="../_js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([9,0,0,0,0,0,0,0,0,0,0,1], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([37,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,11,"<a href=\"apiCord.php.html#22\">apiCord<\/a>"],[100,0,"<a href=\"apiCore.php.html#6\">apiCore<\/a>"],[0,11,"<a href=\"apiUser.php.html#22\">apiUser<\/a>"],[0,7,"<a href=\"apiUserWeb.php.html#23\">apiUserWeb<\/a>"],[0,5,"<a href=\"old\/ifCore.php.html#21\">ifCore<\/a>"],[0,13,"<a href=\"old\/ifJSON.php.html#25\">ifJSON<\/a>"],[0,7,"<a href=\"old\/ifcmd.php.html#25\">ifcmd<\/a>"],[0,7,"<a href=\"webapiCMD.php.html#25\">webapiCMD<\/a>"],[0,5,"<a href=\"webapiCore.php.html#21\">webapiCore<\/a>"],[0,11,"<a href=\"webapiJSON.php.html#25\">webapiJSON<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"apiCord.php.html#34\">apiCord::__construct<\/a>"],[0,2,"<a href=\"apiCord.php.html#55\">apiCord::add<\/a>"],[0,2,"<a href=\"apiCord.php.html#94\">apiCord::upd<\/a>"],[0,2,"<a href=\"apiCord.php.html#134\">apiCord::del<\/a>"],[0,2,"<a href=\"apiCord.php.html#167\">apiCord::get<\/a>"],[0,2,"<a href=\"apiCord.php.html#205\">apiCord::list<\/a>"],[0,1,"<a href=\"apiUser.php.html#34\">apiUser::__construct<\/a>"],[0,2,"<a href=\"apiUser.php.html#55\">apiUser::add<\/a>"],[0,2,"<a href=\"apiUser.php.html#94\">apiUser::upd<\/a>"],[0,2,"<a href=\"apiUser.php.html#134\">apiUser::del<\/a>"],[0,2,"<a href=\"apiUser.php.html#167\">apiUser::get<\/a>"],[0,2,"<a href=\"apiUser.php.html#205\">apiUser::list<\/a>"],[0,1,"<a href=\"apiUserWeb.php.html#35\">apiUserWeb::__construct<\/a>"],[0,3,"<a href=\"apiUserWeb.php.html#56\">apiUserWeb::add<\/a>"],[0,3,"<a href=\"apiUserWeb.php.html#108\">apiUserWeb::upd<\/a>"],[0,1,"<a href=\"old\/ifCore.php.html#27\">ifCore::__construct<\/a>"],[0,1,"<a href=\"old\/ifCore.php.html#33\">ifCore::pre<\/a>"],[0,1,"<a href=\"old\/ifCore.php.html#44\">ifCore::exec<\/a>"],[0,1,"<a href=\"old\/ifCore.php.html#57\">ifCore::post<\/a>"],[0,1,"<a href=\"old\/ifCore.php.html#68\">ifCore::action<\/a>"],[0,1,"<a href=\"old\/ifJSON.php.html#27\">ifJSON::__construct<\/a>"],[0,1,"<a href=\"old\/ifJSON.php.html#38\">ifJSON::post<\/a>"],[0,11,"<a href=\"old\/ifJSON.php.html#82\">ifJSON::main<\/a>"],[0,1,"<a href=\"old\/ifcmd.php.html#27\">ifcmd::__construct<\/a>"],[0,1,"<a href=\"old\/ifcmd.php.html#38\">ifcmd::post<\/a>"],[0,5,"<a href=\"old\/ifcmd.php.html#55\">ifcmd::main<\/a>"],[0,1,"<a href=\"webapiCMD.php.html#37\">webapiCMD::__construct<\/a>"],[0,1,"<a href=\"webapiCMD.php.html#64\">webapiCMD::post<\/a>"],[0,5,"<a href=\"webapiCMD.php.html#90\">webapiCMD::main<\/a>"],[0,1,"<a href=\"webapiCore.php.html#37\">webapiCore::__construct<\/a>"],[0,1,"<a href=\"webapiCore.php.html#56\">webapiCore::pre<\/a>"],[0,1,"<a href=\"webapiCore.php.html#82\">webapiCore::exec<\/a>"],[0,1,"<a href=\"webapiCore.php.html#110\">webapiCore::post<\/a>"],[0,1,"<a href=\"webapiCore.php.html#133\">webapiCore::action<\/a>"],[0,1,"<a href=\"webapiJSON.php.html#37\">webapiJSON::__construct<\/a>"],[0,1,"<a href=\"webapiJSON.php.html#67\">webapiJSON::post<\/a>"],[0,9,"<a href=\"webapiJSON.php.html#117\">webapiJSON::main<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

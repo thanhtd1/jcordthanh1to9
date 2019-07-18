@@ -1,0 +1,60 @@
+#double{
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #f0f8ff;
+	overflow: hidden;
+	position: relative;
+}
+#double .listHead{
+	font-size: 0;
+	padding: 0px;
+	height: 22px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#double ul{
+	list-style: none;
+	padding: 0px;
+	width: 800px;
+	height: 22px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 0;
+}
+#double ul.head{
+	margin-top: 20px;
+}
+#double li{
+	display: inline-block;
+	vertical-align: top;
+}
+.listHead li, .listBody li, .listFoot li{
+	font-size: 15px;
+}
+.listHead label{
+	text-align: center;
+	color: #ffffff;
+	background-color: #006400;
+	margin: 0px 1px 1px 0px;
+	padding: 0px 5px;
+}
+.listBody, .listFoot{
+	font-size: 0;
+	padding: 0px;
+	height: 22px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.listBody span, .listFoot span{
+	display: inline-block;
+	text-align: center;
+	margin-right: 0px;
+}
+.listBody span{
+	background-color: #ffffff;
+}
+.listFoot a{
+	margin: 0px;
+}

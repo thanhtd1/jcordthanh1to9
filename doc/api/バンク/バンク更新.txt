@@ -1,0 +1,36 @@
+■logicBank upd -- バンク更新
+　▼BLOCK A
+	・get now datetime
+	・get dbdata
+
+　▼BLOCK B
+	・DB Connect
+	・start transaction
+	・dbsvc create
+
+　▼BLOCK C
+	・validate
+		→ RECIDは必須
+		→ バンクIDは必須
+		→ 管理バンクIDは必須
+		→ バンク名称は必須
+		→ 英語省略名称は必須
+
+　▼BLOCK D
+	・DB check validate
+		→ バンクIDがDBの値と違う場合はエラー
+		→ バンク並び順は同じ値が登録済みの場合はエラーとする。
+
+　▼BLOCK E
+	・sysid = getSysid
+	・opeid = getOpeid
+	・sys_mode = SYS_MODE_UPDATE
+	・sys_date = now datetime		// BLOCK A get
+	・upd_date = now datetime		// BLOCK A get
+	・sys_user_id = sess['USER_ID']
+	・upd_user_id = sess['USER_ID']
+
+	・DB update
+
+　▼BLOCK F
+	・DB close

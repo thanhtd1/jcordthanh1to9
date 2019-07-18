@@ -1,0 +1,7 @@
+﻿,division,所属テーブル,クラス名定義,Division,,,,,,,,,,
+,,,,,,,,,,,,,,
+No.,項目名,日本語項目名,属性,桁数,NOT NULL,PK,FK,FK name,CORE,INS,UPD,DEL,GET,備考
+1,recid,レコードID,NUMBER,16,○,○,,,○,○,◎,◎,◎,
+2,ref_person_id,社員ID,NUMBER,16,○,,○,Person(recid),,○,○,,○,
+3,division,所属,STRING,20,○,,,,,○,○,,○,
+4,start_date,開始年月日,DATETIME,,○,,,,,○,○,,○,

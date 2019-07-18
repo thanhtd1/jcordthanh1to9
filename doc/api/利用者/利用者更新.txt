@@ -1,0 +1,41 @@
+■logicUser upd -- 利用者更新
+　▼BLOCK A
+	・get now datetime
+	・get dbdata
+
+　▼BLOCK B
+	・DB Connect
+	・start transaction
+	・dbsvc create
+
+　▼BLOCK C
+	・validate
+		→ RECIDは必須
+		→ ユーザ名は必須
+		→ パスワードは必須
+		→ 担当者は必須
+		→ 電話番号は必須
+		→ FAX番号は必須
+		→ E-Mailアドレスは必須
+		→ 種別は必須
+		→ ユーザ情報は必須
+		→ 種別がバンクの場合、バンクIDは必須
+		→ 種別が管理者の場合、バンクIDはNULLとする。バンクIDに何か値が入っている場合はエラーとする。　
+
+　▼BLOCK D
+	・DB check validate
+		→ ユーザ名(user_name)が既に登録済みかを確認し、同じ値が登録済みの場合はエラーとする。
+
+　▼BLOCK E
+	・sysid = getSysid
+	・opeid = getOpeid
+	・sys_mode = SYS_MODE_UPDATE
+	・sys_date = now datetime		// BLOCK A get
+	・upd_date = now datetime		// BLOCK A get
+	・sys_user_id = sess['USER_ID']
+	・upd_user_id = sess['USER_ID']
+
+	・DB update
+
+　▼BLOCK F
+	・DB close

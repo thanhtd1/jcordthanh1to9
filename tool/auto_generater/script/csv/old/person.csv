@@ -1,0 +1,7 @@
+﻿,person,社員テーブル,クラス名定義,Person,,,,,,,,,,
+,,,,,,,,,,,,,,
+No.,項目名,日本語項目名,属性,桁数,NOT NULL,PK,FK,FK name,CORE,INS,UPD,DEL,GET,備考
+1,recid,レベルID,NUMBER,16,○,○,,,○,○,◎,◎,◎,
+2,name,氏名,STRING,20,○,,,,,○,○,,○,
+3,mail,メールアドレス,STRING,128,○,,,,,○,○,,○,
+4,company_name,会社名,STRING,20,○,,,,,○,○,,○,

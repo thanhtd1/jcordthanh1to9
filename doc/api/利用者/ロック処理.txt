@@ -1,0 +1,37 @@
+■logicUser lock -- ロック処理
+　▼BLOCK A
+	・get now datetime
+	・get dbdata
+
+　▼BLOCK B
+	・DB Connect
+	・start transaction
+	・dbsvc create
+
+　▼BLOCK C
+	・validate
+		→ ユーザ名は必須
+
+　▼BLOCK D
+	・DB check validate
+		→ ユーザ名(user_name)が登録されているかを確認し、登録されていない場合は終了(エラーにはしない)
+
+	・DBからユーザ名(user_name)が一致するユーザ情報を取得
+	・lock_cnt++
+	・lock_cnt == system.lockcnt
+		→ lock_flag = 1
+
+　▼BLOCK E
+	・sysid = getSysid
+	・opeid = getOpeid
+	・recid = db get recid
+	・sys_mode = SYS_MODE_UPDATE
+	・sys_date = now datetime		// BLOCK A get
+	・upd_date = now datetime		// BLOCK A get
+	・sys_user_id = sess['USER_ID']
+	・upd_user_id = sess['USER_ID']
+
+	・DB update
+
+　▼BLOCK F
+	・DB close

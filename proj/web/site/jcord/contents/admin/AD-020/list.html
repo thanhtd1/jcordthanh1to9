@@ -1,0 +1,48 @@
+<!------------------------------------------------>
+<!--						-->
+<!-- 画面ID: AD-020				-->
+<!--						-->
+<!-- id:$Id$					-->
+<!-- author:$Author$				-->
+<!-- version:$Revision$				-->
+<!-- log:$Log$					-->
+<!------------------------------------------------>
+<div id="wrapper">
+
+      <div id="contents">
+        <div class="wrap">
+          <form action="">
+            <div class="table-default_area">
+              <table class="table-default_list form-bankuser_tbl">
+                <thead>
+                  <th class="num">No.</th>
+                  <th>変更区分</th>
+                  <th>所属機関名</th>
+                  <th>ユーザー名（漢字）</th>
+                  <th class="id">ユーザーID</th>
+                  <th class="date">申請年月日</th>
+                  <th>申請者</th>
+                  <th class="btn" width="120">申請却下</th>
+                </thead>
+                <tbody>
+		  <tr ng-repeat="entry in Query.entries" ng-class="{delete: isDeleted($index)}">
+                    <th>{{(num*page-num+1)+$index}}</th>
+                    <td>{{constants.find('request_flg',entry.request_flg)}}</td>
+                    <td>{{entry.org_name}}</td>
+                    <td>{{entry.name}}</td>
+                    <td>{{entry.userid}}</td>
+                    <td>{{entry.request_date.value}}</td>
+                    <td>{{entry.request_userid}}</td>
+                    <td>
+                      <button class="btn"><span class="txt">却下</span></button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!-- ///  #contents-->
+
+</div>

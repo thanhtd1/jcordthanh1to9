@@ -1,0 +1,63 @@
+#triple{
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #f0f8ff;
+	overflow: hidden;
+	position: relative;
+}
+#triple .listHead{
+	font-size: 0;
+	padding: 0px;
+	height: 22px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#triple ul{
+	list-style: none;
+	padding: 0px;
+	width: 800px;
+	height: 22px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 0;
+}
+#triple ul.head{
+	margin-top: 20px;
+}
+
+#triple li{
+	display: inline-block;
+	font-size: 15px;
+}
+
+.listHead li, .listBody li, .listFoot li{
+	display: inline-block;
+	font-size: 15px;
+}
+.listHead label{
+	text-align: center;
+	color: #ffffff;
+	background-color: #006400;
+	margin: 0px 1px 1px 0px;
+	padding: 0px 5px;
+}
+.listBody, .listFoot{
+	font-size: 0;
+	padding: 0px;
+	height: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.listBody span, .listFoot span{
+	display: inline-block;
+	text-align: center;
+	margin-right: 0px;
+}
+.listBody span{
+	background-color: #ffffff;
+}
+.listFoot a{
+	margin: 0px;
+}

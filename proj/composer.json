@@ -1,0 +1,23 @@
+{
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "phpunit/phpunit": "^8.0"
+    },
+    "require-dev": {
+        "phpoffice/phpspreadsheet": "^1.7",
+        "1happyplace/phpunit-colors": "^1.1"
+    },
+    "autoload": {
+        "files": [".config.php"],
+        "classmap": [
+            "lib/common",
+            "lib/data",
+            "lib/db",
+            "lib/logic",
+            "lib/validate",
+            "lib/webapi",
+            "tests/"
+        ]
+    }
+}

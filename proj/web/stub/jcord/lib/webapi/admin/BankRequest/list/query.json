@@ -1,0 +1,12 @@
+{"head":{"status":"SUCCEEDED","message":"succeeded"},"data":{"count":10,"entries":[
+{"recid":1,"request_flg":0,"userid":"jrc001","org_name":"日本赤十字社北海道さい帯血バンク","name":"日本太郎","request_date":"2019/01/01","request_userid":"jrcadmin1"},
+{"recid":2,"request_flg":1,"userid":"jrc002","org_name":"日本赤十字社関東甲信越さい帯血バンク","name":"日赤太郎","request_date":"2019/01/02","request_userid":"jrcadmin1"},
+{"recid":3,"request_flg":2,"userid":"jrc003","org_name":"中部さい帯血バンク","name":"日本花子","request_date":"2019/01/03","request_userid":"jrcadmin2"},
+{"recid":4,"request_flg":0,"userid":"jrc004","org_name":"日本赤十字社近畿さい帯血バンク","name":"日本次郎","request_date":"2019/01/04","request_userid":"jrcadmin2"},
+{"recid":5,"request_flg":1,"userid":"jrc005","org_name":"兵庫さい帯血バンク","name":"日本三郎","request_date":"2019/01/05","request_userid":"jrcadmin3"},
+{"recid":6,"request_flg":2,"userid":"jrc006","org_name":"日本赤十字社九州さい帯血バンク","name":"日本四郎","request_date":"2019/01/06","request_userid":"jrcadmin3"},
+{"recid":7,"request_flg":0,"userid":"jrc007","org_name":"日本赤十字社関東甲信越さい帯血バンク","name":"日赤次郎","request_date":"2019/01/07","request_userid":"jrcadmin4"},
+{"recid":8,"request_flg":1,"userid":"jrc008","org_name":"日本赤十字社関東甲信越さい帯血バンク","name":"日赤三郎","request_date":"2019/01/08","request_userid":"jrcadmin5"},
+{"recid":9,"request_flg":2,"userid":"jrc009","org_name":"日本赤十字社関東甲信越さい帯血バンク","name":"日赤花子","request_date":"2019/01/09","request_userid":"jrcadmin6"},
+{"recid":10,"request_flg":0,"userid":"jrc010","org_name":"日本赤十字社関東甲信越さい帯血バンク","name":"日本五郎","request_date":"2019/01/10","request_userid":"jrcadmin7"}
+]}}

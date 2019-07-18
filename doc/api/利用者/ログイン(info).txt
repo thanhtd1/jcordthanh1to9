@@ -1,0 +1,29 @@
+■logicUser infoLogin -- ログイン(Info)
+　▼BLOCK A
+	・get now datetime
+
+　▼BLOCK B
+	・DB Connect
+	・start transaction
+	・dbsvc create
+
+　▼BLOCK C
+	・validate
+		→ ユーザ名は必須
+		→ ユーザ情報は必須
+
+　▼BLOCK D
+	・DB check validate
+		→ ロックフラグが1の場合はエラーを返す。
+
+　▼BLOCK E
+	・ユーザ名、ユーザ情報でwhere区を組み立て
+
+	・DB select
+		→ 複数取得できた場合はエラー
+		→ データが見つからない場合はエラー
+
+　▼BLOCK F
+	・取得した配列をDBDに設定
+	・APDのリストに変換
+	・DB close

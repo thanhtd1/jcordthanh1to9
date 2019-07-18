@@ -1,0 +1,75 @@
+■logicCord add -- 臍帯血登録
+　▼BLOCK A
+	・get now datetime
+	・get dbdata
+
+　▼BLOCK B
+	・DB Connect
+	・start transaction
+	・dbsvc create
+
+　▼BLOCK C
+	・validate
+		→ バンクコードは必須とする。
+		→ バンク内管理番号は必須とする。
+		→ 調整バンクコードは必須とする。
+		→ 登録状態は必須とする。
+		→ HLA-A(1)は必須とする。
+		→ HLA-B(1)は必須とする。
+		→ HLA-DR(1)は必須とする。
+		→ 採取年月日は必須とする。
+		→ ABO血液型は必須とする。
+		→ Rh血液型は必須とする。
+		→ 分離方法性別は必須とする。
+		→ 凍結方法は必須とする。
+		→ 凍害保護液は必須とする。
+		→ 保存液量は必須とする。
+		→ 保存温度は必須とする。
+		→ 有効細胞数は必須とする。
+		→ CD34細胞数は必須とする。
+		→ CD34測定方法は必須とする。
+		→ CFU総数は必須とする。
+		→ CFU-GM数は必須とする。
+		→ CFU測定方法は必須とする。
+		→ CMV-IgM検査結果は必須とする。
+		→ CMV-DNA検査結果は必須とする。
+	・関連validate
+		→ A(2)が入力されている場合はHLA-A(2)は必須とする。
+		→ B(2)が入力されている場合はHLA-B(2)は必須とする。
+		→ C(1)が入力されている場合はHLA-C(1)は必須とする。
+		→ C(2)が入力されている場合はHLA-C(2)は必須とする。
+		→ DRB(2)が入力されている場合はHLA-DR(2)は必須とする。
+		→ DQB(1)が入力されている場合はHLA-DQ(1)は必須とする。
+		→ DQB(2)が入力されている場合はHLA-DQ(2)は必須とする。
+		→ 施設コードとTRUMP施設コードの値が違う場合はエラーとする。
+		→ 登録状態が「0」、「1」以外の場合はエラーとする。
+		→ HLA-A(1)とA(1)の組み合わせが正しいかをチェックする。
+		→ HLA-A(2)とA(2)の組み合わせが正しいかをチェックする。
+		→ HLA-B(1)とB(1)の組み合わせが正しいかをチェックする。
+		→ HLA-B(2)とB(2)の組み合わせが正しいかをチェックする。
+		→ HLA-C(1)とC(1)の組み合わせが正しいかをチェックする。
+		→ HLA-C(3)とC(1)の組み合わせが正しいかをチェックする。
+		→ HLA-DR(1)とDRB(1)の組み合わせが正しいかをチェックする。
+		→ HLA-DR(2)とDRB(2)の組み合わせが正しいかをチェックする。
+		→ HLA-DQ(1)とDQB(1)の組み合わせが正しいかをチェックする。
+		→ HLA-DQ(2)とDQB(2)の組み合わせが正しいかをチェックする。
+
+　▼BLOCK D
+	・DB check validate
+		→ バンクコード、バンク内管理番号、調整バンクコードの組み合わせで同じ値が登録済みの場合はエラーとする。
+
+　▼BLOCK E
+	・sysid = getSysid
+	・opeid = getOpeid
+	・sys_mode = SYS_MODE_INSERT
+	・sys_date = now datetime		// BLOCK A get
+	・reg_date = now datetime		// BLOCK A get
+	・upd_date = now datetime		// BLOCK A get
+	・sys_user_id = sess['USER_ID']
+	・reg_user_id = sess['USER_ID']
+	・upd_user_id = sess['USER_ID']
+
+	・DB insert
+
+　▼BLOCK F
+	・DB close

@@ -1,0 +1,29 @@
+	<ul class="listFoot" style=""  ng-if="count>0">
+		<li><span class="page_ti" style="width: 100px" ng-if="count < num*page">{{num*page-num+1}} ～ {{count}}</span></li>
+		<li><span class="page_ti" style="width: 100px" ng-if="num*page <= count">{{num*page-num+1}} ～ {{num*page}}</span></li>
+		<li><span class="page_cn" style="width: 80px">({{count}} 件)</span></li>
+		<li><span class="page_of" style="width: 20px" ng-if="1 == page">《</span></li>
+		<li><span class="page_on" style="width: 20px" ng-if="1 < page"><a href="#" ng-click="app.fn_click('lg_query', dataModel, query, 1)">《</a></span></li>
+		<li><span class="page_of" style="width: 20px" ng-if="1 == page">＜</span></li>
+		<li><span class="page_on" style="width: 20px" ng-if="1 < page"><a href="#" ng-click="app.fn_click('lg_query', dataModel, query, page-1)">＜</a></span></li>
+		<li><span class="page_on" style="width: 20px" ng-if="4 < page"><a href="#" ng-click="app.fn_click('lg_query', dataModel, query, page-4)">{{page-4}}</a></span></li>
+		<li><span class="page_on" style="width: 20px" ng-if="3 < page"><a href="#" ng-click="app.fn_click('lg_query', dataModel, query, page-3)">{{page-3}}</a></span></li>
+		<li><span class="page_on" style="width: 20px" ng-if="2 < page"><a href="#" ng-click="app.fn_click('lg_query', dataModel, query, page-2)">{{page-2}}</a></span></li>
+		<li><span class="page_on" style="width: 20px" ng-if="1 < page"><a href="#" ng-click="app.fn_click('lg_query', dataModel, query, page-1)">{{page-1}}</a></span></li>
+		<li><span class="page_no" style="width: 20px">{{page}}</span></li>
+		<li><span class="page_on" style="width: 20px" ng-if="page*num < count"><a href="#"     ng-click="app.fn_click('lg_query', dataModel, query, page+1)">{{page+1}}</a></span></li>
+		<li><span class="page_on" style="width: 20px" ng-if="(page+1)*num < count"><a href="#" ng-click="app.fn_click('lg_query', dataModel, query, page+2)">{{page+2}}</a></span></li>
+		<li><span class="page_on" style="width: 20px" ng-if="(page+2)*num < count"><a href="#" ng-click="app.fn_click('lg_query', dataModel, query, page+3)">{{page+3}}</a></span></li>
+		<li><span class="page_on" style="width: 20px" ng-if="(page+3)*num < count"><a href="#" ng-click="app.fn_click('lg_query', dataModel, query, page+4)">{{page+4}}</a></span></li>
+		<li><span class="page_on" style="width: 20px" ng-if="page < (count/num)"><a href="#" ng-click="app.fn_click('lg_query', dataModel, query, page+1)">＞</a></span></li>
+		<li><span class="page_of" style="width: 20px" ng-if="page >= (count/num)">＞</span></li>
+		<li><span class="page_on" style="width: 20px" ng-if="page < (count/num)"><a href="#" ng-click="app.fn_click('lg_query', dataModel, query, count/num)">》</a></span></li>
+		<li><span class="page_of" style="width: 20px" ng-if="page >= (count/num)">》</span></li>
+
+		<li><span ng-show="Pager.flag!=1" class="count_ti"  style="width: 80px" >表示件数</span></li>
+		<li><span ng-show="Pager.flag!=1" class="count_25"  style="width: 40px" ><a tabIndex="-1" href="#" ng-click="app.fn_click('lg_do', 'do_page_count_no', 25)">25件</a></span></li>
+		<li><span ng-show="Pager.flag!=1" class="count_50"  style="width: 40px" ><a tabIndex="-1" href="#" ng-click="app.fn_click('lg_do', 'do_page_count_no', 50)">50件</a></span></li>
+		<li><span ng-show="Pager.flag!=1" class="count_100" style="width: 40px" ><a tabIndex="-1" href="#" ng-click="app.fn_click('lg_do', 'do_page_count_no', 100)">100件</a></span></li>
+		<li><span ng-show="Pager.flag!=1" class="count_in"  style="width: 100px" ><input tabIndex="-1" style="width:45px; ime-mode: disabled" type="text" maxlength="4" ng-model="Pager.lines" ></input>件</span></li>
+	</ul>
+	<span>{{$parent.fn_displayEvent ? $parent.fn_displayEvent() : ''}}</span>

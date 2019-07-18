@@ -1,0 +1,84 @@
+UL.jd_menu {
+	LIST-STYLE-TYPE: none; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+UL.jd_menu_vertical {
+	LIST-STYLE-TYPE: none; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+UL.jd_menu UL {
+	DISPLAY: none
+}
+UL.jd_menu_vertical UL {
+	DISPLAY: none
+}
+UL.jd_menu LI {
+	FLOAT: left
+}
+UL.jd_menu_vertical {
+	WIDTH: 300px
+}
+UL.jd_menu_vertical LI {
+	FLOAT: none
+}
+UL.jd_menu UL {
+	LIST-STYLE-TYPE: none; POSITION: absolute; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; Z-INDEX: 10000; DISPLAY: none; PADDING-RIGHT: 0px
+}
+UL.jd_menu_vertical UL {
+	LIST-STYLE-TYPE: none; POSITION: absolute; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; Z-INDEX: 10000; DISPLAY: none; PADDING-RIGHT: 0px
+}
+UL.jd_menu UL LI {
+	FLOAT: none; MARGIN: 0px
+}
+UL.jd_menu_vertical UL LI {
+	FLOAT: none; MARGIN: 0px
+}
+UL.jd_menu {
+	MARGIN-BOTTOM: 2px; BORDER-TOP: #69c 1px solid; HEIGHT: 24px; BORDER-RIGHT: #036 1px solid; BORDER-BOTTOM: #036 1px solid; BORDER-LEFT: #69c 1px solid; BACKGROUND-COLOR: #133862
+}
+UL.jd_menu UL {
+	MARGIN-BOTTOM: 2px; BORDER-TOP: #69c 1px solid; HEIGHT: 24px; BORDER-RIGHT: #036 1px solid; BORDER-BOTTOM: #036 1px solid; BORDER-LEFT: #69c 1px solid; BACKGROUND-COLOR: #133862
+}
+UL.jd_menu_vertical {
+	MARGIN-BOTTOM: 2px; BORDER-TOP: #69c 1px solid; HEIGHT: 24px; BORDER-RIGHT: #036 1px solid; BORDER-BOTTOM: #036 1px solid; BORDER-LEFT: #69c 1px solid; BACKGROUND-COLOR: #133862
+}
+UL.jd_menu_vertical UL {
+	MARGIN-BOTTOM: 2px; BORDER-TOP: #69c 1px solid; HEIGHT: 24px; BORDER-RIGHT: #036 1px solid; BORDER-BOTTOM: #036 1px solid; BORDER-LEFT: #69c 1px solid; BACKGROUND-COLOR: #133862
+}
+UL.jd_menu_vertical {
+	HEIGHT: auto
+}
+UL.jd_menu UL {
+	HEIGHT: auto
+}
+* HTML UL.jd_menu UL {
+	WIDTH: 1%
+}
+UL.jd_menu LI {
+	CURSOR: pointer; FONT-SIZE: 12px; HEIGHT: 17px; FONT-FAMILY: sans-serif; BORDER-RIGHT: white 1px solid; BORDER-BOTTOM: white 1px solid; COLOR: #ffffff; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; PADDING-LEFT: 7px; MARGIN: 0px; LINE-HEIGHT: 16px; PADDING-RIGHT: 7px
+}
+UL.jd_menu UL {
+	FILTER: alpha(opacity=90); BACKGROUND-COLOR: #3665ab; opacity: 0.9
+}
+UL.jd_menu_vertical UL {
+	FILTER: alpha(opacity=90); BACKGROUND-COLOR: #3665ab; opacity: 0.9
+}
+UL.jd_menu LI LI {
+	BORDER-TOP: #ffffff 1px solid; WIDTH: 225px; FILTER: alpha(opacity=90); BORDER-LEFT: #ffffff 1px solid; opacity: 0.9
+}
+UL.jd_menu LI A {
+	TEXT-DECORATION: none; COLOR: #ffffff
+}
+UL.jd_menu LI LI A {
+	TEXT-DECORATION: none; COLOR: #ffffff
+}
+UL.jd_menu LI.jdm_hover {
+	BORDER-RIGHT: white 1px solid; BORDER-BOTTOM: white 1px solid; COLOR: #ffffff; PADDING-BOTTOM: 3px; PADDING-TOP: 4px; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BACKGROUND-COLOR: #69c
+}
+UL.jd_menu LI.jdm_active {
+	BORDER-RIGHT: white 1px solid; BORDER-BOTTOM: white 1px solid; COLOR: #ffffff; PADDING-BOTTOM: 3px; PADDING-TOP: 4px; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BACKGROUND-COLOR: #69c
+}
+UL.jd_menu LI LI.jdm_hover {
+	BORDER-RIGHT: white 1px solid; BORDER-BOTTOM: white 1px solid; COLOR: #ffffff; PADDING-BOTTOM: 3px; PADDING-TOP: 4px; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BACKGROUND-COLOR: #0b2d4a
+}
+UL.jd_menu LI LI.jdm_active {
+	BORDER-RIGHT: white 1px solid; BORDER-BOTTOM: white 1px solid; COLOR: #ffffff; PADDING-BOTTOM: 3px; PADDING-TOP: 4px; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BACKGROUND-COLOR: #0b2d4a
+}

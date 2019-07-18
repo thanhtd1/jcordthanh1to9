@@ -1,0 +1,13 @@
+{"head":{"status":"SUCCEEDED","message":"succeeded"},"data":{"count":11,"entries":[
+{"recid":1,"receipt_bankid":1,"receipt_bank_no":"XXXX00001","reg_stat":0,"collect_date":"2019/01/01","reg_date":"2019/02/01","supply_date":"2019/03/01","trans_date":"2019/04/01","trans_flag":1},
+{"recid":2,"receipt_bankid":2,"receipt_bank_no":"XXXX00002","reg_stat":1,"collect_date":"2019/01/02","reg_date":"2019/02/02","supply_date":"2019/03/02","trans_date":"2019/04/02","trans_flag":2},
+{"recid":3,"receipt_bankid":3,"receipt_bank_no":"XXXX00003","reg_stat":3,"collect_date":"2019/01/03","reg_date":"2019/02/03","supply_date":"2019/03/03","trans_date":"2019/04/03","trans_flag":1},
+{"recid":4,"receipt_bankid":4,"receipt_bank_no":"XXXX00004","reg_stat":4,"collect_date":"2019/01/04","reg_date":"2019/02/04","supply_date":"2019/03/04","trans_date":"2019/04/04","trans_flag":2},
+{"recid":5,"receipt_bankid":5,"receipt_bank_no":"XXXX00005","reg_stat":8,"collect_date":"2019/01/05","reg_date":"2019/02/05","supply_date":"2019/03/05","trans_date":"2019/04/05","trans_flag":1},
+{"recid":6,"receipt_bankid":6,"receipt_bank_no":"XXXX00006","reg_stat":9,"collect_date":"2019/01/06","reg_date":"2019/02/06","supply_date":"2019/03/06","trans_date":"2019/04/06","trans_flag":2},
+{"recid":7,"receipt_bankid":7,"receipt_bank_no":"XXXX00007","reg_stat":10,"collect_date":"2019/01/07","reg_date":"2019/02/07","supply_date":"2019/03/07","trans_date":"2019/04/07","trans_flag":1},
+{"recid":8,"receipt_bankid":8,"receipt_bank_no":"XXXX00008","reg_stat":0,"collect_date":"2019/01/08","reg_date":"2019/02/08","supply_date":"2019/03/08","trans_date":"2019/04/08","trans_flag":2},
+{"recid":9,"receipt_bankid":9,"receipt_bank_no":"XXXX00009","reg_stat":1,"collect_date":"2019/01/09","reg_date":"2019/02/09","supply_date":"2019/03/09","trans_date":"2019/04/09","trans_flag":1},
+{"recid":10,"receipt_bankid":10,"receipt_bank_no":"XXXX000010","reg_stat":3,"collect_date":"2019/01/10","reg_date":"2019/02/10","supply_date":"2019/03/10","trans_date":"2019/04/10","trans_flag":2},
+{"recid":11,"receipt_bankid":11,"receipt_bank_no":"XXXX000011","reg_stat":4,"collect_date":"2019/01/11","reg_date":"2019/02/11","supply_date":"2019/03/11","trans_date":"2019/04/11","trans_flag":1}
+]}}

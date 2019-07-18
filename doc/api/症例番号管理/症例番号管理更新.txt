@@ -1,0 +1,34 @@
+■logicBank_caseid upd -- 症例番号管理更新
+　▼BLOCK A
+	・get now datetime
+	・get dbdata
+
+　▼BLOCK B
+	・DB Connect
+	・start transaction
+	・dbsvc create
+
+　▼BLOCK C
+	・validate
+		→ RECIDは必須
+		→ バンクIDは必須とする。
+		→ バンク毎年毎症例IDは必須とする。
+
+　▼BLOCK D
+	・DB check validate
+		→ バンクIDと一致するデータが存在しない場合はエラー
+		→ バンクIDが既に登録済みかを確認し、同じ値が登録済みの場合はエラーとする。
+
+　▼BLOCK E
+	・sysid = getSysid
+	・opeid = getOpeid
+	・sys_mode = SYS_MODE_UPDATE
+	・sys_date = now datetime		// BLOCK A get
+	・upd_date = now datetime		// BLOCK A get
+	・sys_user_id = sess['USER_ID']
+	・upd_user_id = sess['USER_ID']
+
+	・DB update
+
+　▼BLOCK F
+	・DB close

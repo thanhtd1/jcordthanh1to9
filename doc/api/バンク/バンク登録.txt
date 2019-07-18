@@ -1,0 +1,38 @@
+■logicBank add -- バンク登録
+　▼BLOCK A
+	・get now datetime
+	・get dbdata
+
+　▼BLOCK B
+	・DB Connect
+	・start transaction
+	・dbsvc create
+
+　▼BLOCK C
+	・validate
+		→ バンクIDは必須
+		→ 管理バンクIDは必須
+		→ バンク名称は必須
+		→ 英語省略名称は必須
+
+　▼BLOCK D
+	・DB check validate
+		→ バンクIDが既に登録済みかを確認し、同じ値が登録済みの場合はエラーとする。
+		→ バンク並び順は同じ値が登録済みの場合はエラーとする。
+
+　▼BLOCK E
+	・sysid = getSysid
+	・opeid = getOpeid
+	・sys_mode = SYS_MODE_INSERT
+	・sys_date = now datetime		// BLOCK A get
+	・reg_date = now datetime		// BLOCK A get
+	・upd_date = now datetime		// BLOCK A get
+	・sys_user_id = sess['USER_ID']
+	・reg_user_id = sess['USER_ID']
+	・upd_user_id = sess['USER_ID']
+
+	・DB insert
+
+　▼BLOCK F
+	・DB close
+

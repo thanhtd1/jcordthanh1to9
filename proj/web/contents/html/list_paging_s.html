@@ -1,0 +1,26 @@
+<div id="pager">
+<div id="pager_nolist">
+	<ul class="listFoot" style="width: 1000px;"  ng-if="count>0">
+		<li class="off"><span ng-if="count < num*page">{{num*page-num+1}} ～ {{count}}</span></li>
+		<li class="off"><span ng-if="num*page <= count">{{num*page-num+1}} ～ {{num*page}}</span></li>
+		<li class="off"><span style="width: 80px">({{count}} 件)</span></li>
+		<li><span ng-if="1 == page">&laquo;</span></li>
+		<li><span ng-if="1 < page"><a href="#" ng-click="app.fn_click('lg_query', dataModel, query, 1)">《</a></span></li>
+		<li><span ng-if="1 == page">＜</span></li>
+		<li><span ng-if="1 < page"><a href="#" ng-click="app.fn_click('lg_query', dataModel, query, page-1)">&lt;</a></span></li>
+		<li><span ng-if="4 < page"><a href="#" ng-click="app.fn_click('lg_query', dataModel, query, page-4)">{{page-4}}</a></span></li>
+		<li><span ng-if="3 < page"><a href="#" ng-click="app.fn_click('lg_query', dataModel, query, page-3)">{{page-3}}</a></span></li>
+		<li><span ng-if="2 < page"><a href="#" ng-click="app.fn_click('lg_query', dataModel, query, page-2)">{{page-2}}</a></span></li>
+		<li><span ng-if="1 < page"><a href="#" ng-click="app.fn_click('lg_query', dataModel, query, page-1)">{{page-1}}</a></span></li>
+		<li class="on"><span style="width: 20px">{{page}}</span></li>
+		<li><span ng-if="page*num < count"><a href="#"     ng-click="app.fn_click('lg_query', dataModel, query, page+1)">{{page+1}}</a></span></li>
+		<li><span ng-if="(page+1)*num < count"><a href="#" ng-click="app.fn_click('lg_query', dataModel, query, page+2)">{{page+2}}</a></span></li>
+		<li><span ng-if="(page+2)*num < count"><a href="#" ng-click="app.fn_click('lg_query', dataModel, query, page+3)">{{page+3}}</a></span></li>
+		<li><span ng-if="(page+3)*num < count"><a href="#" ng-click="app.fn_click('lg_query', dataModel, query, page+4)">{{page+4}}</a></span></li>
+		<li><span ng-if="page < (count/num)"><a href="#" ng-click="app.fn_click('lg_query', dataModel, query, page+1)">&gt;</a></span></li>
+		<li><span ng-if="page >= (count/num)">＞</span></li>
+		<li><span ng-if="page < (count/num)"><a href="#" ng-click="app.fn_click('lg_query', dataModel, query, count/num)">&raquo;</a></span></li>
+		<li><span ng-if="page >= (count/num)">》</span></li>
+	</ul>
+	<span>{{$parent.fn_displayEvent ? $parent.fn_displayEvent() : ''}}</span>
+</div>
