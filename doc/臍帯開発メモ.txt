@@ -1,0 +1,39 @@
+contents系
+	画面遷移通常：Routeringモジュール使う
+	シーケンス：自力
+data系
+	AJAX：RxJS を使う
+logic系
+	共有ロジック：
+	ローカルロジック：
+
+web/
+	e2e/
+	node_modules/
+	src/
+		index.html
+		main.ts
+		polyfills.ts
+		styles.css
+		contents/
+		data/
+		logics/
+		app/
+			app.component.html
+			app.component.css
+			app.component.ts
+			app.component.spec.ts
+			app.module.spec.ts
+			app.module.ts
+			app.routing.module.ts
+			contents/
+				category (admin/bank/...)/
+					シーケンスID/
+						画面ID.html
+			services/
+				category (admin/bank/...)/
+					サービス.ts (user/saitai/,...)
+		assets/
+		environments/
+			environment.ts
+			environment.prod.ts

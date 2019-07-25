@@ -3,6 +3,7 @@
 	const APP_LANG = "UTF-8";
 
 	// DB 関連の定義
+	// DB 関連の定義
 	const DB_SERVER = "192.168.201.74";
 	//const DB_SERVER = "localhost";
 	const DB_NAME = "jcorddb";

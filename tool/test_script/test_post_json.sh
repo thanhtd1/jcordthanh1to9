@@ -6,7 +6,7 @@ export PATH=$PATH:$THIS_PATH
 
 export PROJECT=${THIS_PATH}/../../../
 export PHP_DIR=${PROJECT}/trunk/tool/test_script/
-export PHP_FILE=test_post_json
+export PHP_FILE=test_web_apis
 export DAT_DIR=${PROJECT}/trunk/tool/test_script/test_data/
 export LOG_DIR=${PROJECT}/evidence/test_post_json/
 export XML_FILE=${LOG_DIR}/${EXE_DATE}_${PHP_FILE}.xml

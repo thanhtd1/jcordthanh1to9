@@ -52,6 +52,5 @@ class Valid
 
 		return $err;
 	}
-
 } // CLASS-EOF
 ?>

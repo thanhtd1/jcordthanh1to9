@@ -13,7 +13,7 @@
 //
 //======================================================
 
-define("API_CGI_URL",	"/lib/webapi/member/");
+define("API_CGI_URL",	"/lib/api/member/");
 define("API_CGI_API",	"api");
 define("API_CGI_APD",	"apd");
 define("API_CGI_EXT",	".php");
@@ -25,7 +25,6 @@ define("VIEW_DIR",	LIB_DIR . "view/");
 define("DATA_DIR",	LIB_DIR . "data/");
 define("APD_DIR",	DATA_DIR . "apdata/");
 define("DBD_DIR",	DATA_DIR . "dbdata/");
-
 define("VALID_DIR",	LIB_DIR . "validate/");
 define("VALID_L1_DIR",	VALID_DIR . "level1/");
 define("VALID_L2_DIR",	VALID_DIR . "level2/");
@@ -48,6 +47,5 @@ define("SESSION_LOG",   LOGS_DIR . "session_");
 define("ACCESS_LOG",    LOGS_DIR . "access_");
 define("DEBUG_LOG",	LOGS_DIR . "debug_");
 define("LOG_EXT",	".log");
-//TEST_FILE_DIR
-define("TEST_FILE_DIR",	TOP_DIR . "tests/excel_file/");
+
 ?>

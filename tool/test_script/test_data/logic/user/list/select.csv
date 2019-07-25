@@ -1,0 +1,1 @@
+jcord2/lib/webapi/member/User/list/query,GET,?q=%7B%22user_name%22%3A%221qaz111111%22%2C%22bankid%22%3A%221%22%7D&p=%7B%22sortKey%22%3A%5B%22recid%22%2C%22bankid%22%5D%2C%22lines%22%3A%225%22%2C%22page%22%3A%221%22%7D

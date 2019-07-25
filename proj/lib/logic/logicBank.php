@@ -33,71 +33,38 @@ class logicBank {
 	    // End BLOCK D
 
 	    // Start BLOCK E
-		// ここから下を処理によって作り変える。
-
-		// ここから業務ロジック
-		// 検索条件
-		foreach( $a_in_where as $l_k => $l_v )
-		{
-			debug_log("$l_k :". $l_v);
-		}
-
-
 		// APD作成
 		$l_apdBank    = new apdBank();
+
 		// 条件組み立て
-		$l_per_where = 'del_flg = 0';
+		$l_per_where = null;
+		$l_arrWhere = array();
+		$l_arrWhere["del_flg"] = 0;
 		if ( isset( $a_in_where ) )
 		{
-			$l_cnt = 0;
+			$l_cnt=0;
 			foreach( $a_in_where as $l_k => $l_v )
 			{
 				if ( $l_k == 'isConverted' )      continue;
-				if ( $l_cnt > 0 )
-				{
-					$l_per_where .= " and ";
-				}
-				$l_per_where .= " $l_k = '$l_v' ";
+				$l_arrWhere[$l_k] = $l_v;
 				$l_cnt++;
 			}
+			$l_rtn = $l_svcBank->createSqlWhere($l_arrWhere, $l_per_where);
 		}
 		debug_log("where :". $l_per_where);
 
 		// ソート組み立て
 		$l_per_sort = "";
+		$l_arrSort = array();
 		if ( isset( $a_in_order ) )
-		{			
-			// paging
-			// keys (default asc, ! desc) ext. name  !name
-			debug_log("paging sortKey count :". count($a_in_order->sortKey));
-			foreach( $a_in_order->sortKey as $l_v )
-			{
-				debug_log("paging sortKey :". $l_v);
-			}
-			// (null:asc, !:desc)
-			debug_log("paging sortDir :". $a_in_order->sortDir);
-			// 表示行数:lines
-			debug_log("paging lines   :". $a_in_order->lines);
-			// 表示頁数:page
-			debug_log("paging page    :". $a_in_order->page);
+		{
 			$l_cnt=0;
 			foreach( $a_in_order->sortKey as $l_v )
 			{
-				if ( $l_cnt > 0 )
-				{
-					$l_per_sort .= " , ";
-				}
-
-				if ( substr($l_v,0,1) == '!' )
-				{
-				$l_per_sort .= " " . substr($l_v,1) . " desc ";
-				}
-				else
-				{
-					$l_per_sort .= " $l_v ";
-				}
+				$l_arrSort[$l_cnt] = $l_v;
 				$l_cnt++;
 			}
+			$l_rtn = $l_svcBank->createSqlSort($l_arrSort, $l_per_sort);
 		}
 		debug_log("sort :". $l_per_sort);
 
@@ -109,9 +76,9 @@ class logicBank {
 			$l_per_other       .= " limit " . $a_in_order->lines;
 		}
 		// 表示頁数:page
-		if ( isset($a_in_order->page) && $a_in_order->page > 0 )
+		if ( isset($a_in_order->page) && $a_in_order->page > 1 )
 		{
-			$l_per_other       .= " offset " . ($a_in_order->page)*$a_in_order->lines ;
+			$l_per_other       .= " offset " . ($a_in_order->page-1)*$a_in_order->lines ;
 		}
 		debug_log("sort :". $l_per_sort);
 
@@ -177,14 +144,15 @@ class logicBank {
     
             $l_bank_data = array();
 			$l_per_where = "bankid = $a_bankid";
-			$l_rtn = $l_svcBank->Select($l_dbh, $l_per_where, [], [], $l_bank_data);
+			$l_rtn = $l_svcBank->Select($l_dbh, $l_per_where, null, null, $l_bank_data);
+			$l_valBank = new validBank();
 			if(count($l_bank_data) > 1){
-				$a_err[] = array("what" => 'Data too much', "how" =>'Data too much', "why" => "Have more than one bankid = $a_bankid in DB");                
+				$a_err[] = $l_valBank->err('Data too much', 'Data too much', "Have more than one bankid = $a_bankid in DB", 4);                
 				$l_db_con->disconnect(DB_NG);
                 return ERR_DB_TOO_MUCH;			
 			}
             elseif (empty($l_bank_data)) {
-				$a_err[] = array("what" => 'Data not found', "how" =>'Data not found', "why" => "Don't have any data with bankid = $a_bankid in DB");                
+				$a_err[] = $l_valBank->err('Data not found', 'Data not found', "Don't have any data with bankid = $a_bankid in DB", 4);                
 				$l_db_con->disconnect(DB_NG);
                 return ERR_DB_NOT_FOUND;
 			}
@@ -209,7 +177,8 @@ class logicBank {
     
         return $l_rtn;
     }
-    public function getRecId($l_sess, $a_recid ,&$a_out_apd, &$a_err, $a_trans = TRANS_ON) {
+	
+	public function getRecId($l_sess, $a_recid ,&$a_out_apd, &$a_err, $a_trans = TRANS_ON) {
         // Start BLOCK A
             $l_rtn = 0;
     
@@ -232,9 +201,8 @@ class logicBank {
     
         // Start BLOCK C
     
-		$validBank = new validBank();
-		$l_out = [];
-		if ( $validBank->check_RECID($a_recid,$l_out,$a_err,['required'=>1]) == -1 )
+		$l_valBank = new validBank();
+		if ( $l_valBank->validGet($a_recid,$a_err) == -1 )
 		{
 			debug_log("<< ".API_RET_NG) ;
 			$l_db_con->disconnect(DB_NG);
@@ -255,13 +223,12 @@ class logicBank {
     
             $l_bank_data = array();
 			$l_rtn = $l_svcBank->Get($l_dbh, $l_dbdBank, $l_bank_data);
-			$temper= new Valid;
             if ($l_rtn < 0) {
 				if($l_rtn == ERR_DB_TOO_MUCH){
-					$a_err[] = array("what" => 'Data too much','level'=>4, "how" =>'Data too much', "why" => "Have more than one recid = $a_recid in DB");
+					$a_err[] = $l_valBank->err('Data too much', 'Data too much', "Have more than one recid = $a_recid in DB", 4);
 				}
 				elseif($l_rtn == ERR_DB_NOT_FOUND){
-					$a_err[] = array("what" => 'Data not found','level'=>4, "how" =>'Data not found', "why" => "Don't have any data with recid = $a_recid in DB");
+					$a_err[] = $l_valBank->err('Data not found', 'Data not found', "Don't have any data with recid = $a_recid in DB", 4);
 				}
                 $l_db_con->disconnect(DB_NG);
                 return $l_rtn;
@@ -283,6 +250,7 @@ class logicBank {
     
         return $l_rtn;
 	}
+
 	public function add($a_sess, $a_in_apd, &$a_out_apd, &$a_err, $a_trans = TRANS_ON) {
 		// Start BLOCK A 
 			$l_rtn = 0;
@@ -346,7 +314,7 @@ class logicBank {
 			// 同一ユーザ名が登録されている場合はエラー
 			if (count($l_ret_list) >= 1) {
 				// エラー処理を作成
-				$a_err[] = array("what" => "バンクID", "how" => $a_in_apd->getDBDBank()->getData($l_dbdBank::DBD_BANKID), "why" => "db.duplicate", "level" => 4);
+				$a_err[] = $l_valBank->err("バンクID", $a_in_apd->getDBDBank()->getData($l_dbdBank::DBD_BANKID), "db.duplicate", 4);
 				return -1;
 			}
 
@@ -370,7 +338,7 @@ class logicBank {
 				// 同一ユーザ名が登録されている場合はエラー
 				if (count($l_ret_list) >= 1) {
 					// エラー処理を作成
-					$a_err[] = array("what" => "バンク並び順", "how" => $a_in_apd->getDBDBank()->getData($l_dbdBank::DBD_ROW_NTH), "why" => "db.duplicate", "level" => 4);
+					$a_err[] = $l_valBank->err("バンク並び順", $a_in_apd->getDBDBank()->getData($l_dbdBank::DBD_ROW_NTH), "db.duplicate", 4);
 					return -1;
 				}
 			}
@@ -420,8 +388,7 @@ class logicBank {
 		// Start BLOCK F
 			$l_db_con->disconnect(DB_OK);
 	
-			// get data
-			$this->getRecId($a_sess, $l_recid ,$a_out_apd, $a_err, $a_trans = TRANS_ON);
+			$a_out_apd = $a_in_apd;
 		// End BLOCK F
 			return $l_rtn;
 		}
@@ -473,7 +440,7 @@ class logicBank {
 		$l_bank_data = array();
 		$l_rtn = $l_svcBank->Get($l_dbh, $l_dbdSrcBank, $l_bank_data);
 		if ($l_rtn < 0) {
-			$a_err[] = array("what" => "銀行データ", "how" => $l_recid, "why" => "db.notfound", "level" => 4);
+			$a_err[] = $l_valBank->err("銀行データ", $l_recid, "db.notfound", 4);
 			$l_db_con->disconnect(DB_NG);
 			return $l_rtn;
 		}
@@ -493,26 +460,26 @@ class logicBank {
 				$l_ret_list = array();
 				$l_rtn = $l_svcBank->Select($l_dbh, $l_where, null, null, $l_ret_list);
 				if ($l_rtn < 0) {
-					$a_err[] = array("what" => "バンクID", "how" => $l_bankid, "why" => "db.bankid.notfound", "level" => 4);
+					$a_err[] = $l_valBank->err("バンクID", $l_bankid, "db.bankid.notfound", 4);
 					$l_db_con->disconnect(DB_NG);
 					return $l_rtn;
 				}
 			}
 
-				// DB側とのチェック処理を追加
+			// DB側とのチェック処理を追加
 			// -------------------------------------------------------------------
 			// 同一ユーザ名が登録されているかのチェック
 			// -------------------------------------------------------------------
-			$l_row_nth = $a_in_apd->getDBDBank()->getData($l_dbdBank::DBD_ROW_NTH);
-			$l_where = $l_dbdBank::DBD_ROW_NTH . " = '" . $l_row_nth . "' ";
-			$l_where .= " and " . $l_dbdBank::DBD_DEL_FLG . " = 0";
-			$l_where .= " and " . $l_dbdBank::DBD_RECID . " != " . $l_recid;
+			$l_bankid = $a_in_apd->getDBDBank()->getData($l_dbdBank::DBD_ROW_NTH);
+			$l_where = $l_dbdBank_caseid::DBD_BANKID . " = '" . $l_bankid . "' ";
+			$l_where .= " and " . $l_dbdBank_caseid::DBD_DEL_FLG . " = 0";
+			$l_where .= " and " . $l_dbdBank_caseid::DBD_RECID . " != " . $l_recid;
 
 			debug_log("select where = " . $l_where);
 
 			$l_ret_list = array();
 			// ユーザテーブルを検索
-			$l_rtn = $l_svcBank->Select($l_dbh, $l_where, null, null, $l_ret_list);
+			$l_rtn = $l_svcBank_caseid->Select($l_dbh, $l_where, null, null, $l_ret_list);
 			debug_log("select ret = " . $l_rtn);
 			if ($l_rtn < 0) {
 				// データが見つからないエラー以外の場合はエラー終了。
@@ -525,7 +492,7 @@ class logicBank {
 			// 同一ユーザ名が登録されている場合はエラー
 			if (count($l_ret_list) >= 1) {
 				// エラー処理を作成
-				$a_err[] = array("what" => "ユーザ名", "how" => $l_row_nth, "why" => "db.row_nth.duplicate", "level" => 4);
+				$a_err[] = $l_valBank_caseid->err("バンクID", $l_bankid, "db.bankid.duplicate", 4);
 				return -1;
 			}
 
@@ -536,31 +503,31 @@ class logicBank {
 			// ここから業務ロジック
 			//SYSIDを取得する。
 			$l_sysid = 0;
- 			$l_rtn = $l_svcBank->getSysId($l_dbh, $l_sysid);
+ 			$l_rtn = $l_svcBank_caseid->getSysId($l_dbh, $l_sysid);
  			if ($l_rtn < 0) {
 				$l_db_con->disconnect(DB_NG);
 				return $l_rtn;
 			}
 			//OPEIDを取得する。
                			$l_opeid = 0;
- 			$l_rtn = $l_svcBank->getOpeId($l_dbh, $l_opeid);
+ 			$l_rtn = $l_svcBank_caseid->getOpeId($l_dbh, $l_opeid);
 			if ($l_rtn < 0) {
 				$l_db_con->disconnect(DB_NG);
 				return $l_rtn;
 			}
 	
-			// Bankデータの登録
-			$l_dbdBank->setData($l_dbdBank::DBD_SYSID, $l_sysid);
-			$l_dbdBank->setData($l_dbdBank::DBD_OPEID, $l_opeid);
-			$l_dbdBank->setData($l_dbdBank::DBD_SYS_MODE, SYS_MODE_UPDATE);
-			$l_dbdBank->setData($l_dbdBank::DBD_SYS_DATE, $l_date);
-			$l_dbdBank->setData($l_dbdBank::DBD_SYS_USER_ID, $a_sess['USER_ID']);
-			$l_dbdBank->setData($l_dbdBank::DBD_UPD_DATE, $l_date);
-			$l_dbdBank->setData($l_dbdBank::DBD_UPD_USER_ID, $a_sess['USER_ID']);
+			// Bank_caseidデータの登録
+			$l_dbdBank_caseid->setData($l_dbdBank_caseid::DBD_SYSID, $l_sysid);
+			$l_dbdBank_caseid->setData($l_dbdBank_caseid::DBD_OPEID, $l_opeid);
+			$l_dbdBank_caseid->setData($l_dbdBank_caseid::DBD_SYS_MODE, SYS_MODE_UPDATE);
+			$l_dbdBank_caseid->setData($l_dbdBank_caseid::DBD_SYS_DATE, $l_date);
+			$l_dbdBank_caseid->setData($l_dbdBank_caseid::DBD_SYS_USER_ID, $a_sess['USER_ID']);
+			$l_dbdBank_caseid->setData($l_dbdBank_caseid::DBD_UPD_DATE, $l_date);
+			$l_dbdBank_caseid->setData($l_dbdBank_caseid::DBD_UPD_USER_ID, $a_sess['USER_ID']);
 
 	
-			$l_rtn = $l_svcBank->Update($l_dbh, $l_dbdBank);
-			debug_log("bank update = " . $l_rtn);
+			$l_rtn = $l_svcBank_caseid->Update($l_dbh, $l_dbdBank_caseid);
+			debug_log("Bank_caseid update = " . $l_rtn);
 			if ($l_rtn < 0) {
 				$l_db_con->disconnect(DB_NG);
 				return $l_rtn;
@@ -572,8 +539,7 @@ class logicBank {
 		// Start BLOCK F
 			$l_db_con->disconnect(DB_OK);
 	
-			//get data
-			$this->getRecId($a_sess, $l_recid ,$a_out_apd, $a_err, $a_trans = TRANS_ON);
+			$a_out_apd = $a_in_apd;
 		// End BLOCK F
 			return $l_rtn;
 		}
@@ -585,8 +551,8 @@ class logicBank {
 			$l_date = getCurrentDateTime(DATE_TIME_KIND2);
 	
 			// DBDを取得
-			$l_dbdBank = $a_in_apd->getDBDBank();
-			$l_dbo = $l_dbdBank->getDBO();
+			$l_dbdBank_caseid = $a_in_apd->getDBDBank_caseid();
+			$l_dbo = $l_dbdBank_caseid->getDBO();
 		// End BLOCK A
 	
 		// Start BLOCK B
@@ -599,28 +565,28 @@ class logicBank {
 			// トランザクションを開始
 			$l_db_con->begintran($a_trans);
 			// DBロジックを作成
-			$l_svcBank = new dbsvcBank($l_dbh);
+			$l_svcBank_caseid = new dbsvcBank_caseid($l_dbh);
 		// End BLOCK B
 			
 			// ここから下を処理によって作り変える。
 		// Start BLOCK C
 			// validate処理
 			// 入力チェック
-			$l_valBank = new validBank();
-			if ( $l_valBank->validDel($a_in_apd,$a_err) === -1 )
+			$l_valBank_caseid = new validBank_caseid();
+			if ( $l_valBank_caseid->validDel($a_in_apd,$a_err) === -1 )
 			{
 				debug_log("<< ".API_RET_NG) ;
 				$l_db_con->disconnect(DB_NG);
 				return ERR_VALIDATE ;
 			}
 			// DBのデータを取得
-			$l_recid = $a_in_apd->getDBDBank()->getData($l_dbdBank::DBD_RECID);
+			$l_recid = $a_in_apd->getDBDBank_caseid()->getData($l_dbdBank_caseid::DBD_RECID);
 
-			$l_where = $l_dbdBank::DBD_RECID . " = " . $l_recid;
+			$l_where = $l_dbdBank_caseid::DBD_RECID . " = " . $l_recid;
 			$l_ret_list = array();
-			$l_rtn = $l_svcBank->Select($l_dbh, $l_where, null, null, $l_ret_list);
+			$l_rtn = $l_svcBank_caseid->Select($l_dbh, $l_where, null, null, $l_ret_list);
 			if ($l_rtn < 0 && count($l_ret_list) <= 0) {
-				$a_err[] = array("what" => "銀行データ", "how" => $l_recid, "why" => "db.notfound", "level" => 4);
+				$a_err[] = $l_valBank_caseid->err("銀行データ", $l_recid, "db.notfound", 4);
 				$l_db_con->disconnect(DB_NG);
 				return $l_rtn;
 			}
@@ -639,9 +605,8 @@ class logicBank {
 				$l_ret_list = array();
 				$l_rtn = $l_svcBank->Select($l_dbh, $l_where, null, null, $l_ret_list);
 				if (count($l_ret_list) >= 1) {
-					$a_err[] = array("what" => "銀行データ", "how" => $l_bankid, "why" => "db.isdeleted", "level" => 4);
-					$l_db_con->disconnect(DB_NG);
-					return $l_rtn;
+					$a_err[] = $l_valBank->err("銀行データ", $l_bankid, "db.isdeleted", 4);
+					return -1;
 				}
 			}
 
@@ -689,8 +654,7 @@ class logicBank {
 		// Start BLOCK F
 			$l_db_con->disconnect(DB_OK);
 	
-			//get data
-			$this->getRecId($a_sess, $l_recid ,$a_out_apd, $a_err, $a_trans = TRANS_ON);
+			$a_out_apd = $a_in_apd;
 		// End BLOCK F
 			return $l_rtn;
 		}

@@ -2342,14 +2342,7 @@ class BVUser extends Valid
 		}
 
 		// 日付チェック
-		$ret = FVDate::valid($a_out[0], 
-		self::PASS_UPD_DATE_L_LEN, 
-		self::PASS_UPD_DATE_U_LEN, 
-		$a_out, 
-		FVString::BYTE_MIN_MAX, 
-		$l_required, 
-		"パスワード更新日", 
-		$l_err_info);
+		$ret = FVDate::valid($a_out[0], self::PASS_UPD_DATE_L_LEN, self::PASS_UPD_DATE_U_LEN, $a_out, FVString::BYTE_MIN_MAX, $l_required, "パスワード更新日", $l_err_info);
 		// チェックエラー
 		if ($ret < 0) {
 			$err_count = count($l_err_info->errors);

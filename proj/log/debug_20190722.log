@@ -1,0 +1,491 @@
+2019/07/22 18:49:58(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\webapi\webapiJSON.php:242 webapiJSON->__construct >>()
+2019/07/22 18:49:58(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\webapi\webapiJSON.php:242 webapiJSON->__construct <<
+2019/07/22 18:49:58(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\webapi\webapiJSON.php:243 webapiJSON->main >>()
+2019/07/22 18:49:58(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\webapi\webapiJSON.php:243 webapiJSON->main param:/jcordthanh1to9/proj/lib/webapi/admin/Bank/list/query?q=%7B%0A%20%22isConverted%22:%20true%0A%7D&p=%7B%0A%20%22lines%22:%2015,%0A%20%22page%22:%200,%0A%20%22sortKey%22:%20%5B%0A%20%20%22recid%22%0A%20%5D,%0A%20%22sortDir%22:%20%22%22%0A%7D&r=1
+2019/07/22 18:49:58(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\webapi\webapiJSON.php:243 webapiJSON->main GET q:{
+ "isConverted": true
+}
+2019/07/22 18:49:58(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\webapi\webapiJSON.php:243 webapiJSON->main GET p:{
+ "lines": 15,
+ "page": 0,
+ "sortKey": [
+  "recid"
+ ],
+ "sortDir": ""
+}
+2019/07/22 18:49:58(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\webapi\webapiJSON.php:243 webapiJSON->main GET r:1
+2019/07/22 18:49:58(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\webapi\webapiJSON.php:243 webapiJSON->main MATCH other(Bank:list)
+2019/07/22 18:49:58(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\webapi\webapiJSON.php:198 webapiCore->action >>()
+2019/07/22 18:49:58(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\webapi\webapiCore.php:141 webapiCore->pre >>(1)
+2019/07/22 18:49:58(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\webapi\webapiCore.php:141 webapiCore->pre << 1
+2019/07/22 18:49:58(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\webapi\webapiJSON.php:198 webapiCore->action << (pre:1)
+2019/07/22 18:49:58(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\webapi\webapiCore.php:144 webapiCore->exec >>(1)
+2019/07/22 18:49:58(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\webapi\webapiCore.php:89 apiBank->list Array
+(
+    [0] => query
+    [1] => stdClass Object
+        (
+            [isConverted] => 1
+        )
+
+    [2] => stdClass Object
+        (
+            [lines] => 15
+            [page] => 0
+            [sortKey] => Array
+                (
+                    [0] => recid
+                )
+
+            [sortDir] => 
+        )
+
+    [3] => 1
+)
+
+2019/07/22 18:49:58(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\webapi\webapiCore.php:89 apiBank->list param:query
+2019/07/22 18:49:58(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\logic\logicBank.php:22 dbsvcCommon->connect dsn = pgsql:dbname=jcorddb host=192.168.201.74 port=5432
+2019/07/22 18:49:59(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\webapi\apiBank.php:239 logicBank->list isConverted :1
+2019/07/22 18:49:59(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\webapi\apiBank.php:239 logicBank->list where :del_flg = 0
+2019/07/22 18:49:59(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\webapi\apiBank.php:239 logicBank->list paging sortKey count :1
+2019/07/22 18:49:59(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\webapi\apiBank.php:239 logicBank->list paging sortKey :recid
+2019/07/22 18:49:59(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\webapi\apiBank.php:239 logicBank->list paging sortDir :
+2019/07/22 18:49:59(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\webapi\apiBank.php:239 logicBank->list paging lines   :15
+2019/07/22 18:49:59(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\webapi\apiBank.php:239 logicBank->list paging page    :0
+2019/07/22 18:49:59(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\webapi\apiBank.php:239 logicBank->list sort : recid 
+2019/07/22 18:49:59(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\webapi\apiBank.php:239 logicBank->list sort : recid 
+2019/07/22 18:49:59(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\logic\logicBank.php:119 dbsvcCore->Select execute: ret(true)
+2019/07/22 18:49:59(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\logic\logicBank.php:131 apdBank->convertSelectBankList bank count = 15
+2019/07/22 18:49:59(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\logic\logicBank.php:136 dbsvcCommon->disconnect disconnect flag = 0
+2019/07/22 18:49:59(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\db\dbsvc\dbsvcCommon.php:31 dbsvcCommon->commit commit flag = 0
+2019/07/22 18:49:59(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\logic\logicBank.php:22 dbsvcCommon->connect dsn = pgsql:dbname=jcorddb host=192.168.201.74 port=5432
+2019/07/22 18:49:59(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\webapi\apiBank.php:240 logicBank->list isConverted :1
+2019/07/22 18:49:59(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\webapi\apiBank.php:240 logicBank->list where :del_flg = 0
+2019/07/22 18:49:59(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\webapi\apiBank.php:240 logicBank->list sort :
+2019/07/22 18:49:59(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\webapi\apiBank.php:240 logicBank->list sort :
+2019/07/22 18:49:59(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\logic\logicBank.php:119 dbsvcCore->Select execute: ret(true)
+2019/07/22 18:49:59(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\logic\logicBank.php:131 apdBank->convertSelectBankList bank count = 64
+2019/07/22 18:49:59(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\logic\logicBank.php:136 dbsvcCommon->disconnect disconnect flag = 0
+2019/07/22 18:49:59(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\db\dbsvc\dbsvcCommon.php:31 dbsvcCommon->commit commit flag = 0
+2019/07/22 18:49:59(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\webapi\webapiCore.php:89 apiBank->list << (1)
+2019/07/22 18:49:59(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\webapi\webapiCore.php:144 webapiCore->exec << 1
+2019/07/22 18:49:59(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\webapi\webapiJSON.php:198 webapiCore->action << (pre:1)
+2019/07/22 18:49:59(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\webapi\webapiCore.php:147 webapiJSON->post >>(1)
+2019/07/22 18:49:59(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\webapi\webapiCore.php:147 webapiJSON->post Array
+(
+)
+
+2019/07/22 18:49:59(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\webapi\webapiCore.php:147 webapiJSON->post Array
+(
+    [0] => Array
+        (
+            [bankid] => 22
+            [cur_bankid] => 22
+            [available] => 0
+            [bank_name] => vietcombank
+            [short_name] => VCB
+            [ename] => システム部
+            [short_ename] => 部
+            [person] => 服部勲
+            [tel_num] => 0120-901-160
+            [fax_num] => 
+            [kind] => 1
+            [row_nth] => 22
+            [sysid] => 3907110000000641
+            [opeid] => 641
+            [sys_mode] => 1
+            [recid] => 598
+            [sys_date] => 2019-07-11 18:15:06
+            [sys_user_id] => 1
+            [reg_date] => 2019-07-11 18:15:06
+            [reg_user_id] => 1
+            [upd_date] => 2019-07-11 18:15:06
+            [upd_user_id] => 1
+            [del_flg] => 0
+        )
+
+    [1] => Array
+        (
+            [bankid] => 6
+            [cur_bankid] => 123
+            [available] => 1
+            [bank_name] => Blood
+            [short_name] => BD
+            [ename] => BD
+            [short_ename] => 部
+            [person] => 服部勲
+            [tel_num] => 0120-901-160
+            [fax_num] => 
+            [kind] => 1
+            [row_nth] => 6
+            [sysid] => 3907160000000876
+            [opeid] => 876
+            [sys_mode] => 2
+            [recid] => 606
+            [sys_date] => 2019-07-16 16:26:00
+            [sys_user_id] => 2
+            [reg_date] => 2019-07-11 18:15:09
+            [reg_user_id] => 1
+            [upd_date] => 2019-07-16 16:26:00
+            [upd_user_id] => 2
+            [del_flg] => 0
+        )
+
+    [2] => Array
+        (
+            [bankid] => 66
+            [cur_bankid] => 123
+            [available] => 1
+            [bank_name] => techcombank
+            [short_name] => VCB VCB VC
+            [ename] => Department System
+            [short_ename] => 部
+            [person] => 服部勲
+            [tel_num] => 0120-901-160
+            [fax_num] => 
+            [kind] => 1
+            [row_nth] => 66
+            [sysid] => 3907110000000650
+            [opeid] => 650
+            [sys_mode] => 1
+            [recid] => 607
+            [sys_date] => 2019-07-11 18:15:10
+            [sys_user_id] => 1
+            [reg_date] => 2019-07-11 18:15:10
+            [reg_user_id] => 1
+            [upd_date] => 2019-07-11 18:15:10
+            [upd_user_id] => 1
+            [del_flg] => 0
+        )
+
+    [3] => Array
+        (
+            [bankid] => 666
+            [cur_bankid] => 123
+            [available] => 1
+            [bank_name] => techcombank
+            [short_name] => VCB VCB VC
+            [ename] => Department System
+            [short_ename] => 部
+            [person] => 服部勲
+            [tel_num] => 0120-901-160
+            [fax_num] => 
+            [kind] => 1
+            [row_nth] => 60
+            [sysid] => 3907220000000893
+            [opeid] => 893
+            [sys_mode] => 2
+            [recid] => 608
+            [sys_date] => 2019-07-22 16:16:46
+            [sys_user_id] => 2
+            [reg_date] => 2019-07-11 18:15:10
+            [reg_user_id] => 1
+            [upd_date] => 2019-07-22 16:16:46
+            [upd_user_id] => 2
+            [del_flg] => 0
+        )
+
+    [4] => Array
+        (
+            [bankid] => 777
+            [cur_bankid] => 123
+            [available] => 1
+            [bank_name] => techcombank
+            [short_name] => VCB VCB VC
+            [ename] => DS
+            [short_ename] => Deps
+            [person] => 服部勲
+            [tel_num] => 0120-901-160
+            [fax_num] => 
+            [kind] => 1
+            [row_nth] => 70
+            [sysid] => 3907110000000654
+            [opeid] => 654
+            [sys_mode] => 1
+            [recid] => 611
+            [sys_date] => 2019-07-11 18:15:12
+            [sys_user_id] => 1
+            [reg_date] => 2019-07-11 18:15:12
+            [reg_user_id] => 1
+            [upd_date] => 2019-07-11 18:15:12
+            [upd_user_id] => 1
+            [del_flg] => 0
+        )
+
+    [5] => Array
+        (
+            [bankid] => 8
+            [cur_bankid] => 123
+            [available] => 1
+            [bank_name] => techcombank
+            [short_name] => VCB VCB VC
+            [ename] => DS
+            [short_ename] => Deps
+            [person] => t
+            [tel_num] => 0120-901-160
+            [fax_num] => 
+            [kind] => 1
+            [row_nth] => 8
+            [sysid] => 3907110000000655
+            [opeid] => 655
+            [sys_mode] => 1
+            [recid] => 612
+            [sys_date] => 2019-07-11 18:15:12
+            [sys_user_id] => 1
+            [reg_date] => 2019-07-11 18:15:12
+            [reg_user_id] => 1
+            [upd_date] => 2019-07-11 18:15:12
+            [upd_user_id] => 1
+            [del_flg] => 0
+        )
+
+    [6] => Array
+        (
+            [bankid] => 9
+            [cur_bankid] => 123
+            [available] => 1
+            [bank_name] => techcombank
+            [short_name] => VCB VCB VC
+            [ename] => DS
+            [short_ename] => Deps
+            [person] => thanhtd
+            [tel_num] => 0120-901-160
+            [fax_num] => 
+            [kind] => 1
+            [row_nth] => 9
+            [sysid] => 3907110000000656
+            [opeid] => 656
+            [sys_mode] => 1
+            [recid] => 613
+            [sys_date] => 2019-07-11 18:15:13
+            [sys_user_id] => 1
+            [reg_date] => 2019-07-11 18:15:13
+            [reg_user_id] => 1
+            [upd_date] => 2019-07-11 18:15:13
+            [upd_user_id] => 1
+            [del_flg] => 0
+        )
+
+    [7] => Array
+        (
+            [bankid] => 99
+            [cur_bankid] => 123
+            [available] => 1
+            [bank_name] => techcombank
+            [short_name] => VCB VCB VC
+            [ename] => DS
+            [short_ename] => Deps
+            [person] => thanhtd thanhtd thanhtd thanhtd thtd
+            [tel_num] => 0120-901-160
+            [fax_num] => 
+            [kind] => 1
+            [row_nth] => 99
+            [sysid] => 3907110000000657
+            [opeid] => 657
+            [sys_mode] => 1
+            [recid] => 614
+            [sys_date] => 2019-07-11 18:15:13
+            [sys_user_id] => 1
+            [reg_date] => 2019-07-11 18:15:13
+            [reg_user_id] => 1
+            [upd_date] => 2019-07-11 18:15:13
+            [upd_user_id] => 1
+            [del_flg] => 0
+        )
+
+    [8] => Array
+        (
+            [bankid] => 999
+            [cur_bankid] => 123
+            [available] => 1
+            [bank_name] => techcombank
+            [short_name] => VCB VCB VC
+            [ename] => DS
+            [short_ename] => Deps
+            [person] => thanhtd thanhtd thanhtd thanhtd thtd
+            [tel_num] => 0120-901-160
+            [fax_num] => 
+            [kind] => 1
+            [row_nth] => 90
+            [sysid] => 3907110000000658
+            [opeid] => 658
+            [sys_mode] => 1
+            [recid] => 615
+            [sys_date] => 2019-07-11 18:15:14
+            [sys_user_id] => 1
+            [reg_date] => 2019-07-11 18:15:14
+            [reg_user_id] => 1
+            [upd_date] => 2019-07-11 18:15:14
+            [upd_user_id] => 1
+            [del_flg] => 0
+        )
+
+    [9] => Array
+        (
+            [bankid] => 10
+            [cur_bankid] => 123
+            [available] => 1
+            [bank_name] => techcombank
+            [short_name] => VCB VCB VC
+            [ename] => DS
+            [short_ename] => Deps
+            [person] => thanhtd thanhtd thanhtd thanhtd thtd
+            [tel_num] => 0120-901-160
+            [fax_num] => 
+            [kind] => 9
+            [row_nth] => 10
+            [sysid] => 3907110000000659
+            [opeid] => 659
+            [sys_mode] => 1
+            [recid] => 616
+            [sys_date] => 2019-07-11 18:15:14
+            [sys_user_id] => 1
+            [reg_date] => 2019-07-11 18:15:14
+            [reg_user_id] => 1
+            [upd_date] => 2019-07-11 18:15:14
+            [upd_user_id] => 1
+            [del_flg] => 0
+        )
+
+    [10] => Array
+        (
+            [bankid] => 101
+            [cur_bankid] => 123
+            [available] => 1
+            [bank_name] => techcombank
+            [short_name] => VCB VCB VC
+            [ename] => DS
+            [short_ename] => Deps
+            [person] => thanhtd thanhtd thanhtd thanhtd thtd
+            [tel_num] => 0120-901-160
+            [fax_num] => 
+            [kind] => 99
+            [row_nth] => 98
+            [sysid] => 3907110000000660
+            [opeid] => 660
+            [sys_mode] => 1
+            [recid] => 617
+            [sys_date] => 2019-07-11 18:15:15
+            [sys_user_id] => 1
+            [reg_date] => 2019-07-11 18:15:15
+            [reg_user_id] => 1
+            [upd_date] => 2019-07-11 18:15:15
+            [upd_user_id] => 1
+            [del_flg] => 0
+        )
+
+    [11] => Array
+        (
+            [bankid] => 100
+            [cur_bankid] => 123
+            [available] => 1
+            [bank_name] => techcombank
+            [short_name] => VCB VCB VC
+            [ename] => DS
+            [short_ename] => Deps
+            [person] => thanhtd thanhtd thanhtd thanhtd thtd
+            [tel_num] => 0120-901-160
+            [fax_num] => 
+            [kind] => 99
+            [row_nth] => 0
+            [sysid] => 3907110000000661
+            [opeid] => 661
+            [sys_mode] => 1
+            [recid] => 618
+            [sys_date] => 2019-07-11 18:15:15
+            [sys_user_id] => 1
+            [reg_date] => 2019-07-11 18:15:15
+            [reg_user_id] => 1
+            [upd_date] => 2019-07-11 18:15:15
+            [upd_user_id] => 1
+            [del_flg] => 0
+        )
+
+    [12] => Array
+        (
+            [bankid] => 102
+            [cur_bankid] => 123
+            [available] => 1
+            [bank_name] => techcombank
+            [short_name] => VCB VCB VC
+            [ename] => DS
+            [short_ename] => Deps
+            [person] => thanhtd thanhtd thanhtd thanhtd thtd
+            [tel_num] => 0120-901-160
+            [fax_num] => 
+            [kind] => 99
+            [row_nth] => 12
+            [sysid] => 3907110000000662
+            [opeid] => 662
+            [sys_mode] => 1
+            [recid] => 619
+            [sys_date] => 2019-07-11 18:15:16
+            [sys_user_id] => 1
+            [reg_date] => 2019-07-11 18:15:16
+            [reg_user_id] => 1
+            [upd_date] => 2019-07-11 18:15:16
+            [upd_user_id] => 1
+            [del_flg] => 0
+        )
+
+    [13] => Array
+        (
+            [bankid] => 103
+            [cur_bankid] => 123
+            [available] => 1
+            [bank_name] => techcombank
+            [short_name] => VCB VCB VC
+            [ename] => DS
+            [short_ename] => Deps
+            [person] => thanhtd thanhtd
+            [tel_num] => 0963528393
+            [fax_num] => 
+            [kind] => 99
+            [row_nth] => 13
+            [sysid] => 3907220000000892
+            [opeid] => 892
+            [sys_mode] => 2
+            [recid] => 620
+            [sys_date] => 2019-07-22 16:15:02
+            [sys_user_id] => 2
+            [reg_date] => 2019-07-11 18:15:16
+            [reg_user_id] => 1
+            [upd_date] => 2019-07-22 16:15:02
+            [upd_user_id] => 2
+            [del_flg] => 0
+        )
+
+    [14] => Array
+        (
+            [bankid] => 104
+            [cur_bankid] => 123
+            [available] => 1
+            [bank_name] => techcombank
+            [short_name] => VCB VCB VC
+            [ename] => DS
+            [short_ename] => Deps
+            [person] => thanhtd thanhtd thanhtd thanhtd thtd
+            [tel_num] => 09635283934
+            [fax_num] => 
+            [kind] => 99
+            [row_nth] => 14
+            [sysid] => 3907110000000664
+            [opeid] => 664
+            [sys_mode] => 1
+            [recid] => 621
+            [sys_date] => 2019-07-11 18:15:17
+            [sys_user_id] => 1
+            [reg_date] => 2019-07-11 18:15:17
+            [reg_user_id] => 1
+            [upd_date] => 2019-07-11 18:15:17
+            [upd_user_id] => 1
+            [del_flg] => 0
+        )
+
+    [total] => 64
+)
+
+2019/07/22 18:49:59(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\webapi\webapiCore.php:147 webapiJSON->post << 1
+2019/07/22 18:49:59(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\webapi\webapiJSON.php:198 webapiCore->action << (pre:1)
+2019/07/22 18:49:59(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\webapi\webapiJSON.php:198 webapiCore->action <<
+2019/07/22 18:49:59(5600)	::1 D:\xampp\htdocs\jcordthanh1to9\proj\lib\webapi\webapiJSON.php:243 webapiJSON->main <<

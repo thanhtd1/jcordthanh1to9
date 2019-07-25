@@ -1,0 +1,12 @@
+	 "sysid":{$data[no].sysid}
+	,"opeid":{$data[no].opeid}
+	,"sys_mode":{$data[no].sys_mode}
+	,"recid":{$data[no].recid}
+	,"sys_date":"{$data[no].sys_date}"
+	,"sys_user_id":{$data[no].sys_user_id}
+	,"reg_date":"{$data[no].reg_date}"
+	,"reg_user_id":{$data[no].reg_user_id}
+	,"upd_date":"{$data[no].upd_date}"
+	,"upd_user_id":{$data[no].upd_user_id}
+	,"del_flg":{$data[no].del_flg}
+	,"available":{$data[no].available}

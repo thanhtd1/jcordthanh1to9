@@ -1,5 +1,5 @@
 {
 	"head":{
-{include file='Bank_head.tpl'}
+{include file='Person_head.tpl'}
 	}
 }

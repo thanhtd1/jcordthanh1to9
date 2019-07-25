@@ -194,6 +194,66 @@ abstract class dbsvcCore {
 		return $sql;
 	}
 
+	// Where句の作成
+	public function createSqlWhere($a_search_data, &$a_sql) {
+		$l_sql = "";
+		$l_key_count = 0;
+		$l_value_count = 0;
+		// 項目か値でどちらかが設定されていない場合は終了する。
+		if (is_null($a_search_data)) {
+			$a_sql = $l_sql;
+			return 0;
+		}
+
+		$l_count = 0;
+		$l_sql = "";
+		foreach($a_search_data as $key => $value) {
+			if ($l_count > 0) {
+				$l_sql .= " and ";
+			}
+
+			$l_sql .= $key . " = '" . $value . "'";
+			$l_count++;
+		}
+
+		$a_sql = $l_sql;
+		return 0;
+	}
+
+	// OrderBy句の作成
+	public function createSqlSort($a_sort_data, &$a_sql) {
+		$l_sql = "";
+		$l_key_count = 0;
+		$l_value_count = 0;
+		// 項目か値でどちらかが設定されていない場合は終了する。
+		if (is_null($a_sort_data)) {
+			$a_sql = $l_sql;
+			return 0;
+		}
+
+		$l_count = 0;
+		$l_sql = "";
+		for ($l_i = 0; $l_i < count($a_sort_data); $l_i++) {
+			$l_key = $a_sort_data[$l_i];
+			if ( $l_i > 0 )
+			{
+				$l_sql .= " , ";
+			}
+
+			if ( substr($l_key,0,1) == '!' )
+			{
+				$l_sql .= " " . substr($l_key,1) . " desc ";
+			}
+			else
+			{
+				$l_sql .= " $l_key ";
+			}
+		}
+
+		$a_sql = $l_sql;
+		return 0;
+	}
+
 	// 登録処理
 	public function Insert($dbh, $dbdata, &$recid) {
 		$ret = 0;
