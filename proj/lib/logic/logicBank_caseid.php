@@ -615,8 +615,6 @@ class logicBank_caseid {
 			$l_dbdBank_caseid->setData($l_dbdBank_caseid::DBD_UPD_DATE, $l_date);
 			$l_dbdBank_caseid->setData($l_dbdBank_caseid::DBD_UPD_USER_ID, $a_sess['USER_ID']);
 			$l_dbdBank_caseid->setData($l_dbdBank_caseid::DBD_DEL_FLG, 1);
-
-			$l_del_flag = $a_in_apd->getDBDBank_caseid()->getData($l_dbdBank_caseid::DBD_DEL_FLG);
 	
 			$l_rtn = $l_svcBank_caseid->Delete($l_dbh, $l_dbo);
 			debug_log("Bank_caseid delete = " . $l_rtn);

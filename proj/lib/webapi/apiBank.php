@@ -143,9 +143,9 @@ class apiBank extends apiCore
 		$in_apd->convertUpdateData($in[1]);
 
 		// 削除実行
-		$l_sess = array();
+		//TODO::
+		//$ret	= 1;		$l_sess = array();
 		$l_sess['USER_ID'] = 2;
-		
 		// 更新実行
 		$logic = new logicBank();
 		$ret = $logic->del($l_sess, $in_apd, $out_apd, $err);
@@ -181,24 +181,25 @@ class apiBank extends apiCore
 
 		// 取得実行
 		$logic = new logicBank();
-		$ret = $logic->getRecId($l_sess, $recid, $out_apd, $err, TRANS_OFF);
+		$ret = $logic->get($l_sess, $recid, $out_apd, $err, TRANS_OFF);
 
 		$out = $out_apd->getData();
 
 		debug_log("<< ($ret)") ;
 		return ($ret < 0)?API_RET_NG:API_RET_OK ;
 	}
-	function getBankId($in, &$out, &$err)
+	
+	function getBankid($in, &$out, &$err)
 	{
 		// APD作成
 		$out_apd = new apdBank();
-		$recid = $in[0];
+		$bankid = $in[0];
 
 		$l_sess = array();
 		
 		// 取得実行
 		$logic = new logicBank();
-		$ret = $logic->getBankid($l_sess, $recid, $out_apd, $err, TRANS_OFF);
+		$ret = $logic->getBankid($l_sess, $bankid, $out_apd, $err, TRANS_OFF);
 
 		$out = $out_apd->getData();
 

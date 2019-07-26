@@ -463,8 +463,6 @@ class logicState {
 			$l_dbdState->setData($l_dbdState::DBD_UPD_DATE, $l_date);
 			$l_dbdState->setData($l_dbdState::DBD_UPD_USER_ID, $a_sess['USER_ID']);
 			$l_dbdState->setData($l_dbdState::DBD_DEL_FLG, 1);
-
-			$l_del_flag = $a_in_apd->getDBDState()->getData($l_dbdState::DBD_DEL_FLG);
 	
 			$l_rtn = $l_svcState->Delete($l_dbh, $l_dbo);
 			debug_log("State delete = " . $l_rtn);

@@ -178,7 +178,7 @@ class logicBank {
         return $l_rtn;
     }
 	
-	public function getRecId($l_sess, $a_recid ,&$a_out_apd, &$a_err, $a_trans = TRANS_ON) {
+	public function get($l_sess, $a_recid ,&$a_out_apd, &$a_err, $a_trans = TRANS_ON) {
         // Start BLOCK A
             $l_rtn = 0;
     
@@ -638,8 +638,6 @@ class logicBank {
 			$l_dbdBank->setData($l_dbdBank::DBD_UPD_DATE, $l_date);
 			$l_dbdBank->setData($l_dbdBank::DBD_UPD_USER_ID, $a_sess['USER_ID']);
 			$l_dbdBank->setData($l_dbdBank::DBD_DEL_FLG, 1);
-
-			$l_del_flag = $a_in_apd->getDBDBank()->getData($l_dbdBank::DBD_DEL_FLG);
 	
 			$l_rtn = $l_svcBank->Delete($l_dbh, $l_dbo);
 			debug_log("bank delete = " . $l_rtn);

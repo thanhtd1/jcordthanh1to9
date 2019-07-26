@@ -1,7 +1,7 @@
 <?php
 //======================================================
 //
-// 機能名：	ユーザチェック Class.
+// 機能名：	状態ェック Class.
 //
 // 機能ID：	BVSystem.php
 // 継承  ：	none
@@ -35,41 +35,86 @@ require_once(VALID_DIR . "Valid.php");
 
 class BVSystem extends Valid
 {
+
 	function __construct()
 	{
 		parent::__construct();
 	}
 
-    // check recid
+	// check recid
 	function check_RECID($a_val,&$a_out,&$a_err,$a_opt = array())
 	{
 		debug_log(">> ($a_val)") ;
 
 		$ret = self::VALID_OK;
 
-        //実行
-        //TODO::
-        
+		//実行
+		//TODO::
+
+		// エラーなし
+		debug_log("<<") ;
+		return $ret ;
+	}	
+
+	// check recid
+	function check_AVAILABLE($a_val,&$a_out,&$a_err,$a_opt = array())
+	{
+		debug_log(">> ($a_val)") ;
+
+		$ret = self::VALID_OK;
+
+		//実行
+		//TODO::
+
+		// エラーなし
+		debug_log("<<") ;
+		return $ret ;
+	}
+	
+	// check Item_name
+	function check_ITEM_NAME($a_val,&$a_out,&$a_err,$a_opt = array())
+	{
+		debug_log(">> ($a_val)") ;
+
+		$ret = self::VALID_OK;
+
+		//実行
+		//TODO::
+
 		// エラーなし
 		debug_log("<<") ;
 		return $ret ;
 	}
 
-    // check item_name
-	function check_ITEM_NAME($a_val,&$a_out,&$a_err,$a_opt = array())
+	// check recid
+	function check_ITEM_VALUE($a_val,&$a_out,&$a_err,$a_opt = array())
 	{
-		debug_log(">> ($a_val)");
+		debug_log(">> ($a_val)") ;
 
 		$ret = self::VALID_OK;
 
-        //実行
-        //TODO::
+		//実行
+		//TODO::
 
 		// エラーなし
-		debug_log("<< ($ret)");
-		return $ret;
-    }
-    
+		debug_log("<<") ;
+		return $ret ;
+	}
+
+	// check recid
+	function check_ITEM_NOTE($a_val,&$a_out,&$a_err,$a_opt = array())
+	{
+		debug_log(">> ($a_val)") ;
+
+		$ret = self::VALID_OK;
+
+		//実行
+		//TODO::
+
+		// エラーなし
+		debug_log("<<") ;
+		return $ret ;
+	}
 	
 } // CLASS-EOF
 ?>

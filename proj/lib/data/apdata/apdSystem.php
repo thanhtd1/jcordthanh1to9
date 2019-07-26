@@ -5,7 +5,7 @@ require_once(DBD_DIR . "dbdSystem.php");
 
 class apdSystem {
 	//name
-	const   DATA_NAME       = "System";
+	const   DATA_NAME       = "system";
 
 	private $m_dbdSystem;
 	private $apd_list;
@@ -46,7 +46,10 @@ class apdSystem {
 		$apd_data = array();
 
 		foreach($system_dbo as $key => $value) {
-			$key_preg = preg_replace('/m_/', '', $key);
+			// $key_preg = preg_replace('/m_/', '', $key);
+			if(substr($key, 0, 2) == 'm_'){
+				$key_preg = substr($key, 2);
+			}
 			$apd_data[$key_preg] = $system_dbo->{$key};
 		}
 
@@ -58,14 +61,18 @@ class apdSystem {
 		$system_list = $this->m_dbdSystem->getDBOList();
 
 		$apd_data_count = 0;
-		debug_log("System count = ".count($system_list));
+		debug_log("system count = ".count($system_list));
 		for($i = 0; $i < count($system_list); $i++) {
 			$system_dbo = $system_list[$i];
 	
 			$apd_data = array();
 
 			foreach($system_dbo as $key => $value) {
-				$key_preg = preg_replace('/m_/', '', $key);
+				// $key_preg = preg_replace('/m_/', '', $key);
+				
+				if(substr($key, 0, 2) == 'm_'){
+					$key_preg = substr($key, 2);
+				}
 				$apd_data[$key_preg] = $system_dbo->{$key};
 			}
 

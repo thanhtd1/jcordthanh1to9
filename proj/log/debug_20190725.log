@@ -3810,3 +3810,48 @@ LINE 1: ...e,upd_user_id,del_flg from bank  where bankid =   and del_fl...
 2019/07/25 17:14:46(6624)	::1 D:\xampp\htdocs\code\proj\lib\webapi\webapiJSON.php:189 webapiCore->action << (pre:1)
 2019/07/25 17:14:46(6624)	::1 D:\xampp\htdocs\code\proj\lib\webapi\webapiJSON.php:189 webapiCore->action <<
 2019/07/25 17:14:46(6624)	::1 D:\xampp\htdocs\code\proj\lib\webapi\webapiJSON.php:234 webapiJSON->main <<
+2019/07/25 19:16:35(6624)	::1 D:\xampp\htdocs\code\proj\test\api_test\api_system_test_insert.php:27 apiSystem->add >>()
+2019/07/25 19:16:35(6624)	::1 D:\xampp\htdocs\code\proj\lib\logic\logicSystem.php:275 dbsvcCommon->connect dsn = pgsql:dbname=jcorddb host=192.168.201.74 port=5432
+2019/07/25 19:16:35(6624)	::1 D:\xampp\htdocs\code\proj\lib\logic\logicSystem.php:279 dbsvcCommon->begintran transaction ON
+2019/07/25 19:16:35(6624)	::1 D:\xampp\htdocs\code\proj\lib\logic\logicSystem.php:286 validSystem->validAdd >>
+2019/07/25 19:16:35(6624)	::1 D:\xampp\htdocs\code\proj\lib\validate\level4\validSystem.php:39 BVSystem->check_AVAILABLE >> (1)
+2019/07/25 19:16:35(6624)	::1 D:\xampp\htdocs\code\proj\lib\validate\level4\validSystem.php:39 BVSystem->check_AVAILABLE <<
+2019/07/25 19:16:35(6624)	::1 D:\xampp\htdocs\code\proj\lib\validate\level4\validSystem.php:42 BVSystem->check_ITEM_NAME >> ()
+2019/07/25 19:16:35(6624)	::1 D:\xampp\htdocs\code\proj\lib\validate\level4\validSystem.php:42 BVSystem->check_ITEM_NAME <<
+2019/07/25 19:16:35(6624)	::1 D:\xampp\htdocs\code\proj\lib\validate\level4\validSystem.php:45 BVSystem->check_ITEM_VALUE >> ()
+2019/07/25 19:16:35(6624)	::1 D:\xampp\htdocs\code\proj\lib\validate\level4\validSystem.php:45 BVSystem->check_ITEM_VALUE <<
+2019/07/25 19:16:35(6624)	::1 D:\xampp\htdocs\code\proj\lib\validate\level4\validSystem.php:48 BVSystem->check_ITEM_NOTE >> ()
+2019/07/25 19:16:35(6624)	::1 D:\xampp\htdocs\code\proj\lib\validate\level4\validSystem.php:48 BVSystem->check_ITEM_NOTE <<
+2019/07/25 19:16:35(6624)	::1 D:\xampp\htdocs\code\proj\lib\logic\logicSystem.php:286 validSystem->validAdd << (0)
+2019/07/25 19:16:35(6624)	::1 D:\xampp\htdocs\code\proj\lib\webapi\apiSystem.php:70 logicSystem->add select where = item_name ='' and del_flg = 0
+2019/07/25 19:16:35(6624)	::1 D:\xampp\htdocs\code\proj\lib\logic\logicSystem.php:301 dbsvcCore->Select execute: ret(true)
+2019/07/25 19:16:35(6624)	::1 D:\xampp\htdocs\code\proj\lib\webapi\apiSystem.php:70 logicSystem->add select ret = -110
+2019/07/25 19:16:35(6624)	::1 D:\xampp\htdocs\code\proj\lib\db\dbsvc\dbsvcCore.php:270 dbsvcCore->GetID execute: ret(true)
+2019/07/25 19:16:35(6624)	::1 D:\xampp\htdocs\code\proj\lib\logic\logicSystem.php:337 dbsvcCore->Insert get recid = 23
+2019/07/25 19:16:35(6624)	::1 D:\xampp\htdocs\code\proj\lib\db\dbsvc\dbsvcCore.php:277 dbsvcCore->bindSQL (1) item  m_available: 1
+2019/07/25 19:16:35(6624)	::1 D:\xampp\htdocs\code\proj\lib\db\dbsvc\dbsvcCore.php:277 dbsvcCore->bindSQL (2) item  m_sysid: 3907250000000936
+2019/07/25 19:16:35(6624)	::1 D:\xampp\htdocs\code\proj\lib\db\dbsvc\dbsvcCore.php:277 dbsvcCore->bindSQL (3) item  m_opeid: 936
+2019/07/25 19:16:35(6624)	::1 D:\xampp\htdocs\code\proj\lib\db\dbsvc\dbsvcCore.php:277 dbsvcCore->bindSQL (4) item  m_sys_mode: 2
+2019/07/25 19:16:35(6624)	::1 D:\xampp\htdocs\code\proj\lib\db\dbsvc\dbsvcCore.php:277 dbsvcCore->bindSQL (5) item  m_recid: 23
+2019/07/25 19:16:35(6624)	::1 D:\xampp\htdocs\code\proj\lib\db\dbsvc\dbsvcCore.php:277 dbsvcCore->bindSQL (6) item  m_sys_date: 2019/07/25 19:16:35
+2019/07/25 19:16:35(6624)	::1 D:\xampp\htdocs\code\proj\lib\db\dbsvc\dbsvcCore.php:277 dbsvcCore->bindSQL (7) item  m_sys_user_id: 1
+2019/07/25 19:16:35(6624)	::1 D:\xampp\htdocs\code\proj\lib\db\dbsvc\dbsvcCore.php:277 dbsvcCore->bindSQL (8) item  m_reg_date: 2019/07/25 19:16:35
+2019/07/25 19:16:35(6624)	::1 D:\xampp\htdocs\code\proj\lib\db\dbsvc\dbsvcCore.php:277 dbsvcCore->bindSQL (9) item  m_reg_user_id: 1
+2019/07/25 19:16:35(6624)	::1 D:\xampp\htdocs\code\proj\lib\db\dbsvc\dbsvcCore.php:277 dbsvcCore->bindSQL (10) item  m_upd_date: 2019/07/25 19:16:35
+2019/07/25 19:16:35(6624)	::1 D:\xampp\htdocs\code\proj\lib\db\dbsvc\dbsvcCore.php:277 dbsvcCore->bindSQL (11) item  m_upd_user_id: 1
+2019/07/25 19:16:35(6624)	::1 D:\xampp\htdocs\code\proj\lib\db\dbsvc\dbsvcCore.php:277 dbsvcCore->bindSQL (12) item  m_del_flg: 0
+2019/07/25 19:16:35(6624)	::1 D:\xampp\htdocs\code\proj\lib\logic\logicSystem.php:337 dbsvcCore->Insert bindSQL: ret(13)
+2019/07/25 19:16:35(6624)	::1 D:\xampp\htdocs\code\proj\lib\logic\logicSystem.php:337 dbsvcCore->Insert execute: ret(false)
+2019/07/25 19:16:35(6624)	::1 D:\xampp\htdocs\code\proj\lib\logic\logicSystem.php:337 dbsvcCore->Insert insert into system(available,sysid,opeid,sys_mode,recid,sys_date,sys_user_id,reg_date,reg_user_id,upd_date,upd_user_id,del_flg) values(?,?,?,?,?,?,?,?,?,?,?,?)
+2019/07/25 19:16:36(6624)	::1 D:\xampp\htdocs\code\proj\lib\logic\logicSystem.php:337 dbsvcCore->Insert Array
+(
+    [0] => 23502
+    [1] => 7
+    [2] => ERROR:  null value in column "item_name" violates not-null constraint
+DETAIL:  Failing row contains (3907250000000936, 936, 2, 23, 2019-07-25 19:16:35, 1, 2019-07-25 19:16:35, 1, 2019-07-25 19:16:35, 1, 0, 1, null, null, null).
+)
+
+2019/07/25 19:16:36(6624)	::1 D:\xampp\htdocs\code\proj\lib\webapi\apiSystem.php:70 logicSystem->add systeminsert = -101
+2019/07/25 19:16:36(6624)	::1 D:\xampp\htdocs\code\proj\lib\logic\logicSystem.php:340 dbsvcCommon->disconnect disconnect flag = 1
+2019/07/25 19:16:36(6624)	::1 D:\xampp\htdocs\code\proj\lib\db\dbsvc\dbsvcCommon.php:34 dbsvcCommon->rollback rollback flag = 1
+2019/07/25 19:16:36(6624)	::1 D:\xampp\htdocs\code\proj\lib\db\dbsvc\dbsvcCommon.php:34 dbsvcCommon->rollback transaction ON ROLLBACK
