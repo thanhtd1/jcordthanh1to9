@@ -1,0 +1,5 @@
+<?php
+
+//const WEB_SERVER = 'localhost';
+const WEB_SERVER = '10.10.31.153';
+

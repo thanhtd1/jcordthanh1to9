@@ -1,0 +1,56 @@
+{
+  "_from": "@icon/dripicons",
+  "_id": "@icon/dripicons@2.0.0-alpha.1",
+  "_inBundle": false,
+  "_integrity": "sha512-8YMa3GfpPyIqNi/R12r7SfVfMwhH2CyH/cb45RY/0MsRiy8NCab/zSBys1XHVOSASjajnSovSs5zZ2ee3Jh2GQ==",
+  "_location": "/@icon/dripicons",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@icon/dripicons",
+    "name": "@icon/dripicons",
+    "escapedName": "@icon%2fdripicons",
+    "scope": "@icon",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@icon/dripicons/-/dripicons-2.0.0-alpha.1.tgz",
+  "_shasum": "a29bacd1539fa3563166f5a08c3f0bd17700cdd2",
+  "_spec": "@icon/dripicons",
+  "_where": "E:\\project\\agl\\nav\\New folder\\DKMH\\public",
+  "author": {
+    "name": "Amit Jakhu"
+  },
+  "bugs": {
+    "url": "https://github.com/thecreation/icons/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Dripicons V2 is available for free for use in both personal and commercial projects.",
+  "gitHead": "fe6786d96cbb4f7f9371be33c2ff3d53811bc8dc",
+  "homepage": "https://github.com/amitjakhu/dripicons",
+  "keywords": [
+    "icons",
+    "icon"
+  ],
+  "license": "CC-BY-4.0",
+  "name": "@icon/dripicons",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thecreation/icons/tree/master/modules/dripicons"
+  },
+  "scripts": {
+    "import": "../../scripts/module/import --module=dripicons",
+    "optimize": "../../scripts/module/optimize"
+  },
+  "version": "2.0.0-alpha.1"
+}

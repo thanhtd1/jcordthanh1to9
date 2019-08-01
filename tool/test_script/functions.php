@@ -98,7 +98,7 @@ function sendGet($url, $json) {
 	curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 	curl_setopt($ch, CURLOPT_URL, $url);
-	//if ($cookie) curl_setopt($ch, CURLOPT_COOKIEFILE, $cookie);
+	if ($cookie) curl_setopt($ch, CURLOPT_COOKIEFILE, $cookie);
 	$response = curl_exec($ch);
 	curl_close($ch);
 	

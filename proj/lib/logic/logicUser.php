@@ -136,6 +136,9 @@ class logicUser {
 		$l_dbdCord_user->setData($l_dbdCord_user::DBD_LOCK_TIME, null);
 		$l_dbdCord_user->setData($l_dbdCord_user::DBD_LOCK_CNT, 0);
 
+		// id-info
+		$l_dbdCord_user->setData($l_dbdCord_user::DBD_ID_INFO, 1);
+
 		$l_rtn = $l_svcUser->Insert($l_dbh, $l_dbdCord_user, $l_user_id);
 		if ($l_rtn < 0) {
 			$l_db_con->disconnect(DB_NG);
@@ -402,56 +405,68 @@ class logicUser {
 
 		// ここから業務ロジック
 		// 検索条件
-//		foreach( $a_in_where as $l_k => $l_v )
-//		{
-//			debug_log("$l_k :". $l_v);
-//		}
+		foreach( $a_in_where as $l_k => $l_v )
+		{
+			debug_log("$l_k :". $l_v);
+		}
 
 		// paging
 		// keys (default asc, ! desc) ext. name  !name
-//		debug_log("paging sortKey count :". count($a_in_order->sortKey));
-//		foreach( $a_in_order->sortKey as $l_v )
-//		{
-//			debug_log("paging sortKey :". $l_v);
-//		}
+		debug_log("paging sortKey count :". count($a_in_order->sortKey));
+		foreach( $a_in_order->sortKey as $l_v )
+		{
+			debug_log("paging sortKey :". $l_v);
+		}
 		// (null:asc, !:desc)
-//		debug_log("paging sortDir :". $a_in_order->sortDir);
+		debug_log("paging sortDir :". $a_in_order->sortDir);
 		// 表示行数:lines
-//		debug_log("paging lines   :". $a_in_order->lines);
+		debug_log("paging lines   :". $a_in_order->lines);
 		// 表示頁数:page
-//		debug_log("paging page    :". $a_in_order->page);
+		debug_log("paging page    :". $a_in_order->page);
 
 		// APD作成
 		$l_apdUser    = new apdUser();
 
 		// 条件組み立て
 		$l_per_where = null;
-		$l_arrWhere = array();
 		if ( isset( $a_in_where ) )
 		{
 			$l_cnt=0;
 			foreach( $a_in_where as $l_k => $l_v )
 			{
 				if ( $l_k == 'isConverted' )      continue;
-				$l_arrWhere[$l_k] = $l_v;
+				if ( $l_cnt > 0 )
+				{
+					$l_per_where .= " and ";
+				}
+				$l_per_where .= " $l_k = '$l_v' ";
 				$l_cnt++;
 			}
-			$l_rtn = $l_svcUser->createSqlWhere($l_arrWhere, $l_per_where);
 		}
 		debug_log("where :". $l_per_where);
 
 		// ソート組み立て
 		$l_per_sort = "";
-		$l_arrSort = array();
 		if ( isset( $a_in_order ) )
 		{
 			$l_cnt=0;
 			foreach( $a_in_order->sortKey as $l_v )
 			{
-				$l_arrSort[$l_cnt] = $l_v;
+				if ( $l_cnt > 0 )
+				{
+					$l_per_sort .= " , ";
+				}
+
+				if ( substr($l_v,0,1) == '!' )
+				{
+				$l_per_sort .= " " . substr($l_v,1) . " desc ";
+				}
+				else
+				{
+					$l_per_sort .= " $l_v ";
+				}
 				$l_cnt++;
 			}
-			$l_rtn = $l_svcUser->createSqlSort($l_arrSort, $l_per_sort);
 		}
 		debug_log("sort :". $l_per_sort);
 
@@ -495,92 +510,6 @@ class logicUser {
 
 	// ログイン
 	function login($a_sess, $a_in_apd, &$a_out_apd, &$a_err, $a_trans = TRANS_ON) {
-	// Start BLOCK A
-		$l_rtn = 0;
-
-		// 日付を取得する。
-		$l_date = getCurrentDateTime(DATE_TIME_KIND2);
-
-		// RECID用変数
-		$l_user_id = 0;
-
-		// DBDを取得
-		$l_dbdCord_user = $a_in_apd->getDBDUser();
-	// End BLOCK A
-
-	// Start BLOCK B
-		// DBへ接続
-		$l_db_con = new dbsvcCommon();
-		$l_rtn = $l_db_con->connect();
-
-		// 接続情報を取得
-		$l_dbh = $l_db_con->getConnection();
-		// トランザクションを開始
-		$l_db_con->begintran($a_trans);
-		// DBロジックを作成
-		$l_svcUser = new dbsvcCord_user($l_dbh);
-		$l_svcBank = new dbsvcBank($l_dbh);
-	// End BLOCK B
-
-		// ここから下を処理によって作り変える。
-	// Start BLOCK C
-		// validate処理
-	// End BLOCK C
-
-	// Start BLOCK D
-		// DB側とのチェック処理を追加
-	// End BLOCK D
-
-	// Start BLOCK E
-		// ここから業務ロジック
-		$l_user_name = $l_dbdCord_user->getData($l_dbdCord_user::DBD_USER_NAME);
-		$l_passwd = $l_dbdCord_user->getData($l_dbdCord_user::DBD_PASSWD);
-
-		// where句作成
-		$l_where = "";
-		$l_search_arr = array();
-		$l_search_arr[$l_dbdCord_user::DBD_USER_NAME] = $l_user_name;
-		$l_search_arr[$l_dbdCord_user::DBD_PASSWD] = $l_passwd;
-		$l_search_arr[$l_dbdCord_user::DBD_DEL_FLG] = 0;
-		$l_rtn = $l_svcUser->createSqlWhere($l_search_arr, $l_where);
-		if ($l_rtn < 0) {
-			$l_db_con->disconnect(DB_NG);
-			return $l_rtn;
-		}
-
-		$l_ret_list = array();
-		// ユーザテーブルを検索
-		$l_rtn = $l_svcUser->Select($l_dbh, $l_where, null, null, $l_ret_list);
-		debug_log("select ret = " . $l_rtn);
-		if ($l_rtn < 0) {
-			debug_log("ここ？");
-			$l_db_con->disconnect(DB_NG);
-			return $l_rtn;
-		}
-
-		if (count($l_ret_list) > 1) {
-			$l_db_con->disconnect(DB_NG);
-			return ERR_DB_TOO_MUCH;
-		}
-		else if (count($l_ret_list) <= 0) {
-			$l_db_con->disconnect(DB_NG);
-			return ERR_DB_NOT_FOUND;
-		}
-
-		// 取得した配列をDBDに設定
-		$a_out_apd->getDBDUser()->convertListData($l_ret_list);
-		// APDのリストに変換
-		$a_out_apd->convertSelectUserList();
-	// End BLOCK E
-		// ここまでが業務ロジック
-		// ↑ここまでを処理によって作り変える。
-
-	// Start BLOCK F
-		$l_db_con->disconnect(DB_OK);
-
-		$a_out_apd = $a_in_apd;
-	// End BLOCK F
-		return $l_rtn;
 	}
 }
 

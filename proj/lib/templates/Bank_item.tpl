@@ -1,17 +1,7 @@
-	 "sysid":{$data[no].sysid}
-	,"opeid":{$data[no].opeid}
-	,"sys_mode":{$data[no].sys_mode}
-	,"recid":{$data[no].recid}
-	,"sys_date":"{$data[no].sys_date}"
-	,"sys_user_id":{$data[no].sys_user_id}
-	,"reg_date":"{$data[no].reg_date}"
-	,"reg_user_id":{$data[no].reg_user_id}
-	,"upd_date":"{$data[no].upd_date}"
-	,"upd_user_id":{$data[no].upd_user_id}
-	,"del_flg":{$data[no].del_flg}
-	,"bankid":{$data[no].bankid}
-	,"cur_bankid":{$data[no].cur_bankid}
-	,"available":{$data[no].available}
+	"recid":"{$data[no].recid}"
+	,"bankid":"{$data[no].bankid}"
+	,"cur_bankid":"{$data[no].cur_bankid}"
+	,"available":"{$data[no].available}"
 	,"bank_name":"{$data[no].bank_name}"
 	,"short_name":"{$data[no].short_name}"
 	,"ename":"{$data[no].ename}"
@@ -19,5 +9,5 @@
 	,"person":"{$data[no].person}"
 	,"tel_num":"{$data[no].tel_num}"
 	,"fax_num":"{$data[no].fax_num}"
-	,"kind":{$data[no].kind}
-	,"row_nth":{$data[no].row_nth}
+	,"kind":"{$data[no].kind}"
+	,"row_nth":"{$data[no].row_nth}"

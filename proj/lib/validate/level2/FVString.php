@@ -233,7 +233,7 @@ class FVString
 				$errorInfo->addError($fieldName, $in, PVType::rootErrorMsg . ".data.min.letters", $arg1);
 				return -1;
 			}
-			else if (arg2 < in_length) {
+			else if ($arg2 < $in_length) {
 				$errorInfo->addError($fieldName, $in, PVType::rootErrorMsg . ".data.max.letters", $arg2);
 				return -1;
 			}

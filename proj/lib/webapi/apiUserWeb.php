@@ -18,7 +18,7 @@ require_once(COMM_DIR . "logger.php");
 require_once(WEBAPI_DIR . "apiCore.php");
 require_once(APD_DIR . "apdUser.php");
 require_once(LOGIC_DIR . "logicUser.php");
-require_once(VALI_DIR . "validUser.php");
+require_once(VALID_L4_DIR . "validUser.php");
 
 class apiUserWeb extends apiCore
 {

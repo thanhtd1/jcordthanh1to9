@@ -24,16 +24,15 @@ angular.module("nispApp").controller("Jcord", function($scope) {
                 api: {
                     // 業務APIサーバのURL
                     base_urls: [
-                        //"http://10.10.31.153/jcord/lib/webapi",
-                        "http://localhost/code/proj/lib/webapi",
+                        "http://localhost/jcord/proj/lib/webapi",
+//		        "http://localhost/jcord/lib/webapi",
                     ],
                     // 印刷APIサーバのURL
-                    //printApi_url: "http://10.10.31.153/jcord/lib/webapi",
-                    printApi_url: "http://localhost/code/proj/lib/webapi",
+                    printApi_url: "http://localhost/jcord/proj/lib/webapi",
                 },
                 fileApi: {
                     //ファイルAPIサーバのURL
-                    base_url: "http://10.10.31.153",
+                    base_url: "http://localhost",
                 },
             }
         }
@@ -121,9 +120,7 @@ angular.module("nispApp").controller("Jcord", function($scope) {
     };
 
     function loadLoginUser() {
-
         if (app.loginUser) return;
-
         $('#err_ERROR').text('');
         $('#err_ERROR').hide();
         $('.messageArea').hide();
@@ -156,5 +153,4 @@ angular.module("nispApp").controller("Jcord", function($scope) {
         hideAclElement();
     });
     app.fn_setFuncParams('topPage', "admin/top");
-
-});
+})

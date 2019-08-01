@@ -6,16 +6,37 @@
             <!-- <div class="messageArea form-user_tbl">
                 <span id="err_ERROR" class="red"></span>
             </div> -->
+            <div class="form-user_tbl">
+                <span>{{Detail.queryContext}}</span>
+            </div>
+            <div class="form-txt_area tcenter">
+                <p>Status of form </p>
+                <ul>
+                    <li>"pristine:" {{addform.$pristine }}</li>
+                    <li>"dirty:"{{addform.$dirty}}</li>
+                    <li>"invalid:" {{addform.$invalid }}</li>
+                    <li>"valid:" {{addform.$valid }}</li>
+                    <li>"submitted:" {{addform.$submitted }}</li>
+                </ul>
+                <p>Status of form control as bankid </p>
+                <ul>
+                    <li>"untouched:" {{addform.bankid.$untouched}}</li>
+                    <li>"touched:" {{addform.bankid.$touched }}</li>
+                    <li>"pristine:" {{addform.bankid.$pristine }}</li>
+                    <li>"dirty:" {{addform.bankid.$dirty}}</li>
+                    <li>"invalid:" {{addform.bankid.$invalid }}</li>
+                    <li>"valid:" {{addform.bankid.$valid }}</li>
+                </ul>
+            </div>
             <div class="wrap">
                 <table class="table-default_list form-user_tbl">
                     <tbody>
                         <tr>
                             <th>バンクID</th>
                             <td>
-                                <input name="bankid" type="text" placeholder="番号" ng-model="Detail.bankid" ng-class="{true:'err_バンクID', false:''}[addform.bankid.$untouched]">
-                                <!-- <span ng-if="addform.bankid.$pristine" class="err_バンクID"></span>
-                                <span ng-if="!addform.bankid.$pristine" class="err_バンクID"></span> -->
-                                <span ng-class="{true:'err_バンクID', false:''}[addform.bankid.$untouched]"></span>
+                                <input autofocus name="bankid" type="text" placeholder="番号" ng-model="Detail.bankid" class="err_バンクID">
+                                <!-- <span ng-if="addform.bankid.$invalid">bankid length is less than or equal to 3</span> -->
+                                <span class="err_バンクID"></span>
                             </td>
                         </tr>
                         <tr>

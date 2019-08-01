@@ -15,9 +15,7 @@
 	・where区を組み立て
 	・order by区を組み立て
 	・その他条件を組み立て
-
 	・DB select
-
 　▼BLOCK F
 	・取得した配列をDBDに設定
 	・APDのリストに変換

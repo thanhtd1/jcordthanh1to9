@@ -1,63 +1,76 @@
 <!DOCTYPE html>
 <html lang="ja" ng-app="nispApp" ng-controller="Application as app">
+
 <head>
-<meta http-equiv="X-UA-Compatible" content="IE=11">
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta charset="UTF-8">
-<meta http-equiv="Pragma" content="no-cache">
-<meta http-equiv="Cache-Control" content="no-cache">
-<meta http-equiv="Expires" content="-1">
-<link rel="stylesheet" type="text/css" href="../../contents/stylesheet/st.admin.css">
-<link rel="stylesheet" type="text/css" href="../../contents/stylesheet/jquery.jdMenu.css">
-<title>{{ app.title }}</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=11">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="Expires" content="-1">
+    <link rel="stylesheet" type="text/css" href="../../contents/stylesheet/bank-list.css">
+    <link rel="stylesheet" type="text/css" href="../../contents/stylesheet/st.admin.css">
+    <link rel="stylesheet" type="text/css" href="../../contents/stylesheet/jquery.jdMenu.css">
+    <title>{{ app.title }}</title>
 </head>
 
 <body id="main" ng-controller="Jcord as config" ng-keydown="app.fn_keydown('lg_keydown',$event)">
-<div class="dialog-shadow" ></div>
-<div id="page">
-    <div id="view" ng-include="app.view"></div>
-</div>
+    <div class="dialog-shadow"></div>
+    <div id="page">
+        <div id="view" ng-include="app.view"></div>
+    </div>
 
-<!-- SCRIPTS -->
-<!--
+    <!-- SCRIPTS -->
+    <!--
 <script src="../../logics/lib/angular.min.js"></script>
  -->
-<script src="../../logics/lib/angular.js"></script>
-<!-- <script src="../../logics/lib/jquery-1.12.3.min.js"></script> -->
-<script src="../../logics/lib/angular-sanitize.min.js"></script>
-<script src="../../logics/lib/jquery-1.12.3.js"></script>
-<script src="../../logics/lib/jquery.bgiframe.js"></script>
-<script src="../../logics/lib/jquery.positionBy.js"></script>
-<script src="../../logics/lib/jquery.dimensions.js"></script>
-<script src="../../logics/lib/jquery.jdMenu.js"></script>
-<script src="../../logics/lib/ng-file-upload-shim.js"></script>
-<script src="../../logics/lib/ng-file-upload.js"></script>
+    <script src="../../logics/lib/angular.js"></script>
+    <!-- <script src="../../logics/lib/jquery-1.12.3.min.js"></script> -->
+    <script src="../../logics/lib/angular-sanitize.min.js"></script>
+    <script src="../../logics/lib/jquery-1.12.3.js"></script>
+    <script src="../../logics/lib/jquery.bgiframe.js"></script>
+    <script src="../../logics/lib/jquery.positionBy.js"></script>
+    <script src="../../logics/lib/jquery.dimensions.js"></script>
+    <script src="../../logics/lib/jquery.jdMenu.js"></script>
+    <script src="../../logics/lib/ng-file-upload-shim.js"></script>
+    <script src="../../logics/lib/ng-file-upload.js"></script>
 
-<script src="../../logics/bootstrap.js"></script>
-<script src="../../logics/groundwork.js"></script>
-<script src="../../logics/network.js"></script>
-<script src="../../logics/model.js"></script>
-<script src="../../logics/data.js"></script>
-<script src="../../logics/contents.js"></script>
-<script src="../../logics/logic.js"></script>
-<script src="../../data/validators.js"></script><!-- ※カスタマイズポイント -->
-<script src="../../data/normalizers.js"></script><!-- ※カスタマイズポイント -->
-<script src="../../data/models.js"></script><!-- ※カスタマイズポイント -->
-<script src="../../logics/main.js"></script>
+    <script src="../../logics/bootstrap.js"></script>
+    <script src="../../logics/groundwork.js"></script>
+    <script src="../../logics/network.js"></script>
+    <script src="../../logics/model.js"></script>
+    <script src="../../logics/data.js"></script>
+    <script src="../../logics/contents.js"></script>
+    <script src="../../logics/logic.js"></script>
+    <script src="../../data/validators.js"></script>
+    <!-- ※カスタマイズポイント -->
+    <script src="../../data/normalizers.js"></script>
+    <!-- ※カスタマイズポイント -->
+    <script src="../../data/models.js"></script>
+    <!-- ※カスタマイズポイント -->
+    <script src="../../logics/main.js"></script>
 
-<!-- ※カスタマイズポイント >>> -->
-<script src="logics/controller.js"></script>
+    <!-- ※カスタマイズポイント >>> -->
+    <script src="logics/controller.js"></script>
 
-<script src="logics/admin/top.js"></script>
-<script src="logics/admin/AD-001.js"></script>
-<script src="logics/admin/AD-020.js"></script>
-<script src="logics/admin/AD-032.js"></script>
-<script src="logics/admin/AD-060.js"></script>
-<script src="logics/admin/AD-070.js"></script>
-<script src="logics/bank/BK-060.js"></script>
+    <script src="logics/admin/top.js"></script>
+    <script src="logics/admin/AD-001.js"></script>
+    <script src="logics/admin/AD-020.js"></script>
+    <script src="logics/admin/AD-032.js"></script>
+    <script src="logics/admin/AD-060.js"></script>
+    <script src="logics/admin/AD-070.js"></script>
+    <script src="logics/bank/BK-060.js"></script>
+    <script src="logics/admin/top.js"></script>
+    <script src="logics/admin/user.js"></script>
+    <script src="logics/admin/cord_list.js"></script>
+    <script src="logics/admin/cord_upload.js"></script>
+    <script src="logics/admin/bank_request.js"></script>
+    <script src="logics/bank/bank.js"></script>
+    <script src="logics/admin/AD-Bank.js"></script>
 
-<!-- <<<< generated-code -->
-<!-- <<< ※カスタマイズポイント -->
+    <!-- <<<< generated-code -->
+    <!-- <<< ※カスタマイズポイント -->
 
 </body>
+
 </html>

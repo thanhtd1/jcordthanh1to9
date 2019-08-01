@@ -1,42 +1,68 @@
-<!DOCTYPE html>
-<html ng-app="UserApp">
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=11" >
-		<script type="text/javascript">
-			function openUrl(name,url,notprm) {
-				var w = screen.availWidth - 20 ;
-				var h = screen.availHeight - 50;
-				var prm = "left=0,top=0,width="+ w +",height="+ h +",scrollbars=yes,location=no,resizable=yes,directories=no,toolbar=no,status=no" ;
-				if ( notprm == 1 )      {
-					prm ="";
-				}
-				win = window.open(url, name, prm);
-			}
-		</script>
-	</head>
-	<body>
-		<div id="page">
-			<!-- 最初に表示する画面のURLを設定する -->
-			<div id="single">
-				<h1>臍帯TEST MENU</h1>
-				<ul  style="font-size:20px;text-align:center">
-					<li style="display:block; margin-top:20px;">
-<a href="#" onclick="openUrl('login','/jcord/web/site/jcord',0)" >画面XXX:ログイン</a>
-<a href="#" onclick="openUrl('login','/jcord/web/site/jcord',1)" >[枠あり]</a>
-					</li>
-					<li style="display:block; margin-top:20px;">
-<a href="#" onclick="openUrl('login','/jcord/web/site/jcord',0)" >画面XXX:ログイン</a>
-<a href="#" onclick="openUrl('login','/jcord/web/site/jcord',1)" >[枠あり]</a>
-					</li>
-					<li style="display:block; margin-top:20px;">
-<a href="#" onclick="openUrl('login','/jcord/web/site/jcord',0)" >画面XXX:ログイン</a>
-<a href="#" onclick="openUrl('login','/jcord/web/site/jcord',1)" >[枠あり]</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-
-<hr>
-	</body>
-</html>
+<?php
+    require_once(".config.php");
+    require_once(COMM_DIR . "util_date.php");
+	$RECID = 0;		// レコードID
+	$DEL_FLAG = 0;	// 削除フラグ
+	$sys_date = getCurrentDateTime(DATE_TIME_KIND2);	// 登録日
+    $UPD_DATE = NULL;	// 更新日
+    $Name = "tran duy thanh";
+    //$MAIL = "thanhtd";
+    $Company_Name = "SPRITE PLUS";
+    $Division = "NIS PLUS";
+    $sysid =0;
+    $user_id = 0;
+    $user_name ='thanhtd@vn.sprite.jp';
+    $pass = '123456789';
+    $reg_stat = 1;
+    $opeid = 0;
+    // Insert cord_user
+    // for($i = 1; $i <= 10; $i++) {
+    //     $sysid++;
+    //     $RECID++;
+    //     $user_id++;
+    //     $user_name ='thanhtd';
+    //     $Name = "tran duy thanh" . $i;
+    //     $MAIL = "thanhtd". $i ."@vn.sprite.jp";
+    //     $Company_Name =  "SPRITE PLUS" . $i;
+    //     $org_name = 'tranduythanh'. $i;
+    //     $empname = 'thanhtd'. $i;
+    //     $person = 'Kinh';
+    //     $opeid++;
+    //     echo "INSERT INTO public.cord_user(
+    //         sysid,
+    //         opeid,
+    //         sys_mode,
+    //         recid,
+    //         sys_date,
+    //         sys_user_id,
+    //         reg_date,
+    //         reg_user_id, 
+    //         upd_date,
+    //         upd_user_id, 
+    //         del_flg,
+    //         user_name,
+    //         bankid,
+    //         passwd,
+    //         org_name,
+    //         empname,
+    //         id_info)
+    //         VALUES (
+    //             '$sysid',
+    //             $opeid,
+    //             1,
+    //             $RECID,
+    //             '$sys_date',
+    //             1,
+    //             '$sys_date',
+    //             1,
+    //             '$sys_date',
+    //             1,
+    //             0,
+    //             '$user_name',
+    //             1,
+    //             '$pass',
+    //             '$org_name',
+    //             '$empname',
+    //             'id');";
+    //     echo "<br/>";
+    // }
