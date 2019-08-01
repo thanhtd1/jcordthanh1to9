@@ -46,6 +46,12 @@ class BVSystem extends Valid
 	// 処理ID：	check_RECID
 	// 概要	：	RECIDのチェックをする
 	//		型	:数値
+	//		全半角	:
+	//		最小桁	:1
+	//		最大桁	:16
+	//		最小値	:
+	//		最大値	:
+	//		範囲	:
 	//
 	// 引数
 	//	$a_val	:入力値
@@ -141,6 +147,12 @@ class BVSystem extends Valid
 	// 処理ID：	check_AVAILABLE
 	// 概要	：	有効フラグのチェックをする
 	//		型	:数値
+	//		全半角	:
+	//		最小桁	:1
+	//		最大桁	:1
+	//		最小値	:
+	//		最大値	:
+	//		範囲	:
 	//
 	// 引数
 	//	$a_val	:入力値
@@ -236,6 +248,12 @@ class BVSystem extends Valid
 	// 処理ID：	check_ITEM_NAME
 	// 概要	：	項目名のチェックをする
 	//		型	:string
+	//		全半角	:
+	//		最小桁	:1
+	//		最大桁	:16
+	//		最小値	:
+	//		最大値	:
+	//		範囲	:
 	//
 	// 引数
 	//	$a_val	:入力値
@@ -330,6 +348,12 @@ class BVSystem extends Valid
 	// 処理ID：	check_ITEM_VALUE
 	// 概要	：	項目値のチェックをする
 	//		型	:string
+	//		全半角	:
+	//		最小桁	:1
+	//		最大桁	:16
+	//		最小値	:
+	//		最大値	:
+	//		範囲	:
 	//
 	// 引数
 	//	$a_val	:入力値
@@ -424,6 +448,12 @@ class BVSystem extends Valid
 	// 処理ID：	check_ITEM_NOTE
 	// 概要	：	備考のチェックをする
 	//		型	:string
+	//		全半角	:
+	//		最小桁	:1
+	//		最大桁	:40
+	//		最小値	:
+	//		最大値	:
+	//		範囲	:
 	//
 	// 引数
 	//	$a_val	:入力値
