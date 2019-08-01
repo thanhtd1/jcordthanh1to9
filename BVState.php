@@ -205,7 +205,7 @@ class BVState extends Valid
 
 		// Block D Type check
 			// 数値チェック
-			$ret = FVInteger::validate($a_out[0], self::STATE_RECIPID_L_LEN, self::STATE_RECIPID_U_LEN, $a_out, FVInteger::DIGITS_MIN_MAX, $l_required, "患者ID", $l_err_info);
+			$ret = FVInteger::validate($a_out[0], self::STATE_RECIPID_L_LEN, self::STATE_RECIPID_U_LEN, $a_out, FVInteger::DIGITS_MIN_MAX, $l_required, "RECIPID", $l_err_info);
 			// チェックエラー
 			if ($ret < 0) {
 				$err_count = count($l_err_info->errors);
@@ -301,7 +301,7 @@ class BVState extends Valid
 
 		// Block D Type check
 			// 数値チェック
-			$ret = FVInteger::validate($a_out[0], self::STATE_CORDID_L_LEN, self::STATE_CORDID_U_LEN, $a_out, FVInteger::DIGITS_MIN_MAX, $l_required, "さい帯血ID", $l_err_info);
+			$ret = FVInteger::validate($a_out[0], self::STATE_CORDID_L_LEN, self::STATE_CORDID_U_LEN, $a_out, FVInteger::DIGITS_MIN_MAX, $l_required, "CORDID", $l_err_info);
 			// チェックエラー
 			if ($ret < 0) {
 				$err_count = count($l_err_info->errors);
